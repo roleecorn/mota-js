@@ -302,10 +302,6 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"text": "生命值翻倍",
 		"useItemEvent": [
 			{
-				"type": "function",
-				"function": "function(){\ncore.addItem('superPotion', 1);\n}"
-			},
-			{
 				"type": "if",
 				"condition": "(flag:__kill__  !=1)",
 				"true": [
@@ -327,8 +323,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 												"function": "function(){\ncore.insertAction([{\"type\": \"setBlock\",\"number\":132,\"loc\": [core.nextX(), core.nextY()]}])\n}"
 											},
 											{
-												"type": "function",
-												"function": "function(){\ncore.addItem('superPotion', -1);\n}"
+												"type": "exit"
 											}
 										]
 									}
@@ -352,21 +347,18 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 							},
 							{
 								"type": "function",
-								"function": "function(){\ncore.addItem('superPotion', -1);\n}"
-							},
-							{
-								"type": "function",
 								"function": "function(){\ncore.setHeroIcon('hero.png', false);\n}"
-							},
-							{
-								"type": "exit"
 							}
 						]
 					},
 					{
 						"text": "否",
 						"action": [
-							"\t[小妖精,fairy]應當有更好的使用時機"
+							"\t[小妖精,fairy]應當有更好的使用時機",
+							{
+								"type": "function",
+								"function": "function(){\ncore.addItem('superPotion', 1);\n}"
+							}
 						]
 					}
 				]
