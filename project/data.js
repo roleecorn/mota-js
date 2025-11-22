@@ -9,6 +9,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 		],
 		"floorPartitions": [],
 		"images": [
+			"Pochita.png",
 			"bear.png",
 			"bg.jpg",
 			"brave.png",
@@ -173,7 +174,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 		"version": "Ver 2.10.3",
 		"floorId": "sample0",
 		"hero": {
-			"image": "brave.png",
+			"image": "Pochita.png",
 			"animate": false,
 			"name": "阳光",
 			"lv": 1,
@@ -193,7 +194,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 				"equips": {}
 			},
 			"loc": {
-				"direction": "up",
+				"direction": "down",
 				"x": 6,
 				"y": 10
 			},
@@ -773,7 +774,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 		"enableGentleClick": true,
 		"ignoreChangeFloor": true,
 		"canGoDeadZone": false,
-		"enableMoveDirectly": true,
+		"enableMoveDirectly": false,
 		"enableRouteFolding": true,
 		"disableShopOnDamage": false,
 		"blurFg": false,
