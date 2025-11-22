@@ -1,8 +1,7 @@
-///<reference path='../runtime.d.ts'/>
-var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
+var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a = 
 {
-	"events": {
-		"resetGame": function (hero, hard, floorId, maps, values) {
+    "events": {
+        "resetGame": function (hero, hard, floorId, maps, values) {
 			// 重置整个游戏；此函数将在游戏开始时，或者每次读档时最先被调用
 			// hero：勇士信息；hard：难度；floorId：当前楼层ID；maps：地图信息；values：全局数值信息
 
@@ -52,7 +51,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 			// 隐藏右下角的音乐按钮
 			core.dom.musicBtn.style.display = 'none';
 		},
-		"win": function (reason, norank, noexit) {
+        "win": function (reason, norank, noexit) {
 			// 游戏获胜事件
 			// 请注意，成绩统计时是按照hp进行上传并排名
 			// 可以先在这里对最终分数进行计算，比如将2倍攻击和5倍黄钥匙数量加到分数上
@@ -81,7 +80,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 				})
 			});
 		},
-		"lose": function (reason) {
+        "lose": function (reason) {
 			// 游戏失败事件
 			core.ui.closePanel();
 			var replaying = core.isReplaying();
@@ -94,7 +93,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 				});
 			})
 		},
-		"changingFloor": function (floorId, heroLoc) {
+        "changingFloor": function (floorId, heroLoc) {
 			// 正在切换楼层过程中执行的操作；此函数的执行时间是“屏幕完全变黑“的那一刻
 			// floorId为要切换到的楼层ID；heroLoc表示勇士切换到的位置
 
@@ -162,7 +161,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 			// ...可以新增一些其他内容，比如创建个画布在右上角显示什么内容等等
 
 		},
-		"afterChangeFloor": function (floorId) {
+        "afterChangeFloor": function (floorId) {
 			// 转换楼层结束的事件；此函数会在整个楼层切换完全结束后再执行
 			// floorId是切换到的楼层
 
@@ -181,7 +180,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 				}
 			}
 		},
-		"flyTo": function (toId, callback) {
+        "flyTo": function (toId, callback) {
 			// 楼层传送器的使用，从当前楼层飞往toId
 			// 如果不能飞行请返回false
 
@@ -224,7 +223,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 
 			return true;
 		},
-		"beforeBattle": function (enemyId, x, y) {
+        "beforeBattle": function (enemyId, x, y) {
 			// 战斗前触发的事件，可以加上一些战前特效（详见下面支援的例子）
 			// 此函数在“检测能否战斗和自动存档”【之后】执行。如果需要更早的战前事件，请在插件中覆重写 core.events.doSystemEvent 函数。
 			// 返回true则将继续战斗，返回false将不再战斗。
@@ -255,7 +254,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 
 			return true;
 		},
-		"afterBattle": function (enemyId, x, y) {
+        "afterBattle": function (enemyId, x, y) {
 			// 战斗结束后触发的事件
 
 			var enemy = core.material.enemys[enemyId];
@@ -426,7 +425,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 				core.clearContinueAutomaticRoute();
 
 		},
-		"afterOpenDoor": function (doorId, x, y) {
+        "afterOpenDoor": function (doorId, x, y) {
 			// 开一个门后触发的事件
 
 			var todo = [];
@@ -447,7 +446,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 			else
 				core.clearContinueAutomaticRoute();
 		},
-		"afterGetItem": function (itemId, x, y, isGentleClick) {
+        "afterGetItem": function (itemId, x, y, isGentleClick) {
 			// 获得一个道具后触发的事件
 			// itemId：获得的道具ID；x和y是该道具所在的坐标
 			// isGentleClick：是否是轻按触发的
@@ -469,7 +468,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 
 			if (todo.length > 0) core.insertAction(todo, x, y);
 		},
-		"afterPushBox": function () {
+        "afterPushBox": function () {
 			// 推箱子后的事件
 			if (core.searchBlock('box').length == 0) {
 				// 可以通过if语句来进行开门操作
@@ -482,9 +481,9 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 				*/
 			}
 		}
-	},
-	"enemys": {
-		"getSpecials": function () {
+    },
+    "enemys": {
+        "getSpecials": function () {
 			// 获得怪物的特殊属性，每一行定义一个特殊属性。
 			// 分为五项，第一项为该特殊属性的数字，第二项为特殊属性的名字，第三项为特殊属性的描述
 			// 第四项为该特殊属性的颜色，可以写十六进制 #RRGGBB 或者 [r,g,b,a] 四元数组
@@ -520,7 +519,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 				[27, "捕捉", function (enemy) { return "当走到怪物周围" + (enemy.zoneSquare ? "九宫格" : "十字") + "时会强制进行战斗。"; }, "#c0ddbb"]
 			];
 		},
-		"getEnemyInfo": function (enemy, hero, x, y, floorId) {
+        "getEnemyInfo": function (enemy, hero, x, y, floorId) {
 			// 获得某个怪物变化后的数据；该函数将被伤害计算和怪物手册使用
 			// 例如：坚固、模仿、仿攻等等
 			// 
@@ -643,7 +642,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 				"guards": guards, // 返回支援情况
 			};
 		},
-		"getDamageInfo": function (enemy, hero, x, y, floorId) {
+        "getDamageInfo": function (enemy, hero, x, y, floorId) {
 			// 获得战斗伤害信息（实际伤害计算函数）
 			// 
 			// 参数说明：
@@ -801,9 +800,9 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 				"damage": Math.floor(damage)
 			};
 		}
-	},
-	"actions": {
-		"onKeyUp": function (keyCode, altKey) {
+    },
+    "actions": {
+        "onKeyUp": function (keyCode, altKey) {
 			// 键盘按键处理，可以在这里自定义快捷键列表
 			// keyCode：当前按键的keyCode（每个键的keyCode自行百度）
 			// altKey：Alt键是否被按下，为true代表同时按下了Alt键
@@ -954,7 +953,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 			}
 
 		},
-		"onStatusBarClick": function (px, py, vertical) {
+        "onStatusBarClick": function (px, py, vertical) {
 			// 点击状态栏时触发的事件，仅在自绘状态栏开启时生效
 			// px和py为点击的像素坐标
 			// vertical为录像播放过程中的横竖屏信息
@@ -1022,9 +1021,9 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 			*/
 
 		}
-	},
-	"control": {
-		"saveData": function () {
+    },
+    "control": {
+        "saveData": function () {
 			// 存档操作，此函数应该返回“具体要存档的内容”
 
 			// 差异化存储values
@@ -1049,7 +1048,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 
 			return data;
 		},
-		"loadData": function (data, callback) {
+        "loadData": function (data, callback) {
 			// 读档操作；从存储中读取了内容后的行为
 
 			// 重置游戏和路线
@@ -1088,7 +1087,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 				if (callback) callback();
 			});
 		},
-		"getStatusLabel": function (name) {
+        "getStatusLabel": function (name) {
 			// 返回某个状态英文名的对应中文标签，如atk -> 攻击，def -> 防御等。
 			// 请注意此项仅影响 libs/ 下的内容（如绘制怪物手册、数据统计等）
 			// 自行定义的（比如获得道具效果）中用到的“攻击+3”等需要自己去对应地方修改
@@ -1109,7 +1108,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 				steps: "步数",
 			}[name] || name;
 		},
-		"triggerDebuff": function (action, type) {
+        "triggerDebuff": function (action, type) {
 			// 毒衰咒效果的获得与解除
 			// action：获得还是解除；'get'表示获得，'remove'表示解除
 			// type：一个数组表示获得了哪些毒衰咒效果；poison, weak，curse
@@ -1166,7 +1165,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 				if (success) core.playSound('回血');
 			}
 		},
-		"updateStatusBar": function () {
+        "updateStatusBar": function () {
 			// 更新状态栏
 
 			// 检查等级
@@ -1249,7 +1248,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 			// updateDamage只能在此处执行！！更新全地图显伤
 			core.updateDamage();
 		},
-		"updateCheckBlock": function (floorId) {
+        "updateCheckBlock": function (floorId) {
 			// 领域、夹击、阻击等的伤害值计算
 			floorId = floorId || core.status.floorId;
 			if (!floorId || !core.status.maps) return;
@@ -1460,7 +1459,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 				cache: {} // clear cache
 			};
 		},
-		"moveOneStep": function (callback) {
+        "moveOneStep": function (callback) {
 			// 勇士每走一步后执行的操作。callback为行走完毕后的回调
 			// 这个函数执行在“刚走完”的时候，即还没有检查该点的事件和领域伤害等。
 			// 请注意：瞬间移动不会执行该函数。如果要控制能否瞬间移动有三种方法：
@@ -1523,7 +1522,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 			// 如需强行终止行走可以在这里条件判定：
 			// core.stopAutomaticRoute();
 		},
-		"moveDirectly": function (x, y, ignoreSteps) {
+        "moveDirectly": function (x, y, ignoreSteps) {
 			// 瞬间移动；x,y为要瞬间移动的点；ignoreSteps为减少的步数，可能之前已经被计算过
 			// 返回true代表成功瞬移，false代表没有成功瞬移
 
@@ -1562,7 +1561,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 			}
 			return false;
 		},
-		"parallelDo": function (timestamp) {
+        "parallelDo": function (timestamp) {
 			// 并行事件处理，可以在这里写任何需要并行处理的脚本或事件
 			// 该函数将被系统反复执行，每次执行间隔视浏览器或设备性能而定，一般约为16.6ms一次
 			// 参数timestamp为“从游戏资源加载完毕到当前函数执行时”的时间差，以毫秒为单位
@@ -1579,9 +1578,9 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 				}
 			}
 		}
-	},
-	"ui": {
-		"getToolboxItems": function (cls) {
+    },
+    "ui": {
+        "getToolboxItems": function (cls) {
 			// 获得道具栏中当前某类型道具的显示项和显示顺序
 			// cls为道具类型，只可能是 tools, constants 和 equips
 			// 返回一个数组，代表当前某类型道具的显示内容和顺序
@@ -1591,7 +1590,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 				.filter(function (id) { return !core.material.items[id].hideInToolbox; })
 				.sort( /*function (id1, id2) { return core.material.items[id1].name <= core.material.items[id2].name ? -1 : 1 }*/);
 		},
-		"drawStatusBar": function () {
+        "drawStatusBar": function () {
 			// 这真的是人能写出来的东西？
 			var ctx, fill = function (text, x, y, style) {
 				core.ui.setFont(ctx, (/\w+/.test(text) ? 'italic ' : '') + 'bold 18px Verdana');
@@ -1662,7 +1661,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 				fill(core.setTwoDigits(core.itemCount('redKey')), 81 + offset, 267, '#FF8888');
 			}
 		},
-		"drawStatistics": function () {
+        "drawStatistics": function () {
 			// 浏览地图时参与的统计项目
 
 			return [
@@ -1678,33 +1677,33 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 				// 在这里可以增加新的ID来进行统计个数，只能增加道具ID
 			];
 		},
-		"drawAbout": function () {
-			// 绘制“关于”界面
-			core.ui.closePanel();
-			core.lockControl();
-			core.status.event.id = 'about';
+        "drawAbout": function () {
+	// 绘制“关于”界面
+	core.ui.closePanel();
+	core.lockControl();
+	core.status.event.id = 'about';
 
-			var left = 48,
-				top = 36,
-				right = (core._PX_ || core.__PIXELS__) - 2 * left,
-				bottom = (core._PY_ || core.__PIXELS__) - 2 * top;
+	var left = 48,
+		top = 36,
+		right = (core._PX_ || core.__PIXELS__) - 2 * left,
+		bottom = (core._PY_ || core.__PIXELS__) - 2 * top;
 
-			core.setAlpha('ui', 0.85);
-			core.fillRect('ui', left, top, right, bottom, '#000000');
-			core.setAlpha('ui', 1);
-			core.strokeRect('ui', left - 1, top - 1, right + 1, bottom + 1, '#FFFFFF', 2);
+	core.setAlpha('ui', 0.85);
+	core.fillRect('ui', left, top, right, bottom, '#000000');
+	core.setAlpha('ui', 1);
+	core.strokeRect('ui', left - 1, top - 1, right + 1, bottom + 1, '#FFFFFF', 2);
 
-			var text_start = left + 24;
+	var text_start = left + 24;
 
-			// 名称
-			core.setTextAlign('ui', 'left');
-			var globalAttribute = core.status.globalAttribute || core.initStatus.globalAttribute;
-			core.fillText('ui', "HTML5 魔塔样板", text_start, top + 35, globalAttribute.selectColor, "bold 22px " + globalAttribute.font);
-			core.fillText('ui', "版本： " + main.__VERSION__, text_start, top + 80, "#FFFFFF", "bold 17px " + globalAttribute.font);
-			core.fillText('ui', "作者： 艾之葵", text_start, top + 112);
-			core.fillText('ui', 'HTML5魔塔交流群：539113091', text_start, top + 112 + 32);
-			// TODO: 写自己的“关于”页面，每次增加32像素即可
-			core.playSound('打开界面');
-		}
-	}
+	// 名称
+	core.setTextAlign('ui', 'left');
+	var globalAttribute = core.status.globalAttribute || core.initStatus.globalAttribute;
+	core.fillText('ui', "HTML5 魔塔样板", text_start, top + 35, globalAttribute.selectColor, "bold 22px " + globalAttribute.font);
+	core.fillText('ui', "版本： " + main.__VERSION__, text_start, top + 80, "#FFFFFF", "bold 17px " + globalAttribute.font);
+	core.fillText('ui', "作者： 艾之葵", text_start, top + 112);
+	core.fillText('ui', 'HTML5魔塔交流群：539113091', text_start, top + 112 + 32);
+	// TODO: 写自己的“关于”页面，每次增加32像素即可
+	core.playSound('打开界面');
+}
+    }
 }

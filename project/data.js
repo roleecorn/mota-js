@@ -13,6 +13,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"bg.jpg",
 			"dragon.png",
 			"hero.png",
+			"snowman.png",
 			"winskin.png"
 		],
 		"tilesets": [
@@ -20,7 +21,10 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 		],
 		"animates": [
 			"hand",
+			"jianji",
 			"sword",
+			"thunder",
+			"yongchang",
 			"zone"
 		],
 		"bgms": [

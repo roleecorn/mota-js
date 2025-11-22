@@ -293,13 +293,77 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"itemEffectTip": "，防御+100，护盾+100"
 	},
 	"superPotion": {
-		"cls": "items",
+		"cls": "tools",
 		"name": "圣水",
 		"itemEffect": "core.status.hero.hp *= 2",
 		"itemEffectTip": "，生命值翻倍",
-		"useItemEffect": "core.status.hero.hp *= 2;core.playSound('回血');",
+		"useItemEffect": null,
 		"canUseItemEffect": "true",
-		"text": "生命值翻倍"
+		"text": "生命值翻倍",
+		"useItemEvent": [
+			{
+				"type": "function",
+				"function": "function(){\ncore.addItem('superPotion', 1);\n}"
+			},
+			{
+				"type": "if",
+				"condition": "(flag:__kill__  !=1)",
+				"true": [
+					{
+						"type": "if",
+						"condition": "(core.getHeroLoc('x')==3)",
+						"true": [
+							{
+								"type": "if",
+								"condition": "(core.getHeroLoc('y')==4)",
+								"true": [
+									{
+										"type": "if",
+										"condition": "(core.status.floorId==\"sample0\")",
+										"true": [
+											"欢迎使用事件编辑器(双击方块可直接预览)",
+											{
+												"type": "function",
+												"function": "function(){\ncore.insertAction([{\"type\": \"setBlock\",\"number\":132,\"loc\": [core.nextX(), core.nextY()]}])\n}"
+											},
+											{
+												"type": "exit"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"\t[小妖精,fairy]\f[fairy.png,0,0]嗯...這個應該是很重要的東西，要現在使用嗎?",
+			{
+				"type": "choices",
+				"text": "\t[流浪者,man]是否真的要使用?",
+				"choices": [
+					{
+						"text": "是",
+						"action": [
+							{
+								"type": "function",
+								"function": "function(){\ncore.status.hero.hp *= 2;\n}"
+							},
+							{
+								"type": "function",
+								"function": "function(){\ncore.addItem('superPotion', -1);\n}"
+							}
+						]
+					},
+					{
+						"text": "否",
+						"action": [
+							"\t[小妖精,fairy]應當有更好的使用時機"
+						]
+					}
+				]
+			}
+		]
 	},
 	"book": {
 		"cls": "constants",
