@@ -327,7 +327,8 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 												"function": "function(){\ncore.insertAction([{\"type\": \"setBlock\",\"number\":132,\"loc\": [core.nextX(), core.nextY()]}])\n}"
 											},
 											{
-												"type": "exit"
+												"type": "function",
+												"function": "function(){\ncore.addItem('superPotion', -1);\n}"
 											}
 										]
 									}
@@ -347,11 +348,18 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 						"action": [
 							{
 								"type": "function",
-								"function": "function(){\ncore.status.hero.hp *= 2;\n}"
+								"function": "function(){\ncore.status.hero.hp *= 2;core.status.hero.atk *= 2;core.status.hero.def *= 2;\n}"
 							},
 							{
 								"type": "function",
 								"function": "function(){\ncore.addItem('superPotion', -1);\n}"
+							},
+							{
+								"type": "function",
+								"function": "function(){\ncore.setHeroIcon('hero.png', false);\n}"
+							},
+							{
+								"type": "exit"
 							}
 						]
 					},
