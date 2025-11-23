@@ -144,7 +144,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"itemEffectTip": "，攻击+0"
 	},
 	"sword1": {
-		"cls": "items",
+		"cls": "equips",
 		"name": "铁剑",
 		"text": "一把很普通的铁剑",
 		"equip": {
@@ -158,7 +158,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"itemEffectTip": "，攻击+10"
 	},
 	"sword2": {
-		"cls": "items",
+		"cls": "equips",
 		"name": "银剑",
 		"text": "一把很普通的银剑",
 		"equip": {
@@ -172,7 +172,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"itemEffectTip": "，攻击+20"
 	},
 	"sword3": {
-		"cls": "items",
+		"cls": "equips",
 		"name": "骑士剑",
 		"text": "一把很普通的骑士剑",
 		"equip": {
@@ -186,7 +186,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"itemEffectTip": "，攻击+40"
 	},
 	"sword4": {
-		"cls": "items",
+		"cls": "equips",
 		"name": "圣剑",
 		"text": "一把很普通的圣剑",
 		"equip": {
@@ -200,7 +200,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"itemEffectTip": "，攻击+80"
 	},
 	"sword5": {
-		"cls": "items",
+		"cls": "equips",
 		"name": "神圣剑",
 		"text": "一把很普通的神圣剑",
 		"equip": {
@@ -214,7 +214,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"itemEffectTip": "，攻击+100"
 	},
 	"shield0": {
-		"cls": "items",
+		"cls": "equips",
 		"name": "破旧的盾",
 		"text": "一个很破旧的铁盾",
 		"equip": {
@@ -227,7 +227,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"itemEffectTip": "，防御+0"
 	},
 	"shield1": {
-		"cls": "items",
+		"cls": "equips",
 		"name": "铁盾",
 		"text": "一个很普通的铁盾",
 		"equip": {
@@ -240,7 +240,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"itemEffectTip": "，防御+10"
 	},
 	"shield2": {
-		"cls": "items",
+		"cls": "equips",
 		"name": "银盾",
 		"text": "一个很普通的银盾",
 		"equip": {
@@ -253,7 +253,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"itemEffectTip": "，防御+20"
 	},
 	"shield3": {
-		"cls": "items",
+		"cls": "equips",
 		"name": "骑士盾",
 		"text": "一个很普通的骑士盾",
 		"equip": {
@@ -266,7 +266,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"itemEffectTip": "，防御+40"
 	},
 	"shield4": {
-		"cls": "items",
+		"cls": "equips",
 		"name": "圣盾",
 		"text": "一个很普通的圣盾",
 		"equip": {
@@ -279,7 +279,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"itemEffectTip": "，防御+80"
 	},
 	"shield5": {
-		"cls": "items",
+		"cls": "equips",
 		"name": "神圣盾",
 		"text": "一个很普通的神圣盾",
 		"equip": {
