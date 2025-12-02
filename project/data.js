@@ -5,7 +5,9 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"sample0",
 			"sample1",
 			"sample2",
-			"MT0"
+			"MT0",
+			"story_1",
+			"story_2"
 		],
 		"floorPartitions": [],
 		"images": [
@@ -16,11 +18,14 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"brave.png",
 			"dragon.png",
 			"hero.png",
+			"idiot.png",
+			"king.png",
 			"snowman.png",
 			"winskin.png"
 		],
 		"tilesets": [
-			"magictower.png"
+			"magictower.png",
+			"inner-1.png"
 		],
 		"animates": [
 			"hand",
@@ -43,7 +48,6 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"door.mp3",
 			"equip.mp3",
 			"error.mp3",
-			"floor.mp3",
 			"gem.mp3",
 			"icePickaxe.mp3",
 			"item.mp3",
@@ -171,11 +175,11 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 	},
 	"firstData": {
 		"title": "魔塔样板",
-		"name": "template",
+		"name": "idiot",
 		"version": "Ver 2.10.3",
-		"floorId": "sample0",
+		"floorId": "story_1",
 		"hero": {
-			"image": "Pochita2.png",
+			"image": "hero.png",
 			"animate": false,
 			"name": "弱智",
 			"lv": 1,
@@ -195,7 +199,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 				"equips": {}
 			},
 			"loc": {
-				"direction": "down",
+				"direction": "up",
 				"x": 6,
 				"y": 10
 			},
@@ -559,9 +563,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			{
 				"type": "comment",
 				"text": "初始剧情"
-			},
-			"Hi，欢迎来到 HTML5 魔塔样板！\n\n本样板由艾之葵制作，可以让你在不会写任何代码\n的情况下也能做出属于自己的H5魔塔！",
-			"这里游戏开始时的剧情。\n\n你可以在这里写上自己的内容。\n赶快来试一试吧！"
+			}
 		],
 		"shops": [
 			{
