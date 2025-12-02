@@ -110,7 +110,8 @@ var icons_4665ee12_3a1f_44a4_bea3_0fccba634dc1 =
 		"moneyShop": 10,
 		"princess": 11,
 		"greenMan": 12,
-		"blueTrader": 13
+		"blueTrader": 13,
+		"N331": 14
 	},
 	"npc48": {
 		"npc0": 0,

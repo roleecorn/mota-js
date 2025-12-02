@@ -223,5 +223,6 @@ var maps_90f36752_8815_4be8_b32b_d7fad1d0542e =
 	"327": {"cls":"enemy48","id":"bearDown"},
 	"328": {"cls":"enemy48","id":"bearLeft"},
 	"329": {"cls":"enemy48","id":"bearRight"},
-	"330": {"cls":"enemy48","id":"bearUp"}
+	"330": {"cls":"enemy48","id":"bearUp"},
+	"331": {"cls":"npcs","id":"N331"}
 }
