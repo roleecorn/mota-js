@@ -17,6 +17,11 @@ main.floors.story_4=
         {
             "type": "loadBgm",
             "name": "gold.mp3"
+        },
+        {
+            "type": "setValue",
+            "name": "flag:__story4Flag__",
+            "value": "0"
         }
     ],
     "eachArrive": [],
@@ -70,6 +75,102 @@ main.floors.story_4=
                 ]
             },
             "1": null
+        },
+        "1,8": {
+            "1": null
+        },
+        "6,12": {
+            "0": {
+                "condition": "core.getHeroLoc('y') ===12  ",
+                "currentFloor": true,
+                "priority": 0,
+                "delayExecute": false,
+                "multiExecute": true,
+                "data": [
+                    {
+                        "type": "if",
+                        "condition": "(flag:__story4Flag__<2)",
+                        "true": [
+                            "\t[弱智,idiot.png]東西還沒拿呢",
+                            {
+                                "type": "exit"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "if",
+                        "condition": "(core.status.hero.money<1000)",
+                        "true": [
+                            "\t[弱智,idiot.png]錢還沒拿呢",
+                            {
+                                "type": "exit"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "if",
+                        "condition": "core.hasEquip('sword5')",
+                        "true": [
+                            {
+                                "type": "if",
+                                "condition": "core.hasEquip('shield5')",
+                                "true": [
+                                    "\t[弱智,idiot.png]是時候出發去那座「魔塔」了",
+                                    {
+                                        "type": "changeFloor",
+                                        "floorId": ":next"
+                                    }
+                                ],
+                                "false": [
+                                    "\t[弱智,idiot.png]只是拿著沒有用啊，要把東西穿上去才行"
+                                ]
+                            }
+                        ],
+                        "false": [
+                            "\t[弱智,idiot.png]只是拿著沒有用啊，要把東西穿上去才行"
+                        ]
+                    }
+                ]
+            },
+            "1": null
+        },
+        "11,11": {
+            "0": {
+                "condition": "core.hasItem('shield5')",
+                "currentFloor": true,
+                "priority": 0,
+                "delayExecute": false,
+                "multiExecute": false,
+                "data": [
+                    "\t[小妖精,fairy]盾牌...要怎麼用啊",
+                    {
+                        "type": "setValue",
+                        "name": "flag:__story4Flag__",
+                        "operator": "+=",
+                        "value": "1"
+                    }
+                ]
+            },
+            "1": null
+        },
+        "11,3": {
+            "0": {
+                "condition": "core.hasItem('sword5')",
+                "currentFloor": true,
+                "priority": 0,
+                "delayExecute": false,
+                "multiExecute": false,
+                "data": [
+                    "\t[小妖精,fairy]雖然我不太懂這些東西，但爸媽買的應該不會差吧",
+                    {
+                        "type": "setValue",
+                        "name": "flag:__story4Flag__",
+                        "operator": "+=",
+                        "value": "1"
+                    }
+                ]
+            },
+            "1": null
         }
     },
     "cannotMove": {},
@@ -87,7 +188,7 @@ main.floors.story_4=
     [141,  0,  0,  0,  0,80076,80076,80076,  0,  0,  0,  0,141],
     [141,345,  0,  0,  0,80084,80084,80084,  0,80163,80164,  0,141],
     [141,345,345,  0,  0,  0,  0,  0,  0,80171,80172, 44,141],
-    [141,141,141,141,141,141,162,141,141,141,141,141,141]
+    [141,141,141,141,141,141,  0,141,141,141,141,141,141]
 ],
     "bgmap": [
     [20004,20004,20004,20004,20004,20004,20004,20004,20004,20004,20004,20004,20004],

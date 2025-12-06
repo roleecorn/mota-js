@@ -214,7 +214,14 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"itemEffect": "core.status.hero.atk += 100",
 		"itemEffectTip": "，攻击+100",
 		"useItemEvent": [
-			"\t[弱智,idiot.png]雖然我不太懂這些東西，但爸媽買的應該不會差吧"
+			"\t[弱智,idiot.png]雖然我不太懂這些東西，但爸媽買的應該不會差吧",
+			{
+				"type": "setValue",
+				"name": "flag:__story4Flag__",
+				"operator": "+=",
+				"value": "1"
+			},
+			"勇敢的武士啊, 给我${flag:__story4Flag__}金币就可以："
 		]
 	},
 	"shield0": {
@@ -297,7 +304,13 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"itemEffect": "core.status.hero.def += 100;core.status.hero.mdef += 100",
 		"itemEffectTip": "，防御+100，护盾+100",
 		"useItemEvent": [
-			"\t[弱智,idiot.png]盾牌...要怎麼用啊"
+			"\t[弱智,idiot.png]盾牌...要怎麼用啊",
+			{
+				"type": "setValue",
+				"name": "flag:__story4Flag__",
+				"operator": "+=",
+				"value": "2"
+			}
 		]
 	},
 	"superPotion": {

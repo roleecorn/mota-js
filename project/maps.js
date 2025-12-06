@@ -107,6 +107,8 @@ var maps_90f36752_8815_4be8_b32b_d7fad1d0542e =
 	"138": {"cls":"npcs","id":"blueTrader"},
 	"140": {"cls":"autotile","id":"autotile4"},
 	"141": {"cls":"autotile","id":"autotile6"},
+	"142": {"cls":"autotile","id":"autotile8"},
+	"143": {"cls":"autotile","id":"autotile9"},
 	"151": {"cls":"autotile","id":"autotile1"},
 	"152": {"cls":"autotile","id":"autotile2"},
 	"153": {"cls":"autotile","id":"autotile3"},
@@ -241,5 +243,10 @@ var maps_90f36752_8815_4be8_b32b_d7fad1d0542e =
 	"343": {"cls":"items","id":"I343"},
 	"344": {"cls":"items","id":"I344"},
 	"345": {"cls":"npcs","id":"N345","event":["\t[弱智,idiot.png]拿點錢好了",{"type":"function","function":"function(){\ncore.status.hero.money+=1000;\n}"},{"type":"playSound","name":"gold.mp3"}]},
+	"346": {"cls":"terrains","id":"T346"},
+	"347": {"cls":"terrains","id":"T347"},
+	"348": {"cls":"terrains","id":"T348"},
+	"349": {"cls":"terrains","id":"T349"},
+	"350": {"cls":"terrains","id":"T350"},
 	"30132": {"cls":"tileset","id":"X30132","event":[]}
 }

@@ -5,11 +5,11 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"sample0",
 			"sample1",
 			"sample2",
-			"MT0",
 			"story_1",
 			"story_2",
 			"story_3",
-			"story_4"
+			"story_4",
+			"MT0"
 		],
 		"floorPartitions": [],
 		"images": [
@@ -34,7 +34,8 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"city3.png",
 			"city2.png",
 			"city.png",
-			"014-PostTown02.png"
+			"014-PostTown02.png",
+			"tilesets.min.png"
 		],
 		"animates": [
 			"hand",
