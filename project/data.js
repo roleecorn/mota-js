@@ -7,7 +7,8 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"sample2",
 			"MT0",
 			"story_1",
-			"story_2"
+			"story_2",
+			"story_3"
 		],
 		"floorPartitions": [],
 		"images": [
@@ -28,7 +29,10 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"magictower.png",
 			"inner-1.png",
 			"028-Church01.png",
-			"025-Castle01.png"
+			"025-Castle01.png",
+			"city3.png",
+			"city2.png",
+			"city.png"
 		],
 		"animates": [
 			"hand",

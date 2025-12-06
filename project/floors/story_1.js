@@ -1,8 +1,8 @@
 main.floors.story_1=
 {
     "floorId": "story_1",
-    "title": "皇宮",
-    "name": "皇宮",
+    "title": "街道",
+    "name": "街道",
     "width": 13,
     "height": 13,
     "canFlyTo": false,
@@ -45,7 +45,13 @@ main.floors.story_1=
         "\t[女王,queen.png]你不願意嗎?",
         "\t[弱智,idiot.png]這個...沒有，我很願意",
         "\t[女王,queen.png]那就好，我就知道我們勇者國的所有勇者都心懷正義",
-        "\t[弱智,idiot]我這就...出發..."
+        "\t[弱智,idiot]我這就...出發...",
+        {
+            "type": "changeFloor",
+            "floorId": ":next",
+            "stair": "upFloor",
+            "direction": "left"
+        }
     ],
     "eachArrive": [],
     "parallelDo": "",
