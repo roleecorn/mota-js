@@ -22,31 +22,6 @@ main.floors.story_4=
     "eachArrive": [],
     "parallelDo": "",
     "events": {
-        "6,11": [
-            {
-                "type": "if",
-                "condition": "(flag:__story2Flag__ != 1)",
-                "true": [
-                    "\t[弱智,idiot.png]......",
-                    "\t[弱智,idiot.png]不對",
-                    "\t[弱智,idiot.png]不對不對不對 不對不對不對 不對不對不對 不對不對不對",
-                    "\t[弱智,idiot.png]不行的阿，我做不到阿，幹這就是平常訓練少的後果嗎，完全做不到哇",
-                    "\t[弱智,idiot.png]反正勇者國的所有人都那麼正直又富有正義感，那些不是勇者的人稍微訓練一下肯\n定就比我強了吧",
-                    "\t[弱智,idiot.png]仔細想想，我們國家的畫風也太奇怪了吧，為甚麼所有人都那麼陽光正向阿，我的\n陰暗面都被淨化了阿",
-                    "\t[弱智,idiot.png]為甚麼會有人闖進別人的房子後只幫人家照顧小孩跟整理房子的",
-                    "\t[弱智,idiot.png]發生衝突後過沒十秒就開心地互相祝福對方又是什麼鬼啦",
-                    "\t[弱智,idiot.png]......",
-                    "\t[弱智,idiot.png]好像...也只能走了，從勇者國被趕出去我就完了啊",
-                    "\t[弱智,idiot.png]......收拾收拾走了吧，該去那座「魔塔」",
-                    "\t[弱智,idiot.png]至少需要劍、盾才能算勇者吧，另外錢還是要帶的",
-                    {
-                        "type": "setValue",
-                        "name": "flag:__story2Flag__",
-                        "value": "1"
-                    }
-                ]
-            }
-        ],
         "0,6": [
             "\t[弱智,idiot.png]需要的東西應該在這個房間裡都能找到",
             {
@@ -71,7 +46,32 @@ main.floors.story_4=
     "afterBattle": {},
     "afterGetItem": {},
     "afterOpenDoor": {},
-    "autoEvent": {},
+    "autoEvent": {
+        "1,9": {
+            "0": {
+                "condition": "core.getHeroLoc('y') ===11",
+                "currentFloor": true,
+                "priority": 0,
+                "delayExecute": false,
+                "multiExecute": false,
+                "data": [
+                    "\t[弱智,idiot.png]......",
+                    "\t[弱智,idiot.png]不對",
+                    "\t[弱智,idiot.png]不對不對不對 不對不對不對 不對不對不對 不對不對不對",
+                    "\t[弱智,idiot.png]不行的阿，我做不到阿，幹這就是平常訓練少的後果嗎，完全做不到哇",
+                    "\t[弱智,idiot.png]反正勇者國的所有人都那麼正直又富有正義感，那些不是勇者的人稍微訓練一下肯\n定就比我強了吧",
+                    "\t[弱智,idiot.png]仔細想想，我們國家的畫風也太奇怪了吧，為甚麼所有人都那麼陽光正向阿，我的\n陰暗面都被淨化了阿",
+                    "\t[弱智,idiot.png]為甚麼會有人闖進別人的房子後只幫人家照顧小孩跟整理房子的",
+                    "\t[弱智,idiot.png]發生衝突後過沒十秒就開心地互相祝福對方又是什麼鬼啦",
+                    "\t[弱智,idiot.png]......",
+                    "\t[弱智,idiot.png]好像...也只能走了，從勇者國被趕出去我就完了啊",
+                    "\t[弱智,idiot.png]......收拾收拾走了吧，該去那座「魔塔」",
+                    "\t[弱智,idiot.png]至少需要劍、盾才能算勇者吧，另外錢還是要帶的"
+                ]
+            },
+            "1": null
+        }
+    },
     "cannotMove": {},
     "cannotMoveIn": {},
     "map": [
