@@ -227,5 +227,6 @@ var maps_90f36752_8815_4be8_b32b_d7fad1d0542e =
 	"329": {"cls":"enemy48","id":"bearRight"},
 	"330": {"cls":"enemy48","id":"bearUp"},
 	"331": {"cls":"npcs","id":"N331","event":["\t[小妖精,fairy]去拯救世界吧"]},
-	"332": {"cls":"terrains","id":"T332"}
+	"332": {"cls":"terrains","id":"T332"},
+	"30132": {"cls":"tileset","id":"X30132","event":[]}
 }
