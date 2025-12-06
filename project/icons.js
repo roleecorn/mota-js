@@ -112,7 +112,8 @@ var icons_4665ee12_3a1f_44a4_bea3_0fccba634dc1 =
 		"princess": 11,
 		"greenMan": 12,
 		"blueTrader": 13,
-		"N331": 14
+		"N331": 14,
+		"N345": 15
 	},
 	"npc48": {
 		"npc0": 0,
@@ -262,7 +263,19 @@ var icons_4665ee12_3a1f_44a4_bea3_0fccba634dc1 =
 		"jumpShoes": 49,
 		"skill1": 30,
 		"wand": 10,
-		"pack": 46
+		"pack": 46,
+		"I333": 5,
+		"I334": 7,
+		"I335": 26,
+		"I336": 31,
+		"I337": 32,
+		"I338": 34,
+		"I339": 35,
+		"I340": 36,
+		"I341": 37,
+		"I342": 38,
+		"I343": 39,
+		"I344": 62
 	},
 	"autotile": {
 		"autotile": 0,

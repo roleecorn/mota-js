@@ -33,7 +33,8 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"025-Castle01.png",
 			"city3.png",
 			"city2.png",
-			"city.png"
+			"city.png",
+			"014-PostTown02.png"
 		],
 		"animates": [
 			"hand",
@@ -57,6 +58,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"equip.mp3",
 			"error.mp3",
 			"gem.mp3",
+			"gold.mp3",
 			"icePickaxe.mp3",
 			"item.mp3",
 			"jump.mp3",
@@ -185,7 +187,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 		"title": "魔塔样板",
 		"name": "idiot",
 		"version": "Ver 2.10.3",
-		"floorId": "story_2",
+		"floorId": "story_1",
 		"hero": {
 			"image": "hero.png",
 			"animate": false,
@@ -208,8 +210,8 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			},
 			"loc": {
 				"direction": "up",
-				"x": 2,
-				"y": 6
+				"x": 6,
+				"y": 10
 			},
 			"flags": {},
 			"followers": [],

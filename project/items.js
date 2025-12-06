@@ -211,7 +211,10 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 			}
 		},
 		"itemEffect": "core.status.hero.atk += 100",
-		"itemEffectTip": "，攻击+100"
+		"itemEffectTip": "，攻击+100",
+		"useItemEvent": [
+			"\t[弱智,idiot.png]雖然我不太懂這些東西，但爸媽買的應該不會差吧"
+		]
 	},
 	"shield0": {
 		"cls": "equips",
@@ -290,7 +293,10 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 			}
 		},
 		"itemEffect": "core.status.hero.def += 100;core.status.hero.mdef += 100",
-		"itemEffectTip": "，防御+100，护盾+100"
+		"itemEffectTip": "，防御+100，护盾+100",
+		"useItemEvent": [
+			"\t[弱智,idiot.png]盾牌...要怎麼用啊"
+		]
 	},
 	"superPotion": {
 		"cls": "tools",
@@ -333,7 +339,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 					}
 				]
 			},
-			"\t[小妖精,fairy]\f[fairy.png,0,0]嗯...這個應該是很重要的東西，要現在使用嗎?",
+			"\t[弱智,idiot.png]\f[fairy.png,0,0]嗯...這個應該是很重要的東西，要現在使用嗎?",
 			{
 				"type": "choices",
 				"text": "\t[流浪者,man]是否真的要使用?",
@@ -354,7 +360,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 					{
 						"text": "否",
 						"action": [
-							"\t[小妖精,fairy]應當有更好的使用時機",
+							"\t[弱智,idiot.png]應當有更好的使用時機",
 							{
 								"type": "function",
 								"function": "function(){\ncore.addItem('superPotion', 1);\n}"
@@ -592,5 +598,65 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"name": "钱袋",
 		"itemEffect": "core.status.hero.money += 500",
 		"itemEffectTip": "，金币+500"
+	},
+	"I333": {
+		"cls": "items",
+		"name": "新物品",
+		"canUseItemEffect": "true"
+	},
+	"I334": {
+		"cls": "items",
+		"name": "新物品",
+		"canUseItemEffect": "true"
+	},
+	"I335": {
+		"cls": "items",
+		"name": "新物品",
+		"canUseItemEffect": "true"
+	},
+	"I336": {
+		"cls": "items",
+		"name": "新物品",
+		"canUseItemEffect": "true"
+	},
+	"I337": {
+		"cls": "items",
+		"name": "新物品",
+		"canUseItemEffect": "true"
+	},
+	"I338": {
+		"cls": "items",
+		"name": "新物品",
+		"canUseItemEffect": "true"
+	},
+	"I339": {
+		"cls": "items",
+		"name": "新物品",
+		"canUseItemEffect": "true"
+	},
+	"I340": {
+		"cls": "items",
+		"name": "新物品",
+		"canUseItemEffect": "true"
+	},
+	"I341": {
+		"cls": "items",
+		"name": "新物品",
+		"canUseItemEffect": "true"
+	},
+	"I342": {
+		"cls": "items",
+		"name": "新物品",
+		"canUseItemEffect": "true"
+	},
+	"I343": {
+		"cls": "items",
+		"name": "新物品",
+		"canUseItemEffect": "true"
+	},
+	"I344": {
+		"cls": "items",
+		"name": "新物品",
+		"canUseItemEffect": "true"
 	}
 }

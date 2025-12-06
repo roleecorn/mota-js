@@ -13,7 +13,11 @@ main.floors.story_2=
     "images": [],
     "ratio": 1,
     "defaultGround": "grass",
-    "firstArrive": [],
+    "firstArrive": [
+        {
+            "type": "showStatusBar"
+        }
+    ],
     "eachArrive": [],
     "parallelDo": "",
     "events": {
