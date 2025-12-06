@@ -63,7 +63,8 @@ var icons_4665ee12_3a1f_44a4_bea3_0fccba634dc1 =
 		"sWallBLR": 31,
 		"sWallTLR": 32,
 		"sWallTBR": 33,
-		"sWallTBL": 34
+		"sWallTBL": 34,
+		"T332": 35
 	},
 	"animates": {
 		"star": 0,
@@ -267,6 +268,9 @@ var icons_4665ee12_3a1f_44a4_bea3_0fccba634dc1 =
 		"autotile": 0,
 		"autotile1": 0,
 		"autotile2": 0,
-		"autotile3": 0
+		"autotile3": 0,
+		"autotile4": 0,
+		"autotile5": 0,
+		"autotile6": 0
 	}
 }

@@ -105,6 +105,8 @@ var maps_90f36752_8815_4be8_b32b_d7fad1d0542e =
 	"136": {"cls":"npc48","id":"npc3","faceIds":{"down":"npc0","left":"npc1","right":"npc2","up":"npc3"},"animate":1},
 	"137": {"cls":"npcs","id":"greenMan"},
 	"138": {"cls":"npcs","id":"blueTrader"},
+	"140": {"cls":"autotile","id":"autotile4"},
+	"141": {"cls":"autotile","id":"autotile6"},
 	"151": {"cls":"autotile","id":"autotile1"},
 	"152": {"cls":"autotile","id":"autotile2"},
 	"153": {"cls":"autotile","id":"autotile3"},
@@ -224,5 +226,6 @@ var maps_90f36752_8815_4be8_b32b_d7fad1d0542e =
 	"328": {"cls":"enemy48","id":"bearLeft"},
 	"329": {"cls":"enemy48","id":"bearRight"},
 	"330": {"cls":"enemy48","id":"bearUp"},
-	"331": {"cls":"npcs","id":"N331"}
+	"331": {"cls":"npcs","id":"N331","event":["\t[小妖精,fairy]去拯救世界吧"]},
+	"332": {"cls":"terrains","id":"T332"}
 }
