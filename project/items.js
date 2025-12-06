@@ -207,8 +207,9 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 			"type": 0,
 			"animate": "sword",
 			"value": {
-				"atk": 160
-			}
+				"atk": 1000
+			},
+			"percentage": {}
 		},
 		"itemEffect": "core.status.hero.atk += 100",
 		"itemEffectTip": "，攻击+100",
@@ -288,9 +289,10 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"equip": {
 			"type": 1,
 			"value": {
-				"def": 100,
-				"mdef": 100
-			}
+				"mdef": 1000,
+				"def": 1000
+			},
+			"percentage": {}
 		},
 		"itemEffect": "core.status.hero.def += 100;core.status.hero.mdef += 100",
 		"itemEffectTip": "，防御+100，护盾+100",
