@@ -20,6 +20,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"hero.png",
 			"idiot.png",
 			"king.png",
+			"queen.png",
 			"snowman.png",
 			"winskin.png"
 		],
