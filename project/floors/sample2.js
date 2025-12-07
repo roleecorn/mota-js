@@ -3,10 +3,10 @@ main.floors.sample2=
     "floorId": "sample2",
     "title": "样板 2 层",
     "name": "2",
-    "canFlyTo": true,
-    "canFlyFrom": true,
+    "canFlyTo": false,
+    "canFlyFrom": false,
     "canUseQuickShop": true,
-    "cannotViewMap": false,
+    "cannotViewMap": true,
     "defaultGround": "ground",
     "images": [],
     "ratio": 1,
@@ -86,5 +86,6 @@ main.floors.sample2=
 ],
     "autoEvent": {},
     "beforeBattle": {},
-    "cannotMoveIn": {}
+    "cannotMoveIn": {},
+    "cannotMoveDirectly": true
 }

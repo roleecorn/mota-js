@@ -9,7 +9,7 @@ main.floors.story_3=
     "canFlyFrom": false,
     "canUseQuickShop": false,
     "cannotViewMap": true,
-    "cannotMoveDirectly": false,
+    "cannotMoveDirectly": true,
     "images": [],
     "ratio": 1,
     "defaultGround": "grass",

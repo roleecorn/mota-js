@@ -231,8 +231,8 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 	"firstData": {
 		"title": "魔塔样板",
 		"name": "idiot",
-		"version": "Ver 2.10.3",
-		"floorId": "story_1",
+		"version": "Ver 0.8.3",
+		"floorId": "MT3",
 		"hero": {
 			"image": "hero.png",
 			"animate": false,
@@ -242,10 +242,10 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"hp": 1000,
 			"manamax": -1,
 			"mana": 0,
-			"atk": 100,
-			"def": 100,
+			"atk": 10,
+			"def": 10,
 			"mdef": 0,
-			"money": 1000,
+			"money": 0,
 			"exp": 0,
 			"equipment": [],
 			"items": {
@@ -255,8 +255,8 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			},
 			"loc": {
 				"direction": "up",
-				"x": 6,
-				"y": 9
+				"x": 1,
+				"y": 5
 			},
 			"flags": {},
 			"followers": [],
@@ -817,7 +817,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 		],
 		"autoScale": true,
 		"extendToolbar": false,
-		"flyNearStair": true,
+		"flyNearStair": false,
 		"flyRecordPosition": false,
 		"itemFirstText": false,
 		"equipboxButton": true,

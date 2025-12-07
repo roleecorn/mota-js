@@ -3,8 +3,8 @@ main.floors.sample1=
     "floorId": "sample1",
     "title": "样板 1 层",
     "name": "1",
-    "canFlyTo": true,
-    "canFlyFrom": true,
+    "canFlyTo": false,
+    "canFlyFrom": false,
     "canUseQuickShop": true,
     "defaultGround": "grass",
     "images": [
@@ -626,5 +626,8 @@ main.floors.sample1=
     },
     "width": 13,
     "height": 13,
-    "beforeBattle": {}
+    "beforeBattle": {},
+    "cannotMoveIn": {},
+    "cannotViewMap": true,
+    "cannotMoveDirectly": true
 }
