@@ -28,7 +28,7 @@ main.floors.story_4=
     "parallelDo": "",
     "events": {
         "0,6": [
-            "\t[弱智,idiot.png]需要的東西應該在這個房間裡都能找到",
+            "\t[弱智,default]需要的東西應該在這個房間裡都能找到",
             {
                 "type": "moveHero",
                 "steps": [
@@ -37,7 +37,7 @@ main.floors.story_4=
             }
         ],
         "12,6": [
-            "\t[弱智,idiot.png]需要的東西應該在這個房間裡都能找到",
+            "\t[弱智,default]需要的東西應該在這個房間裡都能找到",
             {
                 "type": "moveHero",
                 "steps": [
@@ -60,18 +60,18 @@ main.floors.story_4=
                 "delayExecute": false,
                 "multiExecute": false,
                 "data": [
-                    "\t[弱智,idiot.png]......",
-                    "\t[弱智,idiot.png]不對",
-                    "\t[弱智,idiot.png]不對不對不對 不對不對不對 不對不對不對 不對不對不對",
-                    "\t[弱智,idiot.png]不行的阿，我做不到阿，幹這就是平常訓練少的後果嗎，完全做不到哇",
-                    "\t[弱智,idiot.png]反正勇者國的所有人都那麼正直又富有正義感，那些不是勇者的人稍微訓練一下肯\n定就比我強了吧",
-                    "\t[弱智,idiot.png]仔細想想，我們國家的畫風也太奇怪了吧，為甚麼所有人都那麼陽光正向阿，我的\n陰暗面都被淨化了阿",
-                    "\t[弱智,idiot.png]為甚麼會有人闖進別人的房子後只幫人家照顧小孩跟整理房子的",
-                    "\t[弱智,idiot.png]發生衝突後過沒十秒就開心地互相祝福對方又是什麼鬼啦",
-                    "\t[弱智,idiot.png]......",
-                    "\t[弱智,idiot.png]好像...也只能走了，從勇者國被趕出去我就完了啊",
-                    "\t[弱智,idiot.png]......收拾收拾走了吧，該去那座「魔塔」",
-                    "\t[弱智,idiot.png]至少需要劍、盾才能算勇者吧，另外錢還是要帶的"
+                    "\t[弱智,default]......",
+                    "\t[弱智,default]不對",
+                    "\t[弱智,default]不對不對不對 不對不對不對 不對不對不對 不對不對不對",
+                    "\t[弱智,default]不行的阿，我做不到阿，幹這就是平常訓練少的後果嗎，完全做不到哇",
+                    "\t[弱智,default]反正勇者國的所有人都那麼正直又富有正義感，那些不是勇者的人稍微訓練一下肯\n定就比我強了吧",
+                    "\t[弱智,default]仔細想想，我們國家的畫風也太奇怪了吧，為甚麼所有人都那麼陽光正向阿，我的\n陰暗面都被淨化了阿",
+                    "\t[弱智,default]為甚麼會有人闖進別人的房子後只幫人家照顧小孩跟整理房子的",
+                    "\t[弱智,default]發生衝突後過沒十秒就開心地互相祝福對方又是什麼鬼啦",
+                    "\t[弱智,default]......",
+                    "\t[弱智,default]好像...也只能走了，從勇者國被趕出去我就完了啊",
+                    "\t[弱智,default]......收拾收拾走了吧，該去那座「魔塔」",
+                    "\t[弱智,default]至少需要劍、盾才能算勇者吧，另外錢還是要帶的"
                 ]
             },
             "1": null
@@ -91,7 +91,7 @@ main.floors.story_4=
                         "type": "if",
                         "condition": "(flag:__story4Flag__<2)",
                         "true": [
-                            "\t[弱智,idiot.png]東西還沒拿呢",
+                            "\t[弱智,default]東西還沒拿呢",
                             {
                                 "type": "exit"
                             }
@@ -101,7 +101,7 @@ main.floors.story_4=
                         "type": "if",
                         "condition": "(core.status.hero.money<1000)",
                         "true": [
-                            "\t[弱智,idiot.png]錢還沒拿呢",
+                            "\t[弱智,default]錢還沒拿呢",
                             {
                                 "type": "exit"
                             }
@@ -115,19 +115,19 @@ main.floors.story_4=
                                 "type": "if",
                                 "condition": "core.hasEquip('shield5')",
                                 "true": [
-                                    "\t[弱智,idiot.png]是時候出發去那座「魔塔」了",
+                                    "\t[弱智,default]是時候出發去那座「魔塔」了",
                                     {
                                         "type": "changeFloor",
                                         "floorId": ":next"
                                     }
                                 ],
                                 "false": [
-                                    "\t[弱智,idiot.png]只是拿著沒有用啊，要把東西穿上去才行"
+                                    "\t[弱智,default]只是拿著沒有用啊，要把東西穿上去才行"
                                 ]
                             }
                         ],
                         "false": [
-                            "\t[弱智,idiot.png]只是拿著沒有用啊，要把東西穿上去才行"
+                            "\t[弱智,default]只是拿著沒有用啊，要把東西穿上去才行"
                         ]
                     }
                 ]
@@ -142,7 +142,7 @@ main.floors.story_4=
                 "delayExecute": false,
                 "multiExecute": false,
                 "data": [
-                    "\t[弱智,idiot.png]盾牌...要怎麼用啊",
+                    "\t[弱智,default]盾牌...要怎麼用啊",
                     {
                         "type": "setValue",
                         "name": "flag:__story4Flag__",
@@ -161,7 +161,7 @@ main.floors.story_4=
                 "delayExecute": false,
                 "multiExecute": false,
                 "data": [
-                    "\t[弱智,idiot.png]雖然我不太懂這些東西，但爸媽買的應該不會差吧",
+                    "\t[弱智,default]雖然我不太懂這些東西，但爸媽買的應該不會差吧",
                     {
                         "type": "setValue",
                         "name": "flag:__story4Flag__",

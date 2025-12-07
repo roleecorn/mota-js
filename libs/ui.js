@@ -772,6 +772,14 @@ ui.prototype._getTitleAndIcon = function (content) {
     var bigImage = null, face = null;
     content = content.replace(/(\t|\\t)\[(([^\],]+),)?([^\],]+)\]/g, function (s0, s1, s2, s3, s4) {
         if (s4) {
+            if (s4 == "default")
+            {
+                const dict = {
+                    "hero.png":"idiot.png",
+                    "Pochita2.png":"pochita_big.png"
+                };
+                s4 = dict[core.status.hero.image];
+            }
             if (s4 == 'hero') {
                 title = core.status.hero.name;
                 image = core.material.images.hero;

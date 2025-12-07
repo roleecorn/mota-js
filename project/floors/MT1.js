@@ -22,11 +22,11 @@ main.floors.MT1=
                 "type": "jumpHero",
                 "time": 300
             },
-            "\t[弱智,idiot.png]這個橘色頭上長鏈鋸的狗是甚麼東西啊汪!!!",
-            "\t[弱智,idiot.png]我來之前沒有人跟我說我會變成這個啊汪!!!",
-            "\t[弱智,idiot.png]他媽的，這勾巴塔怎麼還帶變形效果的",
-            "\t[弱智,idiot.png]話說在這裡擺一個鏡子的人可真是惡趣味啊!!!",
-            "\t[弱智,idiot.png]可惡，這不是只能往上走去拯救公主了嗎"
+            "\t[弱智,default]這個橘色頭上長鏈鋸的狗是甚麼東西啊汪!!!",
+            "\t[弱智,default]我來之前沒有人跟我說我會變成這個啊汪!!!",
+            "\t[弱智,default]他媽的，這勾巴塔怎麼還帶變形效果的",
+            "\t[弱智,default]話說在這裡擺一個鏡子的人可真是惡趣味啊!!!",
+            "\t[弱智,default]可惡，這不是只能往上走去拯救公主了嗎"
         ]
     },
     "changeFloor": {
@@ -56,7 +56,7 @@ main.floors.MT1=
                             10
                         ]
                     },
-                    "\t[弱智,idiot.png]蛤?什麼動靜",
+                    "\t[弱智,default]蛤?什麼動靜",
                     {
                         "type": "function",
                         "function": "function(){\ncore.turnHero(\"down\");\n}"
@@ -65,8 +65,8 @@ main.floors.MT1=
                         "type": "function",
                         "function": "function(){\ncore.jumpHero(6,9,300);\n}"
                     },
-                    "\t[弱智,idiot.png]不是，哥們，這塔真有問題啊",
-                    "\t[弱智,idiot.png]話說回來，眼皮好像有點重......",
+                    "\t[弱智,default]不是，哥們，這塔真有問題啊",
+                    "\t[弱智,default]話說回來，眼皮好像有點重......",
                     {
                         "type": "setCurtain",
                         "color": [
@@ -103,17 +103,17 @@ main.floors.MT1=
                         "type": "setCurtain",
                         "time": 500
                     },
-                    "\t[弱智,idiot.png]痾......我這是怎麼了",
-                    "\t[弱智,idiot.png]怪了，我視線怎麼這麼低，眼睛前面這個鏈鋸又是甚麼汪！",
-                    "\t[弱智,idiot.png]找找我的劍吧，等等???",
-                    "\t[弱智,idiot.png]媽的，我手呢???我那麼大一個手呢???",
-                    "\t[弱智,idiot.png]這坨橘色的是甚麼東西啊阿，汪???",
+                    "\t[弱智,default]痾......我這是怎麼了",
+                    "\t[弱智,default]怪了，我視線怎麼這麼低，眼睛前面這個鏈鋸又是甚麼汪！",
+                    "\t[弱智,default]找找我的劍吧，等等???",
+                    "\t[弱智,default]媽的，我手呢???我那麼大一個手呢???",
+                    "\t[弱智,default]這坨橘色的是甚麼東西啊阿，汪???",
                     {
                         "type": "function",
                         "function": "function(){\ncore.jumpHero(6,9,300);\n}"
                     },
-                    "\t[弱智,idiot.png]我怎麼汪起來了啊汪!!!",
-                    "\t[弱智,idiot.png]有沒有什麼東西能讓我看一下我到底怎麼了?",
+                    "\t[弱智,default]我怎麼汪起來了啊汪!!!",
+                    "\t[弱智,default]有沒有什麼東西能讓我看一下我到底怎麼了?",
                     {
                         "type": "showStatusBar"
                     }

@@ -47,7 +47,7 @@ main.floors.sample0=
                 "time": 100
             },
             "\t[弱智,snowman.png]欢迎使用事件编辑器(双击方块可直接预览)",
-            "\t[弱智,idiot.png]\f[fairy.png,0,0]欢迎使用事件编辑器(双击方块可直接预览)",
+            "\t[弱智,default]\f[fairy.png,0,0]欢迎使用事件编辑器(双击方块可直接预览)",
             {
                 "type": "animate",
                 "name": "thunder"

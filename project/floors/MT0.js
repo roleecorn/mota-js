@@ -14,9 +14,9 @@ main.floors.MT0=
     "ratio": 1,
     "defaultGround": "T346",
     "firstArrive": [
-        "\t[弱智,idiot.png]總算是到了",
-        "\t[弱智,idiot.png]我草泥馬這也太高了吧",
-        "\t[弱智,idiot.png]我帶的乾糧夠嗎...算了總會有辦法的，先進去好了"
+        "\t[弱智,default]總算是到了",
+        "\t[弱智,default]我草泥馬這也太高了吧",
+        "\t[弱智,default]我帶的乾糧夠嗎...算了總會有辦法的，先進去好了"
     ],
     "eachArrive": [],
     "parallelDo": "",

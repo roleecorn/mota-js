@@ -23,10 +23,11 @@ main.floors.story_3=
                 "type": "function",
                 "function": "function(){\ncore.turnHero(\"up\");\n}"
             },
-            "\t[弱智,idiot.png]嘶...好像也只有這個可能了，畢竟我的父母幫我買的勇者頭銜裡，條件大概是除非勇者國其他勇者都處於無法行動的狀態，否則我應該不會被派出去的才對。",
+            "\t[弱智,default]嘶...好像也只有這個可能了，畢竟我的父母幫我買的勇者頭銜裡，條件大概是除非勇者國其他勇者都處於無法行動的狀態，否則我應該不會被派出去的才對。",
             {
                 "type": "changeFloor",
-                "floorId": ":next"
+                "floorId": ":next",
+                "stair": "downFloor"
             }
         ]
     },

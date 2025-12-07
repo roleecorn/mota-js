@@ -214,7 +214,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"itemEffect": "core.status.hero.atk += 100",
 		"itemEffectTip": "，攻击+100",
 		"useItemEvent": [
-			"\t[弱智,idiot.png]雖然我不太懂這些東西，但爸媽買的應該不會差吧",
+			"\t[弱智,default]雖然我不太懂這些東西，但爸媽買的應該不會差吧",
 			{
 				"type": "setValue",
 				"name": "flag:__story4Flag__",
@@ -304,7 +304,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"itemEffect": "core.status.hero.def += 100;core.status.hero.mdef += 100",
 		"itemEffectTip": "，防御+100，护盾+100",
 		"useItemEvent": [
-			"\t[弱智,idiot.png]盾牌...要怎麼用啊",
+			"\t[弱智,default]盾牌...要怎麼用啊",
 			{
 				"type": "setValue",
 				"name": "flag:__story4Flag__",
@@ -354,7 +354,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 					}
 				]
 			},
-			"\t[弱智,idiot.png]\f[idiot.png.png,0,0]嗯...這個應該是很重要的東西，要現在使用嗎?",
+			"\t[弱智,default]\f[idiot.png.png,0,0]嗯...這個應該是很重要的東西，要現在使用嗎?",
 			{
 				"type": "choices",
 				"text": "\t[流浪者,man]是否真的要使用?",
@@ -375,7 +375,7 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 					{
 						"text": "否",
 						"action": [
-							"\t[弱智,idiot.png]應當有更好的使用時機",
+							"\t[弱智,default]應當有更好的使用時機",
 							{
 								"type": "function",
 								"function": "function(){\ncore.addItem('superPotion', 1);\n}"

@@ -26,8 +26,8 @@ main.floors.story_2=
                 "type": "if",
                 "condition": "(flag:__story2Flag__ === 0)",
                 "true": [
-                    "\t[弱智,idiot.png]媽的，不是",
-                    "\t[弱智,idiot.png]我記得我的排名不是很靠後的嗎?怎麼想都應該是戰力比較強的那些人先去才對啊\n，比如高興前輩那種的。",
+                    "\t[弱智,default]媽的，不是",
+                    "\t[弱智,default]我記得我的排名不是很靠後的嗎?怎麼想都應該是戰力比較強的那些人先去才對啊\n，比如高興前輩那種的。",
                     {
                         "type": "setValue",
                         "name": "flag:__story2Flag__",
@@ -41,8 +41,8 @@ main.floors.story_2=
                 "type": "if",
                 "condition": "(flag:__story2Flag__ === 0)",
                 "true": [
-                    "\t[弱智,idiot.png]媽的，不是",
-                    "\t[弱智,idiot.png]我記得我的排名不是很靠後的嗎?怎麼想都應該是戰力比較強的那些人先去才對啊\n，比如高興前輩那種的。",
+                    "\t[弱智,default]媽的，不是",
+                    "\t[弱智,default]我記得我的排名不是很靠後的嗎?怎麼想都應該是戰力比較強的那些人先去才對啊\n，比如高興前輩那種的。",
                     {
                         "type": "setValue",
                         "name": "flag:__story2Flag__",
@@ -56,8 +56,8 @@ main.floors.story_2=
                 "type": "if",
                 "condition": "(flag:__story2Flag__ === 0)",
                 "true": [
-                    "\t[弱智,idiot.png]媽的，不是",
-                    "\t[弱智,idiot.png]我記得我的排名不是很靠後的嗎?怎麼想都應該是戰力比較強的那些人先去才對啊\n，比如高興前輩那種的。",
+                    "\t[弱智,default]媽的，不是",
+                    "\t[弱智,default]我記得我的排名不是很靠後的嗎?怎麼想都應該是戰力比較強的那些人先去才對啊\n，比如高興前輩那種的。",
                     {
                         "type": "setValue",
                         "name": "flag:__story2Flag__",
@@ -71,7 +71,7 @@ main.floors.story_2=
                 "type": "if",
                 "condition": "(flag:__story2Flag__ === 1)",
                 "true": [
-                    "\t[弱智,idiot.png]這麼說來好像好幾個月沒看到他了，等等，不會吧",
+                    "\t[弱智,default]這麼說來好像好幾個月沒看到他了，等等，不會吧",
                     {
                         "type": "setValue",
                         "name": "flag:__story2Flag__",
@@ -85,7 +85,7 @@ main.floors.story_2=
                 "type": "if",
                 "condition": "(flag:__story2Flag__ === 1)",
                 "true": [
-                    "\t[弱智,idiot.png]這麼說來好像好幾個月沒看到他了，等等，不會吧",
+                    "\t[弱智,default]這麼說來好像好幾個月沒看到他了，等等，不會吧",
                     {
                         "type": "setValue",
                         "name": "flag:__story2Flag__",
@@ -99,7 +99,7 @@ main.floors.story_2=
                 "type": "if",
                 "condition": "(flag:__story2Flag__ === 1)",
                 "true": [
-                    "\t[弱智,idiot.png]這麼說來好像好幾個月沒看到他了，等等，不會吧",
+                    "\t[弱智,default]這麼說來好像好幾個月沒看到他了，等等，不會吧",
                     {
                         "type": "setValue",
                         "name": "flag:__story2Flag__",
@@ -113,7 +113,7 @@ main.floors.story_2=
                 "type": "if",
                 "condition": "(flag:__story2Flag__ === 2)",
                 "true": [
-                    "\t[弱智,idiot.png]總不會勇者國排名在我前面的勇者都沒從塔裡出來吧",
+                    "\t[弱智,default]總不會勇者國排名在我前面的勇者都沒從塔裡出來吧",
                     {
                         "type": "setValue",
                         "name": "flag:__story2Flag__",
@@ -127,7 +127,7 @@ main.floors.story_2=
                 "type": "if",
                 "condition": "(flag:__story2Flag__ === 2)",
                 "true": [
-                    "\t[弱智,idiot.png]總不會勇者國排名在我前面的勇者都沒從塔裡出來吧",
+                    "\t[弱智,default]總不會勇者國排名在我前面的勇者都沒從塔裡出來吧",
                     {
                         "type": "setValue",
                         "name": "flag:__story2Flag__",
@@ -141,7 +141,7 @@ main.floors.story_2=
                 "type": "if",
                 "condition": "(flag:__story2Flag__ === 2)",
                 "true": [
-                    "\t[弱智,idiot.png]總不會勇者國排名在我前面的勇者都沒從塔裡出來吧",
+                    "\t[弱智,default]總不會勇者國排名在我前面的勇者都沒從塔裡出來吧",
                     {
                         "type": "setValue",
                         "name": "flag:__story2Flag__",
