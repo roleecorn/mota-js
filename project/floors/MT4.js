@@ -37,7 +37,7 @@ main.floors.MT4=
             "stair": "downFloor"
         },
         "3,1": {
-            "floorId": "shop",
+            "floorId": "Shop",
             "stair": "flyPoint"
         }
     },
