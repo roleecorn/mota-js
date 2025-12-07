@@ -67,14 +67,42 @@ main.floors.MT1=
                         "keep": true
                     },
                     {
+                        "type": "hideStatusBar"
+                    },
+                    {
+                        "type": "unloadEquip",
+                        "pos": 0
+                    },
+                    {
+                        "type": "unloadEquip",
+                        "pos": 1
+                    },
+                    {
                         "type": "function",
                         "function": "function(){\ncore.setHeroIcon('Pochita2.png', false);\n}"
+                    },
+                    {
+                        "type": "function",
+                        "function": "function(){\ncore.setItem('sword5',0);core.setItem('shield5',0);\n}"
                     },
                     "我們並不敬愛的朋友，勇者弱智，已經於王國曆545年12月18號離開了我們，留下...",
                     "什麼?你說沒死?真無聊",
                     {
                         "type": "setCurtain",
                         "time": 500
+                    },
+                    "\t[弱智,idiot.png]痾......我這是怎麼了",
+                    "\t[弱智,idiot.png]怪了，我視線怎麼這麼低，眼睛前面這個鏈鋸又是甚麼汪！",
+                    "\t[弱智,idiot.png]找找我的劍吧，等等???",
+                    "\t[弱智,idiot.png]媽的，我手呢???我那麼大一個手呢???",
+                    "\t[弱智,idiot.png]這坨橘色的是甚麼東西啊阿，汪???",
+                    {
+                        "type": "function",
+                        "function": "function(){\ncore.jumpHero(6,9,300);\n}"
+                    },
+                    "\t[弱智,idiot.png]我怎麼汪起來了啊汪!!!",
+                    {
+                        "type": "showStatusBar"
                     }
                 ]
             },
