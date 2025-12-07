@@ -248,6 +248,7 @@ var maps_90f36752_8815_4be8_b32b_d7fad1d0542e =
 	"348": {"cls":"terrains","id":"T348"},
 	"349": {"cls":"terrains","id":"T349"},
 	"350": {"cls":"terrains","id":"T350"},
+	"351": {"cls":"npcs","id":"N351"},
 	"30132": {"cls":"tileset","id":"X30132","event":[]},
 	"90268": {"cls":"tileset","id":"X90268","canPass":true}
 }
