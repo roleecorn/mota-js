@@ -59,7 +59,7 @@ main.floors.sample2=
                 "shadow": 0
             },
             "data": [
-                "\t[小妖精,bearRight]欢迎使用事件编辑器(双击方块可直接预览)"
+                "\t[弱智,bearRight]欢迎使用事件编辑器(双击方块可直接预览)"
             ]
         }
     },

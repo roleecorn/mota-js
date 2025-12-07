@@ -13,11 +13,20 @@ main.floors.MT0=
     "images": [],
     "ratio": 1,
     "defaultGround": "T346",
-    "firstArrive": [],
+    "firstArrive": [
+        "\t[弱智,idiot.png]總算是到了",
+        "\t[弱智,idiot.png]我草泥馬這也太高了吧",
+        "\t[弱智,idiot.png]我帶的乾糧夠嗎...算了總會有辦法的，先進去好了"
+    ],
     "eachArrive": [],
     "parallelDo": "",
     "events": {},
-    "changeFloor": {},
+    "changeFloor": {
+        "6,7": {
+            "floorId": ":next",
+            "stair": "downFloor"
+        }
+    },
     "beforeBattle": {},
     "afterBattle": {},
     "afterGetItem": {},
@@ -60,7 +69,7 @@ main.floors.MT0=
 ],
     "upFloor": [
         6,
-        12
+        8
     ],
     "downFloor": [
         6,

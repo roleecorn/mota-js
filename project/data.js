@@ -9,7 +9,8 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"story_2",
 			"story_3",
 			"story_4",
-			"MT0"
+			"MT0",
+			"MT1"
 		],
 		"floorPartitions": [],
 		"images": [

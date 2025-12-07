@@ -142,7 +142,7 @@ main.floors.story_4=
                 "delayExecute": false,
                 "multiExecute": false,
                 "data": [
-                    "\t[小妖精,fairy]盾牌...要怎麼用啊",
+                    "\t[弱智,idiot.png]盾牌...要怎麼用啊",
                     {
                         "type": "setValue",
                         "name": "flag:__story4Flag__",
@@ -161,7 +161,7 @@ main.floors.story_4=
                 "delayExecute": false,
                 "multiExecute": false,
                 "data": [
-                    "\t[小妖精,fairy]雖然我不太懂這些東西，但爸媽買的應該不會差吧",
+                    "\t[弱智,idiot.png]雖然我不太懂這些東西，但爸媽買的應該不會差吧",
                     {
                         "type": "setValue",
                         "name": "flag:__story4Flag__",

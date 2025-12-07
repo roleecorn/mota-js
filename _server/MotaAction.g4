@@ -978,7 +978,7 @@ tooltip : text：显示一段文字（剧情）,选项较多请右键点击帮�
 helpUrl : /_docs/#/instruction
 previewBlock : true
 allIds : ['EvalString_1']
-default : ["小妖精","fairy","","","","",0,false,"欢迎使用事件编辑器(双击方块可直接预览)"]
+default : ["弱智","idiot.png","","","","",0,false,"欢迎使用事件编辑器(双击方块可直接预览)"]
 var title='';
 if (EvalString_0==''){
     if (EvalString_1=='' )title='';
@@ -1020,7 +1020,7 @@ tooltip : text：显示一段文字（剧情）,选项较多请右键点击帮�
 helpUrl : /_docs/#/instruction
 previewBlock : true
 allIds : ['EvalString_1']
-default : ["小妖精","fairy","","","","",0,"欢迎使用事件编辑器(双击方块可直接预览)",null]
+default : ["弱智","idiot.png","","","","",0,"欢迎使用事件编辑器(双击方块可直接预览)",null]
 var title='';
 if (EvalString_0==''){
     if (EvalString_1=='' )title='';
@@ -1065,7 +1065,7 @@ textDrawing
 /* textDrawing
 tooltip : 立绘
 helpUrl : /_docs/#/instruction
-default : ["fairy.png","null","0","0","","","","","","","",""]
+default : ["idiot.png.png","null","0","0","","","","","","","",""]
 colour : this.subColor
 previewBlock : true
 allImages : ['EvalString_0']
@@ -1157,7 +1157,7 @@ tooltip : autoText：自动剧情文本,用户无法跳过自动剧情文本,大
 helpUrl : /_docs/#/instruction
 doubleclicktext : EvalString_Multi_0
 allIds : ['EvalString_1']
-default : ["小妖精","fairy","",3000,"用户无法跳过自动剧情文本，大段剧情文本请添加“是否跳过剧情”的提示"]
+default : ["弱智","idiot.png","",3000,"用户无法跳过自动剧情文本，大段剧情文本请添加“是否跳过剧情”的提示"]
 var title='';
 if (EvalString_0==''){
     if (EvalString_1=='' )title='';

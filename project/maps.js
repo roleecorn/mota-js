@@ -113,7 +113,7 @@ var maps_90f36752_8815_4be8_b32b_d7fad1d0542e =
 	"152": {"cls":"autotile","id":"autotile2"},
 	"153": {"cls":"autotile","id":"autotile3"},
 	"161": {"cls":"terrains","id":"arrowUp","canPass":true,"cannotOut":["left","right","down"],"cannotIn":["up"]},
-	"162": {"cls":"terrains","id":"arrowDown","canPass":true,"cannotOut":["left","right","up"],"cannotIn":["down"]},
+	"162": {"cls":"terrains","id":"arrowDown","canPass":true,"cannotOut":[],"cannotIn":["down"],"event":[{"type":"changeFloor","floorId":":before","stair":"upFloor"}]},
 	"163": {"cls":"terrains","id":"arrowLeft","canPass":true,"cannotOut":["up","down","right"],"cannotIn":["left"]},
 	"164": {"cls":"terrains","id":"arrowRight","canPass":true,"cannotOut":["up","down","left"],"cannotIn":["right"]},
 	"165": {"cls":"terrains","id":"light","trigger":"null","canPass":true,"script":"(function () {\n\tcore.setBlock(core.getNumberById('darkLight'), core.getHeroLoc('x'), core.getHeroLoc('y'));\n})();"},
@@ -248,5 +248,6 @@ var maps_90f36752_8815_4be8_b32b_d7fad1d0542e =
 	"348": {"cls":"terrains","id":"T348"},
 	"349": {"cls":"terrains","id":"T349"},
 	"350": {"cls":"terrains","id":"T350"},
-	"30132": {"cls":"tileset","id":"X30132","event":[]}
+	"30132": {"cls":"tileset","id":"X30132","event":[]},
+	"90268": {"cls":"tileset","id":"X90268","canPass":true}
 }
