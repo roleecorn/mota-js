@@ -103,6 +103,15 @@ main.floors.MT1=
                         "type": "setCurtain",
                         "time": 500
                     },
+                    {
+                        "type": "animate",
+                        "name": "EMyiwen",
+                        "loc": [
+                            6,
+                            9
+                        ],
+                        "async": true
+                    },
                     "\t[弱智,default]痾......我這是怎麼了",
                     "\t[弱智,default]怪了，我視線怎麼這麼低，眼睛前面這個鏈鋸又是甚麼汪！",
                     "\t[弱智,default]找找我的劍吧，等等???",

@@ -60,7 +60,14 @@ main.floors.story_4=
                 "delayExecute": false,
                 "multiExecute": false,
                 "data": [
-                    "\t[弱智,default]......",
+                    {
+                        "type": "animate",
+                        "name": "EMsikao",
+                        "loc": [
+                            6,
+                            11
+                        ]
+                    },
                     "\t[弱智,default]不對",
                     "\t[弱智,default]不對不對不對 不對不對不對 不對不對不對 不對不對不對",
                     "\t[弱智,default]不行的阿，我做不到阿，幹這就是平常訓練少的後果嗎，完全做不到哇",
@@ -68,7 +75,14 @@ main.floors.story_4=
                     "\t[弱智,default]仔細想想，我們國家的畫風也太奇怪了吧，為甚麼所有人都那麼陽光正向阿，我的\n陰暗面都被淨化了阿",
                     "\t[弱智,default]為甚麼會有人闖進別人的房子後只幫人家照顧小孩跟整理房子的",
                     "\t[弱智,default]發生衝突後過沒十秒就開心地互相祝福對方又是什麼鬼啦",
-                    "\t[弱智,default]......",
+                    {
+                        "type": "animate",
+                        "name": "EMsikao",
+                        "loc": [
+                            6,
+                            11
+                        ]
+                    },
                     "\t[弱智,default]好像...也只能走了，從勇者國被趕出去我就完了啊",
                     "\t[弱智,default]......收拾收拾走了吧，該去那座「魔塔」",
                     "\t[弱智,default]至少需要劍、盾才能算勇者吧，另外錢還是要帶的"
@@ -226,10 +240,10 @@ main.floors.story_4=
     ],
     "downFloor": [
         6,
-        12
+        11
     ],
     "flyPoint": [
         6,
-        12
+        11
     ]
 }
