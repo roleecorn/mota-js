@@ -21,10 +21,11 @@ main.floors.MT4=
             "炭烤蜜瓜兔子"
         ],
         "4,3": [
-            "\t[弱智,default]奇怪，前面那個是什麼汪",
-            "\t[弱智,default]「碳烤蜜瓜兔子」?這是甚麼名字汪",
-            "\t[弱智,default]難不成是賣食物的?",
-            "\t[弱智,default]進去看一下好了"
+            {
+                "type": "setValue",
+                "name": "flag:__MT4Flag1__",
+                "value": "1"
+            }
         ]
     },
     "changeFloor": {
@@ -45,7 +46,22 @@ main.floors.MT4=
     "afterBattle": {},
     "afterGetItem": {},
     "afterOpenDoor": {},
-    "autoEvent": {},
+    "autoEvent": {
+        "4,3": {
+            "0": {
+                "condition": "flag:__MT4Flag1__===1",
+                "currentFloor": true,
+                "priority": 0,
+                "delayExecute": false,
+                "multiExecute": false,
+                "data": [
+                    "\t[弱智,default]奇怪，前面那個是什麼汪",
+                    "\t[弱智,default]「碳烤蜜瓜兔子」?這是甚麼名字汪",
+                    "\t[弱智,default]難不成是賣食物的?",
+                    "\t[弱智,default]進去看一下好了",                ]
+            }
+        }
+    },
     "cannotMove": {},
     "cannotMoveIn": {},
     "map": [
