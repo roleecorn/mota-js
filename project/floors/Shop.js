@@ -1,6 +1,6 @@
-main.floors.shop=
+main.floors.Shop=
 {
-    "floorId": "shop",
+    "floorId": "Shop",
     "title": "主塔 10 层",
     "name": "10",
     "width": 13,
