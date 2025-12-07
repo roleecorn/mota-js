@@ -109,6 +109,7 @@ var maps_90f36752_8815_4be8_b32b_d7fad1d0542e =
 	"141": {"cls":"autotile","id":"autotile6"},
 	"142": {"cls":"autotile","id":"autotile8"},
 	"143": {"cls":"autotile","id":"autotile9"},
+	"144": {"cls":"autotile","id":"autotile10"},
 	"151": {"cls":"autotile","id":"autotile1"},
 	"152": {"cls":"autotile","id":"autotile2"},
 	"153": {"cls":"autotile","id":"autotile3"},

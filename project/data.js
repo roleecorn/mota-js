@@ -231,7 +231,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 		"title": "魔塔样板",
 		"name": "idiot",
 		"version": "Ver 2.10.3",
-		"floorId": "story_1",
+		"floorId": "MT2",
 		"hero": {
 			"image": "hero.png",
 			"animate": false,
@@ -244,7 +244,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"atk": 100,
 			"def": 100,
 			"mdef": 0,
-			"money": 0,
+			"money": 1000,
 			"exp": 0,
 			"equipment": [],
 			"items": {
@@ -254,7 +254,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			},
 			"loc": {
 				"direction": "up",
-				"x": 6,
+				"x": 11,
 				"y": 9
 			},
 			"flags": {},
