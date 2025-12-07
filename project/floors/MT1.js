@@ -54,7 +54,28 @@ main.floors.MT1=
                         "function": "function(){\ncore.jumpHero(6,9,300);\n}"
                     },
                     "\t[弱智,idiot.png]不是，哥們，這塔真有問題啊",
-                    "\t[弱智,idiot.png]話說回來，眼皮好像有點重......"
+                    "\t[弱智,idiot.png]話說回來，眼皮好像有點重......",
+                    {
+                        "type": "setCurtain",
+                        "color": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "time": 500,
+                        "keep": true
+                    },
+                    {
+                        "type": "function",
+                        "function": "function(){\ncore.setHeroIcon('Pochita2.png', false);\n}"
+                    },
+                    "我們並不敬愛的朋友，勇者弱智，已經於王國曆545年12月18號離開了我們，留下...",
+                    "什麼?你說沒死?真無聊",
+                    {
+                        "type": "setCurtain",
+                        "time": 500
+                    }
                 ]
             },
             "1": null
