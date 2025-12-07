@@ -47,12 +47,7 @@ main.floors.Shop=
         "\t[店長,triangle.png]可是你看起來很興奮啊",
         "\t[弱智,default]我不是，我沒有汪",
         "\t[店長,triangle.png]那就當作你說的是真的吧咪",
-        "\t[弱智,default]不是，我說的真的，你聽我說汪",
-        {
-            "type": "setValue",
-            "name": "flag:__shopSecond__",
-            "value": "1"
-        }
+        "\t[弱智,default]不是，我說的真的，你聽我說汪"
     ],
     "eachArrive": [
         {
@@ -61,22 +56,50 @@ main.floors.Shop=
             "true": [
                 "\t[店長,trinagle.png]嗯?原來你還活著",
                 {
-                    "type": "choices",
-                    "text": "\t[弱智,default]",
-                    "choices": [
+                    "type": "switch",
+                    "condition": "Math.floor(Math.random() * 3);",
+                    "caseList": [
                         {
-                            "text": "不要詛咒我啊汪",
-                            "action": []
+                            "case": "0",
+                            "action": [
+                                {
+                                    "type": "comment",
+                                    "text": "当判别值是值的场合执行此事件"
+                                },
+                                "\t[弱智,default]不要詛咒我啊汪"
+                            ]
                         },
                         {
-                            "text": "甚麼話這是汪",
-                            "action": []
+                            "case": "1",
+                            "action": [
+                                {
+                                    "type": "comment",
+                                    "text": "当没有符合的值的场合执行default事件"
+                                },
+                                "\t[弱智,default]甚麼話這是汪"
+                            ]
                         },
                         {
-                            "text": "你為甚麼好像很意外的樣子汪",
-                            "action": []
+                            "case": "2",
+                            "action": [
+                                {
+                                    "type": "comment",
+                                    "text": "当没有符合的值的场合执行default事件"
+                                },
+                                "\t[弱智,default]你為甚麼好像很意外的樣子汪"
+                            ]
                         }
                     ]
+                },
+                {
+                    "type": "exit"
+                }
+            ],
+            "false": [
+                {
+                    "type": "setValue",
+                    "name": "flag:__shopSecond__",
+                    "value": "1"
                 }
             ]
         }
