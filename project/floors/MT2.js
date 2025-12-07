@@ -18,11 +18,49 @@ main.floors.MT2=
     "parallelDo": "",
     "events": {
         "10,3": [
-            "欢迎使用事件编辑器(双击方块可直接预览)",
+            "\t[???,Getter.png]這裡怎麼有狗?",
+            {
+                "type": "jumpHero",
+                "time": 200
+            },
+            {
+                "type": "jumpHero",
+                "time": 200,
+                "async": true
+            },
+            "\t[弱智,default]什麼狗!我是人!!!",
+            {
+                "type": "waitAsync"
+            },
+            "\t[???,Getter.png]是來塔裡的勇者嗎?不過你看起來好弱",
+            "\t[???,Getter.png]剛好我這邊有適合你的武器跟防具，裝備上保證切怪很順手",
+            "\t[弱智,default]什麼?這塔裡竟然還有這種能夠補給的地方，太好了",
+            "\t[弱智,default]幸好我帶了很多錢，沒想到還真的有用汪",
+            "\t[???,Getter.png]這把神劍只需要${core.status.hero.money}金就可以了",
+            "\t[弱智,default]太好了，剛剛好夠耶",
+            "\t[弱智,default]買，現在就買汪",
+            {
+                "type": "animate",
+                "name": "EMyinyue",
+                "loc": [
+                    10,
+                    4
+                ]
+            },
             {
                 "type": "setValue",
                 "name": "status:money",
                 "value": "0"
+            },
+            {
+                "type": "hide",
+                "loc": [
+                    [
+                        11,
+                        1
+                    ]
+                ],
+                "remove": true
             },
             {
                 "type": "function",
@@ -32,10 +70,70 @@ main.floors.MT2=
                 "type": "loadEquip",
                 "id": "sword1"
             },
+            "\t[弱智,default]兔子姊姊，你的聲音好色喔，不過聽起來好像開了變聲器喔汪",
+            {
+                "type": "animate",
+                "name": "SLyiwen",
+                "loc": [
+                    10,
+                    3
+                ],
+                "async": true
+            },
+            "\t[???,Getter.png]??????",
+            {
+                "type": "waitAsync"
+            },
+            {
+                "type": "animate",
+                "name": "SLshengqi",
+                "loc": [
+                    10,
+                    3
+                ],
+                "async": true
+            },
+            "\t[???,Getter.png]蛤?不是，你怎麼這麼下頭，而且為什麼一說完這句就攻擊我的聲音啊",
+            "\t[???,Getter.png]你要不要為我受的困擾道歉",
+            "\t[弱智,default]對不起，我造成你很多不必要的困擾汪",
+            "\t[???,Getter.png]下次遇到，你要跪著爬過來",
+            {
+                "type": "waitAsync"
+            },
+            {
+                "type": "animate",
+                "name": "EMyiwen",
+                "loc": [
+                    10,
+                    3
+                ],
+                "async": true
+            },
+            "\t[???,Getter.png]等下，你在幹嘛，不准興奮！",
+            "\t[弱智,default]我沒，我沒有汪！",
+            "\t[???,Getter.png]不接受謊言！",
+            "\t[弱智,default]沒有汪！",
+            "\t[???,Getter.png]沒有以後就都沒有了",
+            "\t[弱智,default]有......有一點點汪",
+            {
+                "type": "waitAsync"
+            },
+            "\t[???,Getter.png]好噁心",
+            "\t[???,Getter.png](這就調教完了嗎?太快了吧)",
+            "\t[弱智,default]媽的，不是，我沒有，我真的沒有",
             {
                 "type": "hide",
-                "remove": true
+                "remove": true,
+                "time": 500
             },
+            "\t[弱智,default]你聽我解釋啊汪",
+            "\t[弱智,default]這首富的事情能算......",
+            {
+                "type": "waitAsync"
+            },
+            "\t[弱智,default]不對，人去哪裡了汪",
+            "\t[弱智,default]我的名聲要毀掉了啊汪",
+            "\t[弱智,default]得趕快上去找他汪",
             {
                 "type": "setValue",
                 "name": "flag:__MeetGetter1__",
@@ -101,7 +199,7 @@ main.floors.MT2=
     "cannotMoveIn": {},
     "map": [
     [144,144,144,144,144,144,144,144,144,144,144,144,144],
-    [144,  0,  0,  0,  2,  0,  0,  0,  2,  0,  0,  0,144],
+    [144,  0,  0,  0,  2,  0,  0,  0,  2,  0,  0, 35,144],
     [144,  0,  0,  0,  2,  0,  0,  0,  2,  0,  0,  0,144],
     [144,  0,  0,  0,  2,  0,  0,  0,  2,  0,351,  0,144],
     [144,  2, 82,  2,  2,  2, 81,  2,  2,  2,  0,  2,144],
