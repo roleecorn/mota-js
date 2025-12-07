@@ -243,7 +243,7 @@ var maps_90f36752_8815_4be8_b32b_d7fad1d0542e =
 	"342": {"cls":"items","id":"I342"},
 	"343": {"cls":"items","id":"I343"},
 	"344": {"cls":"items","id":"I344"},
-	"345": {"cls":"npcs","id":"N345","event":["\t[弱智,default]拿點錢好了",{"type":"function","function":"function(){\ncore.status.hero.money+=1000;\n}"},{"type":"playSound","name":"gold.mp3"}]},
+	"345": {"cls":"npcs","id":"N345","event":["\t[弱智,default]拿點錢好了",{"type":"function","function":"function(){\ncore.status.hero.money+=10000;\n}"},{"type":"playSound","name":"gold.mp3"}]},
 	"346": {"cls":"terrains","id":"T346"},
 	"347": {"cls":"terrains","id":"T347"},
 	"348": {"cls":"terrains","id":"T348"},
