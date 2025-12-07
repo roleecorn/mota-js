@@ -34,7 +34,7 @@ main.floors.story_1=
         {
             "type": "autoText",
             "text": "我，弱智，一個勇者國的底層勇者，現在正在面臨我人生中最大的危機",
-            "time": 1000
+            "time": 4000
         },
         {
             "type": "setCurtain",
@@ -45,7 +45,7 @@ main.floors.story_1=
         "\t[女王,queen.png]你不願意嗎?",
         "\t[弱智,default]這個...沒有，我很願意",
         "\t[女王,queen.png]那就好，我就知道我們勇者國的所有勇者都心懷正義",
-        "\t[弱智,idiot]我這就...出發...",
+        "\t[弱智,default]我這就...出發...",
         {
             "type": "changeFloor",
             "floorId": ":next",
