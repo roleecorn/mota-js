@@ -1,8 +1,8 @@
 main.floors.MT4_5=
 {
     "floorId": "MT4_5",
-    "title": "主塔 5 层",
-    "name": "5",
+    "title": "主塔 4.5 层",
+    "name": "4.5",
     "width": 13,
     "height": 13,
     "canFlyTo": true,
