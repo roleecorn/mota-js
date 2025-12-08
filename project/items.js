@@ -366,6 +366,10 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 												"type": "setValue",
 												"name": "temp:_A",
 												"value": "1"
+											},
+											{
+												"type": "function",
+												"function": "function(){\ncore.turnHero(\"right\");\n}"
 											}
 										]
 									},
@@ -377,6 +381,10 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 												"type": "setValue",
 												"name": "temp:_A",
 												"value": "1"
+											},
+											{
+												"type": "function",
+												"function": "function(){\ncore.turnHero(\"left\");\n}"
 											}
 										]
 									}
@@ -664,8 +672,8 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 	},
 	"I337": {
 		"cls": "items",
-		"name": "新物品",
-		"canUseItemEffect": "true"
+		"name": "魔法鑰匙",
+		"canUseItemEffect": "false"
 	},
 	"I338": {
 		"cls": "items",
