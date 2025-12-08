@@ -208,5 +208,6 @@ main.floors.story_2=
     "upFloor": [
         12,
         6
-    ]
+    ],
+    "bgm": "Town_real2_mvt.m4a"
 }

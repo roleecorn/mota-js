@@ -74,5 +74,6 @@ main.floors.MT0=
     "downFloor": [
         6,
         12
-    ]
+    ],
+    "bgm": "bgm.mp3"
 }
