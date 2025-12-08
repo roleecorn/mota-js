@@ -15,6 +15,10 @@ main.floors.story_1=
     "defaultGround": "X20004",
     "firstArrive": [
         {
+            "type": "loadBgm",
+            "name": "palace.m4a"
+        },
+        {
             "type": "hideStatusBar"
         },
         {
@@ -40,12 +44,20 @@ main.floors.story_1=
             "type": "setCurtain",
             "time": 500
         },
+        {
+            "type": "playBgm",
+            "name": "palace.m4a",
+            "keep": true
+        },
         "\t[國王,king.png]勇者弱智，你已經被選中成為下一個去高塔裡拯救公主的人，快去準備出發吧",
         "\t[弱智,default]這個嘛...痾...嗯...啊",
         "\t[女王,queen.png]你不願意嗎?",
         "\t[弱智,default]這個...沒有，我很願意",
         "\t[女王,queen.png]那就好，我就知道我們勇者國的所有勇者都心懷正義",
         "\t[弱智,default]我這就...出發...",
+        {
+            "type": "pauseBgm"
+        },
         {
             "type": "changeFloor",
             "floorId": ":next",

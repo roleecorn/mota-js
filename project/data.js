@@ -92,7 +92,12 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"zone"
 		],
 		"bgms": [
-			"bgm.mp3"
+			"EndingRabbit.m4a",
+			"Opening.m4a",
+			"bgm.mp3",
+			"bossBattle.m4a",
+			"palace.m4a",
+			"shop.m4a"
 		],
 		"sounds": [
 			"attack.mp3",
@@ -191,7 +196,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"武器",
 			"盾牌"
 		],
-		"startBgm": null,
+		"startBgm": "Opening.m4a",
 		"styles": {
 			"startBackground": "project/images/bg.jpg",
 			"startVerticalBackground": "project/images/bg.jpg",
