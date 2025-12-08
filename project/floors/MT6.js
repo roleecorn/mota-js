@@ -35,7 +35,11 @@ main.floors.MT6=
             {
                 "type": "waitAsync"
             },
-            "\t[弱智,default]咦?退開了?"
+            "\t[弱智,default]咦?退開了?",
+            {
+                "type": "hide",
+                "remove": true
+            }
         ]
     },
     "changeFloor": {

@@ -20,7 +20,8 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"MT8",
 			"MT9",
 			"MT10",
-			"Shop"
+			"Shop",
+			"MT4_5"
 		],
 		"floorPartitions": [],
 		"images": [
@@ -241,7 +242,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 		"title": "魔塔样板",
 		"name": "idiot",
 		"version": "Ver 0.8.3",
-		"floorId": "story_1",
+		"floorId": "MT6",
 		"hero": {
 			"image": "hero.png",
 			"animate": false,
@@ -264,8 +265,8 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			},
 			"loc": {
 				"direction": "up",
-				"x": 6,
-				"y": 9
+				"x": 11,
+				"y": 11
 			},
 			"flags": {},
 			"followers": [],

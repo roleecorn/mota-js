@@ -183,21 +183,27 @@ items.prototype.setItem = function (itemId, itemNum) {
 
 ////// 增加某个物品的个数 //////
 items.prototype.addItem = function (itemId, itemNum) {
+    console.log(1);
     if (itemNum == null) itemNum = 1;
     var itemData = core.material.items[itemId];
+    console.log(itemData);
     var itemCls = itemData.cls;
     if (itemCls == 'items') return;
     if (core.status.hero.items[itemCls][itemId] == null) {
         core.status.hero.items[itemCls][itemId] = 0;
     }
+    console.log(1);
     core.status.hero.items[itemCls][itemId] += itemNum;
     if (core.status.hero.items[itemCls][itemId] <= 0) {
         delete core.status.hero.items[itemCls][itemId];
     }
+    console.log(1);
     // 永久道具只能有一个
     if (itemCls == 'constants' && core.status.hero.items[itemCls][itemId] > 1)
         core.status.hero.items[itemCls][itemId] = 1;
+    console.log(1);
     core.updateStatusBar();
+    console.log(1);
 }
 
 ////// 删除某个物品 //////
