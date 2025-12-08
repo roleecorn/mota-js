@@ -18,67 +18,92 @@ main.floors.MT7=
     "parallelDo": "",
     "events": {
         "6,9": [
-            "\t[弱智,default]等下，又是你，那隻可惡的兔子汪",
-            "\t[???,Getter.png]嗯?我上次說甚麼",
-            "\t[弱智,default](跪下、爬行)好的主人，是的主人汪",
-            "\t[弱智,default]不對，你是不是又要騙我錢了汪",
-            "\t[???,Getter.png]並沒有，我這次說的可都是真話，我需要你的盾牌，我可以把它強化成更強的型態",
-            "\t[???,Getter.png]交出來吧，狗狗",
             {
-                "type": "choices",
-                "text": "交出來嗎?",
-                "choices": [
+                "type": "if",
+                "condition": "(core.hasEquip('shield2') ||core.hasItem('shield2'))",
+                "true": [
+                    "\t[弱智,default]等下，又是你，那隻可惡的兔子汪",
+                    "\t[???,Getter.png]嗯?我上次說甚麼",
+                    "\t[弱智,default](跪下、爬行)好的主人，是的主人汪",
+                    "\t[弱智,default]不對，你是不是又要騙我錢了汪",
+                    "\t[???,Getter.png]並沒有，我這次說的可都是真話，我需要你的盾牌，我可以把它強化成更強的型態",
+                    "\t[???,Getter.png]交出來吧，狗狗",
                     {
-                        "text": "好的主人汪",
-                        "action": [
+                        "type": "choices",
+                        "text": "交出來嗎?",
+                        "choices": [
                             {
-                                "type": "setValue",
-                                "name": "flag:__Getter2__",
-                                "value": "1"
+                                "text": "好的主人汪",
+                                "action": [
+                                    {
+                                        "type": "setValue",
+                                        "name": "flag:__Getter2__",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "type": "if",
+                                        "condition": "core.hasEquip('shield2') ",
+                                        "true": [
+                                            {
+                                                "type": "unloadEquip",
+                                                "pos": 1
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "setValue",
+                                        "name": "item:shield2",
+                                        "value": "0"
+                                    },
+                                    "\t[???,Getter.png]很好，我就知道你做得到，現在跪下來再汪兩聲",
+                                    "\t[弱智,default](趴下)汪!汪!",
+                                    "\t[弱智,default]主人，所以升級完的盾牌你甚麼時候給我汪",
+                                    "\t[???,Getter.png]什麼盾牌?你說甚麼我聽不懂",
+                                    {
+                                        "type": "hide",
+                                        "remove": true
+                                    },
+                                    "\t[弱智,default](爬起來)不是，你又坑我",
+                                    "\t[弱智,default]不要再搞我了啦幹！",
+                                    {
+                                        "type": "animate",
+                                        "name": "EMsikao",
+                                        "loc": "hero"
+                                    },
+                                    "\t[弱智,default]我到底...在幹什麼汪",
+                                    "\t[弱智,default]不行，弱智啊弱智，你怎麼會如此墮落",
+                                    "\t[弱智,default]我一定要脫離主...那兔子的掌控"
+                                ]
                             },
-                            "\t[???,Getter.png]很好，我就知道你做得到，現在跪下來再汪兩聲",
-                            "\t[弱智,default](趴下)汪!汪!",
-                            "\t[弱智,default]主人，所以升級完的盾牌你甚麼時候給我汪",
-                            "\t[???,Getter.png]什麼盾牌?你說甚麼我聽不懂",
                             {
-                                "type": "hide",
-                                "remove": true
-                            },
-                            "\t[弱智,default](爬起來)不是，你又坑我",
-                            "\t[弱智,default]不要再搞我了啦幹！",
-                            {
-                                "type": "animate",
-                                "name": "EMsikao",
-                                "loc": "hero"
-                            },
-                            "\t[弱智,default]我到底...在幹什麼汪",
-                            "\t[弱智,default]不行，弱智啊弱智，你怎麼會如此墮落",
-                            "\t[弱智,default]我一定要脫離主...那兔子的掌控"
+                                "text": "媽的，你肯定又坑我，我才不交",
+                                "action": [
+                                    "\t[弱智,default]我不會再被你騙一次的汪",
+                                    "\t[弱智,default]我這次肯定不交",
+                                    "\t[???,Getter.png]不交?不交就不交，下好離手，不能後悔喔",
+                                    "\t[弱智,default]過去抖M的我已經死了，現在是更加抖...呸胚，意志堅定的我",
+                                    "\t[???,Getter.png]那你的獎勵也取消了，再見",
+                                    {
+                                        "type": "hide",
+                                        "remove": true
+                                    },
+                                    {
+                                        "type": "animate",
+                                        "name": "EMsikao",
+                                        "loc": "hero"
+                                    },
+                                    "\t[弱智,default]可惡，剛剛說不知錢應該要先請他踩我一遍的",
+                                    "這個沒救了，直接電死吧"
+                                ]
+                            }
                         ]
                     },
                     {
-                        "text": "媽的，你肯定又坑我，我才不交",
-                        "action": [
-                            "\t[弱智,default]我不會再被你騙一次的汪",
-                            "\t[弱智,default]我這次肯定不交",
-                            "\t[???,Getter.png]不交?不交就不交，下好離手，不能後悔喔",
-                            "\t[弱智,default]過去抖M的我已經死了，現在是更加抖...呸胚，意志堅定的我",
-                            "\t[???,Getter.png]那你的獎勵也取消了，再見",
-                            {
-                                "type": "hide",
-                                "remove": true
-                            },
-                            {
-                                "type": "animate",
-                                "name": "EMsikao",
-                                "loc": "hero"
-                            },
-                            "\t[弱智,default]可惡，剛剛說不知錢應該要先請他踩我一遍的",
-                            "這個沒救了，直接電死吧"
-                        ]
+                        "type": "exit"
                     }
                 ]
-            }
+            },
+            "這裡保留給沒有帶盾牌就看到蓋特的事件"
         ]
     },
     "changeFloor": {
@@ -104,7 +129,7 @@ main.floors.MT7=
     [144,  0,  0,144,  0,  0,  2,  0,  2,  0,  0,  0,144],
     [144,  0,144,144,144,  0,  2,  0,  2,  0,  0,  0,144],
     [144,  0,  0,144,  0,  0,  2,  0,  2,  2,  2,  0,144],
-    [144,  0,  0,  0,  0,  0,  2,  0,  2,  0,  2,  0,144],
+    [144,  0,  0,  0,  0,  0,  2,  0,  2, 38,  2,  0,144],
     [144,  2,  2,  2,  2,  2,  2,  0,  2,  0,  0,  0,144],
     [144,  0,  0,  0,  0,  0,  0,  0,  2,  2,  2,  2,144],
     [144,  0,  0,  0,  2,  0,  0,  0,  0,  0,  0,  0,144],
