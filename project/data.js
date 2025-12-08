@@ -242,7 +242,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 		"title": "魔塔样板",
 		"name": "idiot",
 		"version": "Ver 0.8.3",
-		"floorId": "MT6",
+		"floorId": "story_1",
 		"hero": {
 			"image": "hero.png",
 			"animate": false,
@@ -265,8 +265,8 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			},
 			"loc": {
 				"direction": "up",
-				"x": 11,
-				"y": 11
+				"x": 6,
+				"y": 9
 			},
 			"flags": {},
 			"followers": [],
