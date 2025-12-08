@@ -132,7 +132,8 @@ var icons_4665ee12_3a1f_44a4_bea3_0fccba634dc1 =
 		"tallRedDoor": 6,
 		"tallGreenDoor": 7,
 		"tallSpecialDoor": 8,
-		"tallSteelDoor": 9
+		"tallSteelDoor": 9,
+		"N353": 10
 	},
 	"enemys": {
 		"greenSlime": 0,

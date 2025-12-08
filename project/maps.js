@@ -220,9 +220,9 @@ var maps_90f36752_8815_4be8_b32b_d7fad1d0542e =
 	"319": {"cls":"npc48","id":"tallYellowDoor","trigger":"openDoor","name":"高黄门","animate":1,"doorInfo":{"time":160,"openSound":"door.mp3","closeSound":"door.mp3","keys":{"yellowKey":1}}},
 	"320": {"cls":"npc48","id":"tallBlueDoor","trigger":"openDoor","name":"高蓝门","animate":1,"doorInfo":{"time":160,"openSound":"door.mp3","closeSound":"door.mp3","keys":{"blueKey":1}}},
 	"321": {"cls":"npc48","id":"tallRedDoor","trigger":"openDoor","name":"高红门","animate":1,"doorInfo":{"time":160,"openSound":"door.mp3","closeSound":"door.mp3","keys":{"redKey":1}}},
-	"322": {"cls":"npc48","id":"tallGreenDoor","trigger":"openDoor","name":"高绿门","animate":1,"doorInfo":{"time":160,"openSound":"door.mp3","closeSound":"door.mp3","keys":{"greenKey":1}}},
-	"323": {"cls":"npc48","id":"tallSpecialDoor","trigger":"openDoor","name":"高机关门","animate":1,"doorInfo":{"time":160,"openSound":"door.mp3","closeSound":"door.mp3","keys":{"specialKey":1}}},
-	"324": {"cls":"npc48","id":"tallSteelDoor","trigger":"openDoor","name":"高铁门","animate":1,"doorInfo":{"time":160,"openSound":"door.mp3","closeSound":"door.mp3","keys":{"steelKey":1}}},
+	"322": {"cls":"npc48","id":"tallGreenDoor","trigger":"openDoor","name":"高绿门","animate":1,"doorInfo":{"time":160,"openSound":"door.mp3","closeSound":"door.mp3","keys":{"greenKey":1}},"faceIds":{"down":"tallGreenDoor","left":"tallSpecialDoor","right":"tallSteelDoor","up":"N353"}},
+	"323": {"cls":"npc48","id":"tallSpecialDoor","trigger":"openDoor","name":"高机关门","animate":1,"doorInfo":{"time":160,"openSound":"door.mp3","closeSound":"door.mp3","keys":{"specialKey":1}},"faceIds":{"down":"tallGreenDoor","left":"tallSpecialDoor","right":"tallSteelDoor","up":"N353"}},
+	"324": {"cls":"npc48","id":"tallSteelDoor","trigger":"openDoor","name":"高铁门","animate":1,"doorInfo":{"time":160,"openSound":"door.mp3","closeSound":"door.mp3","keys":{"steelKey":1}},"faceIds":{"down":"tallGreenDoor","left":"tallSpecialDoor","right":"tallSteelDoor","up":"N353"}},
 	"325": {"cls":"enemys","id":"keiskeiFairy"},
 	"326": {"cls":"enemys","id":"tulipFairy"},
 	"327": {"cls":"enemy48","id":"bearDown"},
@@ -251,6 +251,7 @@ var maps_90f36752_8815_4be8_b32b_d7fad1d0542e =
 	"350": {"cls":"terrains","id":"T350"},
 	"351": {"cls":"npcs","id":"N351"},
 	"352": {"cls":"npcs","id":"N352"},
+	"353": {"cls":"npc48","id":"N353","faceIds":{"down":"tallGreenDoor","left":"tallSpecialDoor","right":"tallSteelDoor","up":"N353"}},
 	"30132": {"cls":"tileset","id":"X30132","event":[]},
 	"90268": {"cls":"tileset","id":"X90268","canPass":true}
 }
