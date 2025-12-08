@@ -166,7 +166,9 @@ main.floors.MT6=
                         "type": "setValue",
                         "name": "item:I337",
                         "value": "1"
-                    }
+                    },
+                    "\t[弱智,default]嗯?啊?不是，這個什麼時候出現在我手上的汪",
+                    "\t[弱智,default]算了找找看哪裡能用吧汪"
                 ]
             },
             "1": null
