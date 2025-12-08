@@ -55,11 +55,17 @@ main.floors.MT4=
                 "delayExecute": false,
                 "multiExecute": false,
                 "data": [
+                    {
+                        "type": "loadBgm",
+                        "name": "shop.m4a"
+                    },
                     "\t[弱智,default]奇怪，前面那個是什麼汪",
                     "\t[弱智,default]「碳烤蜜瓜兔子」?這是甚麼名字汪",
                     "\t[弱智,default]難不成是賣食物的?",
-                    "\t[弱智,default]進去看一下好了",                ]
-            }
+                    "\t[弱智,default]進去看一下好了"
+                ]
+            },
+            "1": null
         }
     },
     "cannotMove": {},

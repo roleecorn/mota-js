@@ -166,5 +166,6 @@ main.floors.Shop=
     "flyPoint": [
         6,
         9
-    ]
+    ],
+    "bgm": "shop.m4a"
 }
