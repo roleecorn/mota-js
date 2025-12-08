@@ -127,7 +127,70 @@ main.floors.Shop=
     "afterBattle": {},
     "afterGetItem": {},
     "afterOpenDoor": {},
-    "autoEvent": {},
+    "autoEvent": {
+        "6,10": {
+            "0": {
+                "condition": "flag:__Getter2__===1",
+                "currentFloor": true,
+                "priority": 1,
+                "delayExecute": false,
+                "multiExecute": false,
+                "data": [
+                    {
+                        "type": "moveHero",
+                        "time": 100,
+                        "steps": [
+                            "up:4"
+                        ]
+                    },
+                    "\t[弱智,default]幹您娘，我又被坑了啊啊啊啊",
+                    {
+                        "type": "animate",
+                        "name": "SLyiwen",
+                        "loc": [
+                            6,
+                            4
+                        ]
+                    },
+                    "\t[弱智,default]我的盾牌被他搶走了汪",
+                    "\t[弱智,default]我怎麼會被同樣一個人騙兩次啊",
+                    "\t[弱智,default]他跟我說能把盾牌強化成更強的型態，我就把盾牌交出去了啊啊啊啊",
+                    "\t[店長,triangle.png]嗯......這個免費送你咪",
+                    {
+                        "type": "setValue",
+                        "name": "item:sword2",
+                        "value": "1"
+                    },
+                    "獲得了一把漂亮的劍",
+                    "\t[弱智,default]真的?這麼好?",
+                    "\t[弱智,default]怪了，我怎麼反而感覺有點失望汪",
+                    {
+                        "type": "animate",
+                        "name": "EMsikao",
+                        "loc": [
+                            6,
+                            4
+                        ]
+                    },
+                    "\t[店長,triangle.png]咪",
+                    "\t[店長,triangle.png]對了，那個兔子，或者說你的主人的名字叫蓋特",
+                    "\t[店長,triangle.png]在強化成更強的型態這點上，他沒有欺騙你",
+                    "\t[弱智,default]何意味",
+                    "\t[店長,triangle.png]總之你可以相信他，下次遇到的時候直接問本人吧",
+                    {
+                        "type": "animate",
+                        "name": "EMsikao",
+                        "loc": [
+                            6,
+                            5
+                        ]
+                    },
+                    "\t[弱智,default]我會試試看的"
+                ]
+            },
+            "1": null
+        }
+    },
     "cannotMove": {},
     "cannotMoveIn": {},
     "map": [
