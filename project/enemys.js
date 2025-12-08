@@ -59,7 +59,7 @@ var enemys_fcae963b_31c9_42b4_b48c_bb48d09f3f80 =
 	"grayRock": {"name":"灰色石头人","hp":0,"atk":0,"def":0,"money":0,"exp":0,"point":0,"special":0},
 	"yellowPriest": {"name":"中级法师","hp":0,"atk":0,"def":0,"money":0,"exp":0,"point":0,"special":0},
 	"evilPrincess": {"name":"痛苦魔女","hp":1000,"atk":0,"def":0,"money":0,"exp":0,"point":0,"special":[10]},
-	"blademaster": {"name":"剑圣","hp":0,"atk":0,"def":0,"money":0,"exp":0,"point":0,"special":0},
+	"blademaster": {"name":"剑圣","hp":100,"atk":100,"def":100,"money":0,"exp":0,"point":0,"special":0},
 	"evilFairy": {"name":"黑暗仙子","hp":0,"atk":0,"def":0,"money":0,"exp":0,"point":0,"special":0},
 	"greenKnight": {"name":"强盾骑士","hp":0,"atk":0,"def":0,"money":0,"exp":0,"point":0,"special":0},
 	"bowman": {"name":"初级弓兵","hp":0,"atk":0,"def":0,"money":0,"exp":0,"point":0,"special":0},
