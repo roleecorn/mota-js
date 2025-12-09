@@ -13,7 +13,9 @@ main.floors.MT18=
     "images": [],
     "ratio": 1,
     "defaultGround": "",
-    "firstArrive": [],
+    "firstArrive": [
+        "\t[弱智,default]這裡是...研究室?沒想到塔裡還有這種地方"
+    ],
     "eachArrive": [
         {
             "type": "if",
