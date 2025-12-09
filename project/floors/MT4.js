@@ -25,6 +25,10 @@ main.floors.MT4=
                 "type": "setValue",
                 "name": "flag:__MT4Flag1__",
                 "value": "1"
+            },
+            {
+                "type": "hide",
+                "remove": true
             }
         ]
     },
