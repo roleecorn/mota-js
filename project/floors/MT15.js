@@ -50,6 +50,13 @@ main.floors.MT15=
                 "\t[弱智,default]又是你!這次我不會再眼睜睜的看著你逃跑了汪",
                 "\t[蓋特,Getter.png]狗狗，坐下",
                 "\t[弱智,default](坐下)是的，主人汪",
+                {
+                    "type": "vibrate",
+                    "direction": "horizontal",
+                    "time": 500,
+                    "speed": 5,
+                    "power": 5
+                },
                 "\t[弱智,default](站起來)不對，不對不對不對",
                 "\t[弱智,default]我不能再這樣下去了，我可是勇者國的勇者啊",
                 "\t[蓋特,Getter.png]所以你就說你要不要獎勵",
@@ -58,18 +65,42 @@ main.floors.MT15=
                 "\t[弱智,default]謝謝您的獎勵",
                 "\t[弱智,default]所以主人這次是來找我要甚麼的汪",
                 "\t[蓋特,Getter.png]把你身上那瓶聖水給我吧，我有用處",
-                "\t[弱智,default]......",
+                {
+                    "type": "animate",
+                    "name": "EMsikao",
+                    "loc":"hero"
+                },
                 "\t[弱智,default]不要",
                 "\t[蓋特,Getter.png]蛤?",
                 "\t[弱智,default]除非你告訴我你準備拿它來做什麼汪",
                 "\t[蓋特,Getter.png]你確定?",
                 "\t[弱智,default]這...這個東西對我來說很重要，除非你告訴我目的，不然我不會交出來的汪!",
-                "\t[蓋特,Getter.png]......",
+                {
+                    "type": "animate",
+                    "name": "EMsikao",
+                    "loc": [
+                        5,
+                        7
+                    ]
+                },
                 "\t[蓋特,Getter.png]為了逃出這座塔",
+                {
+                    "type": "animate",
+                    "name": "SLyiwen",
+                    "loc":"hero",
+                    "async": true
+                },
                 "\t[弱智,default]逃出這座塔?",
                 "\t[蓋特,Getter.png]對，就這樣",
+                {
+                    "type": "waitAsync"
+                },
                 "\t[蓋特,Getter.png]我就站在這裡等了",
-                "\t[弱智,default]......",
+                {
+                    "type": "animate",
+                    "name": "EMsikao",
+                    "loc":"hero"
+                },
                 {
                     "type": "choices",
                     "text": "要不要把聖水交出去",
@@ -88,7 +119,11 @@ main.floors.MT15=
                         }
                     ]
                 },
-                "\t[弱智,default]......",
+                {
+                    "type": "animate",
+                    "name": "EMsikao",
+                    "loc":"hero"
+                },
                 "\t[弱智,default][用爪子把聖水往前推了過去]",
                 "\t[弱智,default]雖然我被你騙了很多次，但這次......我相信你",
                 "\t[蓋特,Getter.png]真的?",
@@ -128,6 +163,7 @@ main.floors.MT15=
     "afterOpenDoor": {},
     "autoEvent": {
         "5,7": {
+            "0": null,
             "1": null
         }
     },
