@@ -71,6 +71,10 @@ main.floors.MT18=
                 "time": 500,
                 "keep": true
             },
+            {
+                "type": "setCurtain",
+                "time": 500
+            },
             "\t[弱智,default]好痛，甚麼鬼汪",
             "\t[弱智,default]怪了怎麼這裡也有一堆的書汪",
             {

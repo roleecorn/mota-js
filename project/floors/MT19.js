@@ -30,7 +30,11 @@ main.floors.MT19=
             "floorId": ":next"
         },
         "9,11": {
-            "floorId": ":before"
+            "floorId": "MT18",
+            "loc": [
+                6,
+                11
+            ]
         }
     },
     "beforeBattle": {},
