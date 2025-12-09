@@ -82,7 +82,7 @@ main.floors.MT15=
                 "\t[弱智,default]帶我離開這裡吧，蓋特主人汪!",
                 "\t[蓋特,Getter.png]我果然沒看錯你，小狗狗",
                 "\t[蓋特,Getter.png]你就繼續往塔頂前進，我會在前面等你的",
-                "\t[弱智,default]是的主人，汪!",
+                "\t[弱智,default]是的主人，汪!"
             ]
         }
     },
@@ -91,7 +91,29 @@ main.floors.MT15=
     "afterBattle": {},
     "afterGetItem": {},
     "afterOpenDoor": {},
-    "autoEvent": {},
+    "autoEvent": {
+        "5,7": {
+            "0": {
+                "condition": "core.hasItem('superPotion') && flags.__MeetGetter2__ ===1;",
+                "currentFloor": true,
+                "priority": 0,
+                "delayExecute": false,
+                "multiExecute": false,
+                "data": [
+                    {
+                        "type": "show",
+                        "loc": [
+                            [
+                                5,
+                                7
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "1": null
+        }
+    },
     "cannotMove": {},
     "cannotMoveIn": {},
     "map": [
