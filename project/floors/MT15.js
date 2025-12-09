@@ -115,7 +115,14 @@ main.floors.MT15=
                         },
                         {
                             "text": "主人的請求哪有拒絕的道理",
-                            "action": []
+                            "action": [
+                                {
+                                    "type": "setValue",
+                                    "name": "item:superPotion",
+                                    "operator": "-=",
+                                    "value": "1"
+                                }
+                            ]
                         }
                     ]
                 },
