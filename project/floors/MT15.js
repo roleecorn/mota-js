@@ -121,6 +121,11 @@ main.floors.MT15=
                                     "name": "item:superPotion",
                                     "operator": "-=",
                                     "value": "1"
+                                },
+                                {
+                                    "type": "setValue",
+                                    "name": "flag:GetterRode",
+                                    "value": "1"
                                 }
                             ]
                         }
