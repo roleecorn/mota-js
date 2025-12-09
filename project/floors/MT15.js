@@ -17,7 +17,7 @@ main.floors.MT15=
     "eachArrive": [
         {
             "type": "if",
-            "condition": "(core.hasItem('superPotion') &&( flags.__Getter2__ ===1;))",
+            "condition": "(core.hasItem('superPotion') &&( flags.__Getter2__ ===1))",
             "true": [
                 {
                     "type": "show",
