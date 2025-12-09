@@ -171,5 +171,6 @@ main.floors.MT18=
 ],
     "fgmap": [
 
-]
+],
+"bgm": "bgm.mp3"
 }

@@ -245,5 +245,6 @@ main.floors.MT4_5=
     "flyPoint": [
         6,
         10
-    ]
+    ],
+    "bgm": "bgm.mp3"
 }

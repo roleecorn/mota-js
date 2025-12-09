@@ -83,5 +83,6 @@ main.floors.MT13=
 ],
     "fgmap": [
 
-]
+],
+"bgm": "bgm.mp3"
 }

@@ -217,5 +217,6 @@ main.floors.MT2=
 ],
     "fgmap": [
 
-]
+],
+"bgm": "bgm.mp3"
 }

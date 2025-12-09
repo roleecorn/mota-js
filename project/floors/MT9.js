@@ -58,5 +58,6 @@ main.floors.MT9=
 ],
     "fgmap": [
 
-]
+],
+"bgm": "bgm.mp3"
 }

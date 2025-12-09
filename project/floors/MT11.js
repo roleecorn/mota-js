@@ -54,5 +54,6 @@ main.floors.MT11=
 ],
     "fgmap": [
 
-]
+],
+"bgm": "bgm.mp3"
 }

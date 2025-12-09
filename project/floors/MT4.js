@@ -94,5 +94,6 @@ main.floors.MT4=
 ],
     "fgmap": [
 
-]
+],
+"bgm": "bgm.mp3"
 }

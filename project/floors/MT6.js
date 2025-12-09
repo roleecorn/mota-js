@@ -200,5 +200,6 @@ main.floors.MT6=
 ],
     "fgmap": [
 
-]
+],
+"bgm": "bgm.mp3"
 }

@@ -64,5 +64,6 @@ main.floors.MT19=
 ],
     "fgmap": [
 
-]
+],
+"bgm": "bgm.mp3"
 }

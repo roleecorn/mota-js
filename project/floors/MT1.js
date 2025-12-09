@@ -161,5 +161,6 @@ main.floors.MT1=
     "upFloor": [
         5,
         0
-    ]
+    ],
+    "bgm": "bgm.mp3"
 }

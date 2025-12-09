@@ -246,5 +246,6 @@ main.floors.MT15=
 ],
     "fgmap": [
 
-]
+],
+"bgm": "bgm.mp3"
 }

@@ -143,5 +143,6 @@ main.floors.MT7=
 ],
     "fgmap": [
 
-]
+],
+"bgm": "bgm.mp3"
 }
