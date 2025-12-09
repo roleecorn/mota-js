@@ -13,13 +13,29 @@ main.floors.MT15=
     "images": [],
     "ratio": 1,
     "defaultGround": "",
-    "firstArrive": [],
-    "eachArrive": [],
+    "firstArrive": null,
+    "eachArrive": [
+        {
+            "type": "if",
+            "condition": "(core.hasItem('superPotion') &&( flags.__Getter2__ ===1;))",
+            "true": [
+                {
+                    "type": "show",
+                    "loc": [
+                        [
+                            5,
+                            7
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "parallelDo": "",
     "events": {
         "5,7": {
-            "trigger": "action",
-            "enable": true,
+            "trigger": null,
+            "enable": false,
             "noPass": null,
             "displayDamage": true,
             "opacity": 1,
@@ -82,7 +98,17 @@ main.floors.MT15=
                 "\t[弱智,default]帶我離開這裡吧，蓋特主人汪!",
                 "\t[蓋特,Getter.png]我果然沒看錯你，小狗狗",
                 "\t[蓋特,Getter.png]你就繼續往塔頂前進，我會在前面等你的",
-                "\t[弱智,default]是的主人，汪!"
+                "\t[弱智,default]是的主人，汪!",
+                {
+                    "type": "hide",
+                    "loc": [
+                        [
+                            5,
+                            7
+                        ]
+                    ],
+                    "remove": true
+                }
             ]
         }
     },
@@ -98,24 +124,6 @@ main.floors.MT15=
     "afterOpenDoor": {},
     "autoEvent": {
         "5,7": {
-            "0": {
-                "condition": "core.hasItem('superPotion') && flags.__Getter2__ ===1;",
-                "currentFloor": true,
-                "priority": 0,
-                "delayExecute": false,
-                "multiExecute": false,
-                "data": [
-                    {
-                        "type": "show",
-                        "loc": [
-                            [
-                                5,
-                                7
-                            ]
-                        ]
-                    }
-                ]
-            },
             "1": null
         }
     },
