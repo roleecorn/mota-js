@@ -19,7 +19,7 @@ main.floors.MT18=
     "eachArrive": [
         {
             "type": "if",
-            "condition": "flag:__kill__",
+            "condition": "(flag:__kill__&&(flag:GetterRode!==1))",
             "true": [
                 {
                     "type": "show",
