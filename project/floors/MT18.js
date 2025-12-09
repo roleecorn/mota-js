@@ -124,8 +124,11 @@ main.floors.MT18=
     },
     "changeFloor": {
         "6,11": {
-            "floorId": ":next",
-            "stair": "downFloor"
+            "floorId": "MT19",
+            "loc": [
+                9,
+                11
+            ]
         },
         "6,2": {
             "floorId": ":before",
@@ -172,5 +175,5 @@ main.floors.MT18=
     "fgmap": [
 
 ],
-"bgm": "bgm.mp3"
+    "bgm": "bgm.mp3"
 }

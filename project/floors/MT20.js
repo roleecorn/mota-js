@@ -13,7 +13,9 @@ main.floors.MT20=
     "images": [],
     "ratio": 1,
     "defaultGround": "",
-    "firstArrive": [],
+    "firstArrive": [
+        "\t[弱智,default]奇怪怎麼沒有路了"
+    ],
     "eachArrive": [],
     "parallelDo": "",
     "events": {},
@@ -23,7 +25,11 @@ main.floors.MT20=
             "stair": "upFloor"
         },
         "8,11": {
-            "floorId": ":before"
+            "floorId": "MT19",
+            "loc": [
+                8,
+                11
+            ]
         }
     },
     "beforeBattle": {},
@@ -54,5 +60,5 @@ main.floors.MT20=
     "fgmap": [
 
 ],
-"bgm": "bgm.mp3"
+    "bgm": "bgm.mp3"
 }
