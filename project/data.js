@@ -21,7 +21,12 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"MT9",
 			"MT10",
 			"Shop",
-			"MT4_5"
+			"MT4_5",
+			"MT11",
+			"MT12",
+			"MT13",
+			"MT14",
+			"MT15"
 		],
 		"floorPartitions": [],
 		"images": [
