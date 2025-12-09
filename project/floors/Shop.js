@@ -137,10 +137,16 @@ main.floors.Shop=
                 "multiExecute": false,
                 "data": [
                     {
-                        "type": "moveHero",
-                        "time": 100,
-                        "steps": [
-                            "up:4"
+                        "type": "while",
+                        "condition": "(core.getHeroLoc('y')  >5)",
+                        "data": [
+                            {
+                                "type": "moveHero",
+                                "time": 25,
+                                "steps": [
+                                    "up:1"
+                                ]
+                            }
                         ]
                     },
                     "\t[弱智,default]幹您娘，我又被坑了啊啊啊啊",
