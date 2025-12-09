@@ -35,7 +35,20 @@ main.floors.MT9=
     "afterBattle": {},
     "afterGetItem": {},
     "afterOpenDoor": {},
-    "autoEvent": {},
+    "autoEvent": {
+        "7,1": {
+            "0": {
+                "condition": "core.hasItem('superPotion'",
+                "currentFloor": true,
+                "priority": 0,
+                "delayExecute": false,
+                "multiExecute": false,
+                "data": [
+                    "\t[弱智,default]不知道能做什麼，先收著吧汪"
+                ]
+            }
+        }
+    },
     "cannotMove": {},
     "cannotMoveIn": {},
     "map": [
@@ -59,5 +72,5 @@ main.floors.MT9=
     "fgmap": [
 
 ],
-"bgm": "bgm.mp3"
+    "bgm": "bgm.mp3"
 }
