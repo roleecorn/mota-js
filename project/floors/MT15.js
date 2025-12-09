@@ -99,7 +99,7 @@ main.floors.MT15=
     "autoEvent": {
         "5,7": {
             "0": {
-                "condition": "core.hasItem('superPotion') && flags.__MeetGetter2__ ===1;",
+                "condition": "core.hasItem('superPotion') && flags.__Getter2__ ===1;",
                 "currentFloor": true,
                 "priority": 0,
                 "delayExecute": false,
