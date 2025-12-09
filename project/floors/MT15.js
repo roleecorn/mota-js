@@ -68,7 +68,7 @@ main.floors.MT15=
                 {
                     "type": "animate",
                     "name": "EMsikao",
-                    "loc":"hero"
+                    "loc": "hero"
                 },
                 "\t[弱智,default]不要",
                 "\t[蓋特,Getter.png]蛤?",
@@ -87,7 +87,7 @@ main.floors.MT15=
                 {
                     "type": "animate",
                     "name": "SLyiwen",
-                    "loc":"hero",
+                    "loc": "hero",
                     "async": true
                 },
                 "\t[弱智,default]逃出這座塔?",
@@ -99,7 +99,7 @@ main.floors.MT15=
                 {
                     "type": "animate",
                     "name": "EMsikao",
-                    "loc":"hero"
+                    "loc": "hero"
                 },
                 {
                     "type": "choices",
@@ -108,6 +108,26 @@ main.floors.MT15=
                         {
                             "text": "算了再想一想吧",
                             "action": [
+                                {
+                                    "type": "exit"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "不要，我再也不會被騙了",
+                            "action": [
+                                "\t[蓋特,Getter.png]只有這樣嗎 我好失望?",
+                                "\t[蓋特,Getter.png]這樣的話我們就不再見了",
+                                {
+                                    "type": "hide",
+                                    "loc": [
+                                        [
+                                            5,
+                                            7
+                                        ]
+                                    ],
+                                    "remove": true
+                                },
                                 {
                                     "type": "exit"
                                 }
@@ -134,7 +154,7 @@ main.floors.MT15=
                 {
                     "type": "animate",
                     "name": "EMsikao",
-                    "loc":"hero"
+                    "loc": "hero"
                 },
                 {
                     "type": "moveHero",
