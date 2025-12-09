@@ -14,7 +14,7 @@ main.floors.MT18=
     "ratio": 1,
     "defaultGround": "",
     "firstArrive": [
-        "\t[弱智,default]欢迎使用事件编辑器(双击方块可直接预览)"
+        "\t[弱智,default]咦?這裡是...研究室?沒想到塔裡還有這種地方"
     ],
     "eachArrive": [
         {
