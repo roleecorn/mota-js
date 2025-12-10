@@ -36,11 +36,297 @@ main.floors.Final3=
         "\t[梅貝爾,mable.png]不過也要感謝你呢，沒有你把他殺掉的話，「我」可沒那麼容易進來呢",
         "\t[梅貝爾,mable.png]你也活得夠久了，就讓我看看你能掙扎到甚麼時候吧",
         "\t[弱智,default][眼前的公主拍了兩下手，一群怪物衝出來包圍了弱智]",
+        {
+            "type": "show",
+            "loc": [
+                [
+                    4,
+                    6
+                ]
+            ]
+        },
+        {
+            "type": "show",
+            "loc": [
+                [
+                    5,
+                    7
+                ]
+            ]
+        },
+        {
+            "type": "show",
+            "loc": [
+                [
+                    7,
+                    7
+                ]
+            ]
+        },
+        {
+            "type": "show",
+            "loc": [
+                [
+                    8,
+                    6
+                ]
+            ]
+        },
         "\t[梅貝爾,mable.png]我最喜歡勇者的痛苦了，你可要撐久一點喔",
+        {
+            "type": "hide",
+            "loc": [
+                [
+                    6,
+                    4
+                ]
+            ]
+        }
     ],
     "eachArrive": [],
     "parallelDo": "",
-    "events": {},
+    "events": {
+        "4,3": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "3,4": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "4,6": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "3,7": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "4,8": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "3,8": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "5,7": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "5,6": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "7,6": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "7,7": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "8,6": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "8,8": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "9,8": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "9,7": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "9,4": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "8,3": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        }
+    },
     "changeFloor": {},
     "beforeBattle": {},
     "afterBattle": {},
@@ -53,12 +339,12 @@ main.floors.Final3=
     [  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4],
     [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
     [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
+    [  4,  0,  0,  0,228,  0,  0,  0,228,  0,  0,  0,  4],
+    [  4,  0,  0,256,  0,  0,132,  0,  0,256,  0,  0,  4],
     [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
-    [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
-    [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
-    [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
-    [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
-    [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
+    [  4,  0,  0,  0,214,208,  0,208,214,  0,  0,  0,  4],
+    [  4,  0,  0,208,  0,214,  0,214,  0,208,  0,  0,  4],
+    [  4,  0,  0,256,228,  0,  0,  0,228,256,  0,  0,  4],
     [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
     [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
     [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
