@@ -54,7 +54,7 @@ main.floors.Shop=
             "type": "if",
             "condition": "(flag:__shopSecond__ ==1)",
             "true": [
-                "\t[店長,trinagle.png]嗯?原來你還活著",
+                "\t[店長,triangle.png]嗯?原來你還活著",
                 {
                     "type": "switch",
                     "condition": "Math.floor(Math.random() * 3);",
