@@ -18,22 +18,37 @@ main.floors.MT18=
             "type": "if",
             "condition": "flag:TrueEnd",
             "true": [
-                    "\t[弱智,default]看來這裡就是終點了汪",
-                    "\t[弱智,default]......",
-                    "\t[弱智,default]不對，這裡不是真正產生問題的地方",
-                    "\t[弱智,default]高興前輩說勇者國在創立之時就在使用吸收怨念的魔法了",
-                    "\t[弱智,default]但是這座塔卻是在勇者國成立一段時間之後才建立的",
-                    "\t[弱智,default]而且這裡最初是一個儲藏軍備的地窖",
-                    "\t[弱智,default]也就是說真正造成這一切問題的根源不是在塔頂",
-                    "\t[弱智,default]是「塔底」",
-                    "\t[弱智,default]......",
-                    "\t[弱智,default]媽的，我簡直是天才汪",                {
+                "\t[弱智,default]看來這裡就是終點了汪",
+                {
+                    "type": "animate",
+                    "name": "EMsikao",
+                    "loc": "hero"
+                },
+                "\t[弱智,default]不對，這裡不是真正產生問題的地方",
+                "\t[弱智,default]高興前輩說勇者國在創立之時就在使用吸收怨念的魔法了",
+                "\t[弱智,default]但是這座塔卻是在勇者國成立一段時間之後才建立的",
+                "\t[弱智,default]而且這裡最初是一個儲藏軍備的地窖",
+                "\t[弱智,default]也就是說真正造成這一切問題的根源不是在塔頂",
+                "\t[弱智,default]是「塔底」",
+                {
+                    "type": "animate",
+                    "name": "EMsikao",
+                    "loc": "hero"
+                },
+                "\t[弱智,default]媽的，我簡直是天才汪",
+                {
                     "type": "changeFloor",
                     "floorId": "MT1",
                     "loc": [
                         5,
                         0
-                    ]
+                    ],
+                    "direction": "right"
+                },
+                {
+                    "type": "setValue",
+                    "name": "flag:TrueEnd2",
+                    "value": "2"
                 },
                 {
                     "type": "exit"
