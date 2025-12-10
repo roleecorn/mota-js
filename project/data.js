@@ -31,7 +31,10 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"MT19",
 			"MT20",
 			"Shop",
-			"MT4_5"
+			"MT4_5",
+			"Final1",
+			"Final2",
+			"Final3"
 		],
 		"floorPartitions": [],
 		"images": [

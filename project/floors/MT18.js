@@ -120,6 +120,53 @@ main.floors.MT18=
             "\t[弱智,default]那隻怪物......",
             "\t[弱智,default]不對，不可能的汪",
             "\t[弱智,default]先去看看塔頂到底發生了什麼，再去確定吧汪"
+        ],
+        "6,2": [
+            {
+                "type": "if",
+                "condition": "flag:GetterRode",
+                "true": [
+                    {
+                        "type": "changeFloor",
+                        "floorId": "Final2",
+                        "loc": [
+                            6,
+                            11
+                        ],
+                        "direction": "up"
+                    },
+                    {
+                        "type": "exit"
+                    }
+                ]
+            },
+            {
+                "type": "if",
+                "condition": "flag:__kill__",
+                "true": [
+                    {
+                        "type": "changeFloor",
+                        "floorId": "Final3",
+                        "loc": [
+                            6,
+                            11
+                        ],
+                        "direction": "up"
+                    },
+                    {
+                        "type": "exit"
+                    }
+                ]
+            },
+            {
+                "type": "changeFloor",
+                "floorId": "Final1",
+                "loc": [
+                    6,
+                    11
+                ],
+                "direction": "up"
+            }
         ]
     },
     "changeFloor": {
@@ -129,10 +176,6 @@ main.floors.MT18=
                 9,
                 11
             ]
-        },
-        "6,2": {
-            "floorId": ":before",
-            "stair": "upFloor"
         }
     },
     "beforeBattle": {},
