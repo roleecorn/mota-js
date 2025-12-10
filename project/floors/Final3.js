@@ -690,6 +690,11 @@ main.floors.Final3=
                                         ],
                                         "time": 500,
                                         "keep": true
+                                    },
+                                    "\t[梅貝爾,mable.png]好了，下一步就是徹底毀滅勇者國了",
+                                    {
+                                        "type": "lose",
+                                        "reason": "勇者們的自相殘殺"
                                     }
                                 ]
                             }
@@ -711,7 +716,7 @@ main.floors.Final3=
                         "type": "show",
                         "loc": [
                             [
-                                3,
+                                2,
                                 7
                             ]
                         ]
@@ -721,7 +726,7 @@ main.floors.Final3=
                         "loc": [
                             [
                                 5,
-                                6
+                                5
                             ]
                         ]
                     },
@@ -730,7 +735,7 @@ main.floors.Final3=
                         "loc": [
                             [
                                 7,
-                                6
+                                5
                             ]
                         ]
                     },
@@ -766,7 +771,7 @@ main.floors.Final3=
                         "loc": [
                             [
                                 3,
-                                8
+                                9
                             ]
                         ]
                     },
@@ -774,7 +779,7 @@ main.floors.Final3=
                         "type": "show",
                         "loc": [
                             [
-                                9,
+                                10,
                                 8
                             ]
                         ]
@@ -831,7 +836,7 @@ main.floors.Final3=
                         "loc": [
                             [
                                 8,
-                                8
+                                9
                             ]
                         ]
                     }
