@@ -482,10 +482,16 @@ main.floors.Final3=
             "0": {
                 "condition": "flag:__kill__> flag:__kill2__",
                 "currentFloor": true,
-                "priority": 0,
+                "priority": 1,
                 "delayExecute": false,
-                "multiExecute": false,
+                "multiExecute": true,
                 "data": [
+                    {
+                        "type": "setValue",
+                        "name": "flag:__kill2__",
+                        "operator": "+=",
+                        "value": "1"
+                    },
                     {
                         "type": "switch",
                         "condition": "flag:__kill2__",
