@@ -111,6 +111,17 @@ main.floors.Final2=
             "type": "stopAsync"
         },
         {
+            "type": "setCurtain",
+            "color": [
+                0,
+                0,
+                0,
+                0.7
+            ],
+            "time": 2000,
+            "keep": true
+        },
+        {
             "type": "changeFloor",
             "floorId": "End2",
             "loc": [
