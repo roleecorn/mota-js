@@ -18,7 +18,7 @@ main.floors.Final3=
         "\t[弱智,default]公主?",
         "\t[梅貝爾,mable.png]怎麼了?肆意屠殺好玩嗎?",
         "\t[弱智,default]公主，你在說甚麼汪?",
-        "\t[梅貝爾,mable.png]都變回人類了還是改不掉當狗的習慣嗎?",
+        "\t[梅貝爾,mable.png]汪...哈哈哈，當狗當久了改不掉習慣了嗎?",
         "\t[弱智,default]不對，你不是公主汪!",
         "\t[弱智,default]你到底是誰!",
         "\t[梅貝爾,mable.png]我是誰一點都不重要喔",
