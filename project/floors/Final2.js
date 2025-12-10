@@ -113,7 +113,8 @@ main.floors.Final2=
             "loc": [
                 12,
                 7
-            ]
+            ],
+            "direction": "left"
         }
     ],
     "eachArrive": [],
