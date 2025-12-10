@@ -1,4 +1,4 @@
-main.floors.Final3=
+main.floors.Final3 =
 {
     "floorId": "Final3",
     "title": "主塔 21 层",
@@ -329,31 +329,176 @@ main.floors.Final3=
     },
     "changeFloor": {},
     "beforeBattle": {},
-    "afterBattle": {},
+    "afterBattle": {
+        "4,3": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "3,4": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "4,6": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "3,7": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "4,8": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "3,8": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "5,7": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "5,6": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "7,6": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "7,7": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "8,6": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "8,8": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "9,8": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "9,7": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "9,4": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "8,3": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ]
+    },
     "afterGetItem": {},
     "afterOpenDoor": {},
     "autoEvent": {},
     "cannotMove": {},
     "cannotMoveIn": {},
     "map": [
-    [  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4],
-    [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
-    [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
-    [  4,  0,  0,  0,228,  0,  0,  0,228,  0,  0,  0,  4],
-    [  4,  0,  0,256,  0,  0,132,  0,  0,256,  0,  0,  4],
-    [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
-    [  4,  0,  0,  0,214,208,  0,208,214,  0,  0,  0,  4],
-    [  4,  0,  0,208,  0,214,  0,214,  0,208,  0,  0,  4],
-    [  4,  0,  0,256,228,  0,  0,  0,228,256,  0,  0,  4],
-    [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
-    [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
-    [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
-    [  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4]
-],
+        [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+        [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4],
+        [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4],
+        [4, 0, 0, 0, 228, 0, 0, 0, 228, 0, 0, 0, 4],
+        [4, 0, 0, 256, 0, 0, 132, 0, 0, 256, 0, 0, 4],
+        [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4],
+        [4, 0, 0, 0, 214, 208, 0, 208, 214, 0, 0, 0, 4],
+        [4, 0, 0, 208, 0, 214, 0, 214, 0, 208, 0, 0, 4],
+        [4, 0, 0, 256, 228, 0, 0, 0, 228, 256, 0, 0, 4],
+        [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4],
+        [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4],
+        [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4],
+        [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+    ],
     "bgmap": [
 
-],
+    ],
     "fgmap": [
 
-]
+    ]
 }
