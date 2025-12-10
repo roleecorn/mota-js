@@ -692,9 +692,9 @@ main.floors.Final3=
                                         "keep": true
                                     },
                                     "\t[梅貝爾,mable.png]好了，下一步就是徹底毀滅勇者國了",
+                                    "BE 勇者們的自相殘殺",
                                     {
-                                        "type": "lose",
-                                        "reason": "勇者們的自相殘殺"
+                                        "type": "restart"
                                     }
                                 ]
                             }
