@@ -661,6 +661,145 @@ main.floors.Final3=
                 ]
             },
             "1": null
+        },
+        "1,2": {
+            "0": {
+                "condition": "flag:__kill__>3",
+                "currentFloor": true,
+                "priority": 0,
+                "delayExecute": false,
+                "multiExecute": false,
+                "data": [
+                    {
+                        "type": "show",
+                        "loc": [
+                            [
+                                3,
+                                7
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "show",
+                        "loc": [
+                            [
+                                5,
+                                6
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "show",
+                        "loc": [
+                            [
+                                7,
+                                6
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "show",
+                        "loc": [
+                            [
+                                9,
+                                7
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "1": {
+                "condition": "flag:__kill__>5",
+                "currentFloor": true,
+                "priority": 0,
+                "delayExecute": false,
+                "multiExecute": false,
+                "data": [
+                    {
+                        "type": "show",
+                        "loc": [
+                            [
+                                3,
+                                4
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "show",
+                        "loc": [
+                            [
+                                3,
+                                8
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "show",
+                        "loc": [
+                            [
+                                9,
+                                8
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "show",
+                        "loc": [
+                            [
+                                9,
+                                4
+                            ]
+                        ]
+                    }
+                ]
+            }
+        },
+        "1,3": {
+            "0": {
+                "condition": "flag:__kill__>7",
+                "currentFloor": true,
+                "priority": 0,
+                "delayExecute": false,
+                "multiExecute": false,
+                "data": [
+                    {
+                        "type": "show",
+                        "loc": [
+                            [
+                                4,
+                                3
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "show",
+                        "loc": [
+                            [
+                                4,
+                                8
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "show",
+                        "loc": [
+                            [
+                                8,
+                                3
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "show",
+                        "loc": [
+                            [
+                                8,
+                                8
+                            ]
+                        ]
+                    }
+                ]
+            }
         }
     },
     "cannotMove": {},
