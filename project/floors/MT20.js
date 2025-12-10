@@ -14,7 +14,8 @@ main.floors.MT20=
     "ratio": 1,
     "defaultGround": "",
     "firstArrive": [
-        "\t[弱智,default]奇怪怎麼沒有路了"
+        "\t[弱智,default]奇怪怎麼沒有路了",
+        "\t[弱智,default]找一下還有沒有沒去過的地方好了"
     ],
     "eachArrive": [],
     "parallelDo": "",
