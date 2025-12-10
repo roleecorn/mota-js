@@ -34,7 +34,8 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"MT4_5",
 			"Final1",
 			"Final2",
-			"Final3"
+			"Final3",
+			"End2"
 		],
 		"floorPartitions": [],
 		"images": [
@@ -66,7 +67,8 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"city2.png",
 			"city.png",
 			"014-PostTown02.png",
-			"tilesets.min.png"
+			"tilesets.min.png",
+			"desert.png"
 		],
 		"animates": [
 			"EMjingya",

@@ -68,7 +68,7 @@ main.floors.Final2=
         "\t[蓋特,Getter.png]他就是害我們變成現在這個樣子的罪魁禍首",
         "\t[梅貝爾,mable.png]我只是想把你們都留下來陪我玩而已",
         "\t[梅貝爾,mable.png]為甚麼要跑掉呢?",
-        "\t[蓋特,Getter.png]嘖，去吧，狗狗",
+        "\t[蓋特,Getter.png]嘖，看來還是得用這個",
         {
             "type": "animate",
             "name": "xixi0",
@@ -95,14 +95,26 @@ main.floors.Final2=
             "loc": [
                 6,
                 6
-            ]
+            ],
+            "async": true
         },
         "\t[蓋特,Getter.png]狗狗，過來!",
         "\t[弱智,default]汪!",
         "\t[蓋特,Getter.png]幹的好，小狗狗",
         "\t[弱智,default]是的主人，汪!",
         "\t[蓋特,Getter.png]好，現在往前",
-        "\t[弱智,default]汪!"
+        "\t[弱智,default]汪!",
+        {
+            "type": "stopAsync"
+        },
+        {
+            "type": "changeFloor",
+            "floorId": "End2",
+            "loc": [
+                12,
+                7
+            ]
+        }
     ],
     "eachArrive": [],
     "parallelDo": "",
