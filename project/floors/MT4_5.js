@@ -82,7 +82,7 @@ main.floors.MT4_5=
             {
                 "type": "animate",
                 "name": "EMsikao",
-				"loc": "hero"
+                "loc": "hero"
             },
             "\t[???]原來你在這裡",
             {
@@ -122,7 +122,7 @@ main.floors.MT4_5=
             {
                 "type": "animate",
                 "name": "EMyiwen",
-				"loc": "hero"
+                "loc": "hero"
             },
             "\t[弱智,default]可惡，連魔法都拯救不了我嗎汪！kuso！",
             "\t[弱智,default]那前輩你呢?你的負面......不對，你不管在甚麼地方就沒有負面的時候",
@@ -145,7 +145,7 @@ main.floors.MT4_5=
             {
                 "type": "animate",
                 "name": "EMsikao",
-				"loc": "hero"
+                "loc": "hero"
             },
             "\t[高興,Happy.png]對了，忘記告訴你，這座塔是在勇者國成立很久之後才蓋的",
             "\t[高興,Happy.png]在最開始的時候，這裡表面上似乎是個儲藏軍備的地窖來著",
@@ -163,10 +163,15 @@ main.floors.MT4_5=
             {
                 "type": "animate",
                 "name": "EMsikao",
-				"loc": "hero"
+                "loc": "hero"
             },
             "\t[弱智,default]我不無能......嗎?",
-            "\t[弱智,default]先前進吧"
+            "\t[弱智,default]先前進吧",
+            {
+                "type": "setValue",
+                "name": "flag:TrueEnd",
+                "value": "1"
+            }
         ],
         "7,6": {
             "trigger": null,
