@@ -77,7 +77,22 @@ main.floors.Final2=
                 6
             ]
         },
-        "\t[弱智,default][接著弱智就變成了原本自己數倍的大小，蓋特輕輕一跳騎到了弱智的背上]",
+        {
+            "type": "setValue",
+            "name": "temp:X",
+            "value": "status:x"
+        },
+        {
+            "type": "setValue",
+            "name": "temp:Y",
+            "value": "status:y"
+        },
+        {
+            "type": "drawImage",
+            "image": "pochita_128.png",
+            "x": "32*temp:X-32",
+            "y": "32*temp:Y-32"
+        },
         "\t[弱智,default]?",
         "\t[弱智,default]啊?",
         "\t[蓋特,Getter.png]不要質疑，往前撞過去!",
