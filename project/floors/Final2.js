@@ -54,6 +54,14 @@ main.floors.Final2=
                 }
             ]
         },
+        {
+            "type": "jumpHero",
+            "time": 200
+        },
+        {
+            "type": "jumpHero",
+            "time": 200
+        },
         "\t[弱智,default]汪!等等",
         "\t[弱智,default]主人你怎麼在跟公主對峙阿",
         "\t[蓋特,Getter.png]你都到這裡了還不清楚嗎?",
@@ -61,7 +69,14 @@ main.floors.Final2=
         "\t[梅貝爾,mable.png]我只是想把你們都留下來陪我玩而已",
         "\t[梅貝爾,mable.png]為甚麼要跑掉呢?",
         "\t[蓋特,Getter.png]嘖，去吧，狗狗",
-        "\t[弱智,default][蓋特拿起了一個奇怪的裝置，向弱智發射了一道光線]",
+        {
+            "type": "animate",
+            "name": "xixi0",
+            "loc": [
+                6,
+                6
+            ]
+        },
         "\t[弱智,default][接著弱智就變成了原本自己數倍的大小，蓋特輕輕一跳騎到了弱智的背上]",
         "\t[弱智,default]?",
         "\t[弱智,default]啊?",
