@@ -16,7 +16,6 @@ main.floors.Final3=
     "bgm": "bgm.mp3",
     "firstArrive": [
         "\t[弱智,default]公主?",
-        "\t[弱智,default][弱智走進房間後，發現眼前的公主用饒有興致的表情看著他]",
         "\t[梅貝爾,mable.png]怎麼了?肆意屠殺好玩嗎?",
         "\t[弱智,default]公主，你在說甚麼汪?",
         "\t[梅貝爾,mable.png]都變回人類了還是改不掉當狗的習慣嗎?",
@@ -31,11 +30,49 @@ main.floors.Final3=
         "\t[弱智,default]媽的，你!",
         "\t[梅貝爾,mable.png]至於現在......你的高興前輩不是已經被你殺掉了嗎?",
         "\t[弱智,default]不可能!不可能!不可......",
-        "\t[弱智,default][腦內出現的畫面淹沒了弱智的腦袋，在整座塔裡就只有那隻史萊姆表現出不一樣]",
+        {
+            "type": "drawImage",
+            "image": "Dead1.png",
+            "x": 0,
+            "y": 0,
+            "w": 416,
+            "h": 416
+        },
+        {
+            "type": "sleep",
+            "time": 1000,
+            "noSkip": true
+        },
+        {
+            "type": "clearMap"
+        },
+        {
+            "type": "drawImage",
+            "image": "Dead2.png",
+            "x": 0,
+            "y": 0,
+            "w": 416,
+            "h": 416
+        },
+        {
+            "type": "sleep",
+            "time": 1000,
+            "noSkip": true
+        },
+        {
+            "type": "clearMap"
+        },
         "\t[弱智,default][儘管不斷的否認，但弱智無法否認這個可能性]",
         "\t[梅貝爾,mable.png]不過也要感謝你呢，沒有你把他殺掉的話，「我」可沒那麼容易進來呢",
         "\t[梅貝爾,mable.png]你也活得夠久了，就讓我看看你能掙扎到甚麼時候吧",
-        "\t[弱智,default][眼前的公主拍了兩下手，一群怪物衝出來包圍了弱智]",
+        {
+            "type": "animate",
+            "name": "xianshi1",
+            "loc": [
+                6,
+                6
+            ]
+        },
         {
             "type": "show",
             "loc": [
@@ -131,21 +168,6 @@ main.floors.Final3=
             },
             "data": []
         },
-        "3,7": {
-            "trigger": null,
-            "enable": false,
-            "noPass": null,
-            "displayDamage": true,
-            "opacity": 1,
-            "filter": {
-                "blur": 0,
-                "hue": 0,
-                "grayscale": 0,
-                "invert": false,
-                "shadow": 0
-            },
-            "data": []
-        },
         "4,8": {
             "trigger": null,
             "enable": false,
@@ -161,52 +183,7 @@ main.floors.Final3=
             },
             "data": []
         },
-        "3,8": {
-            "trigger": null,
-            "enable": false,
-            "noPass": null,
-            "displayDamage": true,
-            "opacity": 1,
-            "filter": {
-                "blur": 0,
-                "hue": 0,
-                "grayscale": 0,
-                "invert": false,
-                "shadow": 0
-            },
-            "data": []
-        },
         "5,7": {
-            "trigger": null,
-            "enable": false,
-            "noPass": null,
-            "displayDamage": true,
-            "opacity": 1,
-            "filter": {
-                "blur": 0,
-                "hue": 0,
-                "grayscale": 0,
-                "invert": false,
-                "shadow": 0
-            },
-            "data": []
-        },
-        "5,6": {
-            "trigger": null,
-            "enable": false,
-            "noPass": null,
-            "displayDamage": true,
-            "opacity": 1,
-            "filter": {
-                "blur": 0,
-                "hue": 0,
-                "grayscale": 0,
-                "invert": false,
-                "shadow": 0
-            },
-            "data": []
-        },
-        "7,6": {
             "trigger": null,
             "enable": false,
             "noPass": null,
@@ -237,36 +214,6 @@ main.floors.Final3=
             "data": []
         },
         "8,6": {
-            "trigger": null,
-            "enable": false,
-            "noPass": null,
-            "displayDamage": true,
-            "opacity": 1,
-            "filter": {
-                "blur": 0,
-                "hue": 0,
-                "grayscale": 0,
-                "invert": false,
-                "shadow": 0
-            },
-            "data": []
-        },
-        "8,8": {
-            "trigger": null,
-            "enable": false,
-            "noPass": null,
-            "displayDamage": true,
-            "opacity": 1,
-            "filter": {
-                "blur": 0,
-                "hue": 0,
-                "grayscale": 0,
-                "invert": false,
-                "shadow": 0
-            },
-            "data": []
-        },
-        "9,8": {
             "trigger": null,
             "enable": false,
             "noPass": null,
@@ -325,6 +272,96 @@ main.floors.Final3=
                 "shadow": 0
             },
             "data": []
+        },
+        "5,5": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "2,7": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "3,9": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "8,9": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "10,8": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
+        },
+        "7,5": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
         }
     },
     "changeFloor": {},
@@ -357,15 +394,6 @@ main.floors.Final3=
                 "value": "1"
             }
         ],
-        "3,7": [
-            "\t[怪物,zombieKnight]終於...",
-            {
-                "type": "setValue",
-                "name": "flag:__kill__",
-                "operator": "+=",
-                "value": "1"
-            }
-        ],
         "4,8": [
             "\t[怪物,zombieKnight]終於...",
             {
@@ -375,34 +403,7 @@ main.floors.Final3=
                 "value": "1"
             }
         ],
-        "3,8": [
-            "\t[怪物,zombieKnight]終於...",
-            {
-                "type": "setValue",
-                "name": "flag:__kill__",
-                "operator": "+=",
-                "value": "1"
-            }
-        ],
         "5,7": [
-            "\t[怪物,zombieKnight]終於...",
-            {
-                "type": "setValue",
-                "name": "flag:__kill__",
-                "operator": "+=",
-                "value": "1"
-            }
-        ],
-        "5,6": [
-            "\t[怪物,zombieKnight]終於...",
-            {
-                "type": "setValue",
-                "name": "flag:__kill__",
-                "operator": "+=",
-                "value": "1"
-            }
-        ],
-        "7,6": [
             "\t[怪物,zombieKnight]終於...",
             {
                 "type": "setValue",
@@ -421,24 +422,6 @@ main.floors.Final3=
             }
         ],
         "8,6": [
-            "\t[怪物,zombieKnight]終於...",
-            {
-                "type": "setValue",
-                "name": "flag:__kill__",
-                "operator": "+=",
-                "value": "1"
-            }
-        ],
-        "8,8": [
-            "\t[怪物,zombieKnight]終於...",
-            {
-                "type": "setValue",
-                "name": "flag:__kill__",
-                "operator": "+=",
-                "value": "1"
-            }
-        ],
-        "9,8": [
             "\t[怪物,zombieKnight]終於...",
             {
                 "type": "setValue",
@@ -466,6 +449,60 @@ main.floors.Final3=
             }
         ],
         "8,3": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "5,5": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "2,7": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "3,9": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "8,9": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "10,8": [
+            "\t[怪物,zombieKnight]終於...",
+            {
+                "type": "setValue",
+                "name": "flag:__kill__",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "7,5": [
             "\t[怪物,zombieKnight]終於...",
             {
                 "type": "setValue",
@@ -799,7 +836,8 @@ main.floors.Final3=
                         ]
                     }
                 ]
-            }
+            },
+            "1": null
         }
     },
     "cannotMove": {},
@@ -810,11 +848,11 @@ main.floors.Final3=
     [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
     [  4,  0,  0,  0,228,  0,  0,  0,228,  0,  0,  0,  4],
     [  4,  0,  0,256,  0,  0,132,  0,  0,256,  0,  0,  4],
-    [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
-    [  4,  0,  0,  0,214,208,  0,208,214,  0,  0,  0,  4],
-    [  4,  0,  0,208,  0,214,  0,214,  0,208,  0,  0,  4],
-    [  4,  0,  0,256,228,  0,  0,  0,228,256,  0,  0,  4],
-    [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
+    [  4,  0,  0,  0,  0,208,  0,208,  0,  0,  0,  0,  4],
+    [  4,  0,  0,  0,214,  0,  0,  0,214,  0,  0,  0,  4],
+    [  4,  0,208,  0,  0,214,  0,214,  0,208,  0,  0,  4],
+    [  4,  0,  0,  0,228,  0,  0,  0,  0,  0,256,  0,  4],
+    [  4,  0,  0,256,  0,  0,  0,  0,228,  0,  0,  0,  4],
     [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
     [  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4],
     [  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4]

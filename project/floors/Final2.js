@@ -105,6 +105,9 @@ main.floors.Final2=
         "\t[蓋特,Getter.png]好，現在往前",
         "\t[弱智,default]汪!",
         {
+            "type": "clearMap"
+        },
+        {
             "type": "stopAsync"
         },
         {
