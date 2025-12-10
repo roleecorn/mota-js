@@ -95,15 +95,8 @@ main.floors.Final2=
             "loc": [
                 6,
                 6
-            ],
-            "async": true
+            ]
         },
-        "\t[蓋特,Getter.png]狗狗，過來!",
-        "\t[弱智,default]汪!",
-        "\t[蓋特,Getter.png]幹的好，小狗狗",
-        "\t[弱智,default]是的主人，汪!",
-        "\t[蓋特,Getter.png]好，現在往前",
-        "\t[弱智,default]汪!",
         {
             "type": "clearMap"
         },
