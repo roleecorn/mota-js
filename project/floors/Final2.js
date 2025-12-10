@@ -78,28 +78,26 @@ main.floors.Final2=
             ]
         },
         {
-            "type": "setValue",
-            "name": "temp:X",
-            "value": "status:x"
-        },
-        {
-            "type": "setValue",
-            "name": "temp:Y",
-            "value": "status:y"
-        },
-        {
             "type": "drawImage",
-            "image": "pochita_128.png",
-            "x": "32*temp:X-32",
-            "y": "32*temp:Y-32"
+            "image": "GetterBig.png",
+            "x": 160,
+            "y": 160,
+            "w": 320,
+            "h": 320
         },
         "\t[弱智,default]?",
         "\t[弱智,default]啊?",
-        "\t[蓋特,Getter.png]不要質疑，往前撞過去!",
-        "\t[弱智,default]汪!",
+        "\t[蓋特,Getter.png]去吧，完美的究極機器人!",
         "\t[梅貝爾,mable.png]誒?不要，不要過來!",
-        "\t[弱智,default][被強化(?)的弱智載著蓋特往前奮力一衝，撞飛了公主之後衝破了高塔的牆壁]",
-        "\t[弱智,default][一兔一狗就這麼落到了地板上，而公主卻不見蹤影]",
+        {
+            "type": "animate",
+            "name": "explode2",
+            "loc": [
+                6,
+                6
+            ]
+        },
+        "\t[蓋特,Getter.png]狗狗，過來!",
         "\t[弱智,default]汪!",
         "\t[蓋特,Getter.png]幹的好，小狗狗",
         "\t[弱智,default]是的主人，汪!",
