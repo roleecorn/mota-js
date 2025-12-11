@@ -670,7 +670,7 @@ main.floors.Final3=
                                             0,
                                             0,
                                             0,
-                                            0.9
+                                            0.85
                                         ],
                                         "time": 500,
                                         "keep": true
@@ -680,6 +680,18 @@ main.floors.Final3=
                             {
                                 "case": "10",
                                 "action": [
+                                    {
+                                        "type": "setCurtain",
+                                        "color": [
+                                            0,
+                                            0,
+                                            0,
+                                            0.9
+                                        ],
+                                        "time": 500,
+                                        "keep": true
+                                    },
+                                    "\t[弱智,default]前輩...對不起......",
                                     {
                                         "type": "setCurtain",
                                         "color": [
