@@ -266,8 +266,8 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 	"firstData": {
 		"title": "魔塔样板",
 		"name": "idiot",
-		"version": "Ver 0.8.3",
-		"floorId": "story_1",
+		"version": "Ver 0.9.0",
+		"floorId": "MT0",
 		"hero": {
 			"image": "hero.png",
 			"animate": false,
@@ -277,8 +277,8 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"hp": 1000,
 			"manamax": -1,
 			"mana": 0,
-			"atk": 1000,
-			"def": 1000,
+			"atk": 10,
+			"def": 0,
 			"mdef": 0,
 			"money": 0,
 			"exp": 0,
