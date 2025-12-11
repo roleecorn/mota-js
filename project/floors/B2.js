@@ -24,9 +24,10 @@ main.floors.B2=
                 "loc": [
                     [
                         6,
-                        3
+                        4
                     ]
-                ]
+                ],
+                "time": 500
             },
             {
                 "type": "animate",
@@ -70,11 +71,43 @@ main.floors.B2=
                 "shadow": 0
             },
             "data": []
+        },
+        "9,4": {
+            "trigger": null,
+            "enable": false,
+            "noPass": null,
+            "displayDamage": true,
+            "opacity": 1,
+            "filter": {
+                "blur": 0,
+                "hue": 0,
+                "grayscale": 0,
+                "invert": false,
+                "shadow": 0
+            },
+            "data": []
         }
     },
     "changeFloor": {},
     "beforeBattle": {},
-    "afterBattle": {},
+    "afterBattle": {
+        "6,4": [
+            "\t[琪多卡洛斯,Boss.png]喔?看來沒找機會把你弄死是我的失誤",
+            "\t[琪多卡洛斯,Boss.png]不過這種氣勢你還能撐多久呢?",
+            "\t[琪多卡洛斯,Boss.png]我很好奇啊",
+            "\t[弱智,default]廢話少說汪!",
+            {
+                "type": "show",
+                "loc": [
+                    [
+                        9,
+                        4
+                    ]
+                ],
+                "time": 500
+            }
+        ]
+    },
     "afterGetItem": {},
     "afterOpenDoor": {},
     "autoEvent": {},
@@ -85,7 +118,7 @@ main.floors.B2=
     [70057,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,70057],
     [70057,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,70057],
     [70057,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,70057],
-    [70057,  0,  0,  0,  0,  0,257,  0,  0,  0,  0,  0,70057],
+    [70057,  0,  0,  0,  0,  0,257,  0,  0,257,  0,  0,70057],
     [70057,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,70057],
     [70057,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,70057],
     [70057,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,70057],
