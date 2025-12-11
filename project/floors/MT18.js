@@ -47,7 +47,7 @@ main.floors.MT18=
                 },
                 {
                     "type": "setValue",
-                    "name": "flag:TrueEnd2",
+                    "name": "flag:TrueEnd",
                     "value": "2"
                 },
                 {
