@@ -19,7 +19,7 @@ main.floors.MT19=
     "events": {},
     "changeFloor": {
         "6,11": {
-            "floorId": ":before",
+            "floorId": "MT17",
             "stair": "upFloor"
         },
         "11,11": {
@@ -65,5 +65,5 @@ main.floors.MT19=
     "fgmap": [
 
 ],
-"bgm": "bgm.mp3"
+    "bgm": "bgm.mp3"
 }

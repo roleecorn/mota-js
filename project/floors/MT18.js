@@ -13,10 +13,11 @@ main.floors.MT18=
     "images": [],
     "ratio": 1,
     "defaultGround": "",
-    "firstArrive": [
+    "firstArrive": null,
+    "eachArrive": [
         {
             "type": "if",
-            "condition": "flag:TrueEnd",
+            "condition": "(flag:TrueEnd===1)",
             "true": [
                 "\t[弱智,default]看來這裡就是終點了汪",
                 {
@@ -55,9 +56,25 @@ main.floors.MT18=
                 }
             ]
         },
-        "\t[弱智,default]咦?這裡是...研究室?沒想到塔裡還有這種地方"
-    ],
-    "eachArrive": [
+        {
+            "type": "if",
+            "condition": "(flag:TrueEnd===2)",
+            "true": [
+                "\t[弱智,default]已經沒有在這裡該做的事情了",
+                {
+                    "type": "changeFloor",
+                    "floorId": "MT19",
+                    "loc": [
+                        9,
+                        11
+                    ],
+                    "direction": "right"
+                },
+                {
+                    "type": "exit"
+                }
+            ]
+        },
         {
             "type": "if",
             "condition": "(flag:__kill__&&(flag:GetterRode!==1))",
