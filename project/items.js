@@ -674,7 +674,15 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"cls": "tools",
 		"name": "魔法鑰匙",
 		"canUseItemEffect": "true",
-		"hideInToolbox": true
+		"hideInToolbox": false,
+		"useItemEvent": [
+			"\t[弱智,default]高興前輩給的鑰匙，很漂亮",
+			"\t[弱智,default]不過應該用在哪裡呢?有沒有看起來不知道怎麼開的門?",
+			{
+				"type": "function",
+				"function": "function(){\ncore.addItem('I337', 1)\n}"
+			}
+		]
 	},
 	"I338": {
 		"cls": "items",
