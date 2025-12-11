@@ -68,7 +68,42 @@ main.floors.MT1=
                 "invert": false,
                 "shadow": 0
             },
-            "data": []
+            "data": [
+                {
+                    "type": "setCurtain",
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "time": 500,
+                    "keep": true
+                },
+                {
+                    "type": "changeFloor",
+                    "floorId": "B1",
+                    "loc": [
+                        1,
+                        11
+                    ]
+                },
+                "\t[弱智,default]看來就是這裡了汪",
+                "\t[弱智,default]咳咳咳，這裡灰塵怎麼這麼多",
+                {
+                    "type": "setCurtain",
+                    "time": 500
+                },
+                "\t[弱智,default]果然這底下還有空間汪",
+                {
+                    "type": "jumpHero",
+                    "time": 200
+                },
+                {
+                    "type": "jumpHero",
+                    "time": 200
+                }
+            ]
         }
     },
     "changeFloor": {
