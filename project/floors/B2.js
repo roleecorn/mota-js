@@ -305,17 +305,91 @@ main.floors.B2=
             "\t[弱智,default]接招!"
         ],
         "6,2": [
+            {
+                "type": "pauseBgm"
+            },
+            {
+                "type": "playBgm",
+                "name": "underground.m4a"
+            },
             "\t[琪多卡洛斯,Boss.png]為什麼......為甚麼就是殺不掉......",
             "\t[琪多卡洛斯,Boss.png]我還不能...離去......",
             "\t[弱智,default][眼前的人魚在弱智揮下最後一刀之後化成光點消散了]",
             "\t[弱智,default][一小部分朝弱智的方向移動過來，更多的則朝著勇者國的方向飄去]",
             "\t[弱智,default]總算結束了汪",
-            "\t[弱智,default].....",
+            {
+                "type": "animate",
+                "name": "EMsikao",
+                "loc": "hero"
+            },
             "\t[弱智,default]媽的，不是，我怎麼還沒變回去啊汪",
             "\t[弱智,default]我不想要一直當狗啊汪",
             "\t[高興,kaoxing.png]是這樣嗎?可是我看你當狗的時候很開心啊",
             "\t[弱智,default]我不是，我沒有汪",
-            "\t[弱智,default]但好像......也不差"
+            "\t[弱智,default]但好像......也不差",
+            {
+                "type": "setCurtain",
+                "color": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "time": 500,
+                "keep": true
+            },
+            "就這樣，狗狗弱智懷著他人的理解(?)來到了塔頂解救了昏迷中的公主",
+            "隨後幾人便離開了「魔塔」回到勇者國，作為拯救公主的勇者弱智得到了全國的讚賞",
+            "公主本人完全忘記了塔中發生的一切，當事人也都對此諱莫如深",
+            "但怨念終究是被釋放，勇者國已經不再是那個完美的國度",
+            "可它的人民卻依舊保持了原有的習慣，至於某些人的畫風......",
+            {
+                "type": "changeFloor",
+                "floorId": "story_5",
+                "loc": [
+                    9,
+                    9
+                ],
+                "direction": "left",
+                "time": 0
+            },
+            {
+                "type": "setCurtain",
+                "time": 500
+            },
+            "\t[高興,kaoxing.png]你都來這裡了，吃點麻辣燙再走吧",
+            "\t[弱智,default]前輩不要啊，放過我吧",
+            "\t[高興,kaoxing.png]不行，我今天一定要讓你知道麻辣燙的美好",
+            {
+                "type": "if",
+                "condition": "flag:__Getter2__",
+                "true": [
+                    "\t[弱智,default]前輩你看，主人都在外面等我了",
+                    "\t[高興,kaoxing.png]那你先走吧",
+                    "\t[蓋特,Getter.png]狗狗，快出來，帶你出門散步",
+                    "\t[弱智,default]是的，主人，汪!"
+                ],
+                "false": [
+                    "\t[弱智,default]啊啊啊，我才剛回來我不想死啊"
+                ]
+            },
+            {
+                "type": "setCurtain",
+                "color": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "time": 1000,
+                "keep": true
+            },
+            "雖然從魔塔裡離開了，但弱智的每天的生活似乎依舊精采(?)",
+            "弱智，聖誕快樂!",
+            "TE 真正的勇者",
+            {
+                "type": "restart"
+            }
         ]
     },
     "afterGetItem": {},

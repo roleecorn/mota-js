@@ -37,7 +37,8 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"Final3",
 			"End2",
 			"B1",
-			"B2"
+			"B2",
+			"story_5"
 		],
 		"floorPartitions": [],
 		"images": [
