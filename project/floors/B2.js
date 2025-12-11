@@ -14,7 +14,12 @@ main.floors.B2=
     "ratio": 1,
     "bgm": "underground.m4a",
     "firstArrive": [],
-    "eachArrive": [],
+    "eachArrive": [
+        {
+            "type": "loadBgm",
+            "name": "bossBattle.m4a"
+        }
+    ],
     "parallelDo": "",
     "events": {
         "6,8": [
