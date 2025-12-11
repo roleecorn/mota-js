@@ -103,7 +103,7 @@ main.floors.MT7=
                     }
                 ]
             },
-            "這裡保留給沒有帶盾牌就看到蓋特的事件"
+            "\t[???,Getter.png]在哪裡呢，能當作材料的東西(自言自語)"
         ]
     },
     "changeFloor": {
@@ -144,5 +144,5 @@ main.floors.MT7=
     "fgmap": [
 
 ],
-"bgm": "bgm.mp3"
+    "bgm": "bgm.mp3"
 }
