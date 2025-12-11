@@ -1,12 +1,12 @@
 var enemys_fcae963b_31c9_42b4_b48c_bb48d09f3f80 = 
 {
 	"greenSlime": {"name":"绿头怪","hp":31,"atk":3,"def":0,"money":2,"exp":0,"point":0,"special":0},
-	"redSlime": {"name":"红头怪","hp":51,"atk":4,"def":0,"money":5,"exp":1,"point":0,"special":[16,18],"value":10},
+	"redSlime": {"name":"红头怪","hp":51,"atk":4,"def":0,"money":5,"exp":1,"point":0,"special":[],"value":null},
 	"blackSlime": {"name":"青头怪","hp":176,"atk":28,"def":5,"money":10,"exp":2,"point":0,"special":0},
-	"slimelord": {"name":"怪王","hp":510,"atk":65,"def":10,"money":10,"exp":3,"point":0,"special":[1,9]},
+	"slimelord": {"name":"怪王","hp":510,"atk":65,"def":10,"money":10,"exp":3,"point":0,"special":[1]},
 	"bat": {"name":"小蝙蝠","hp":100,"atk":120,"def":0,"money":2,"exp":0,"point":0,"special":[1]},
-	"bigBat": {"name":"大蝙蝠","hp":640,"atk":44,"def":18,"money":20,"exp":5,"point":0,"special":0},
-	"redBat": {"name":"红蝙蝠","hp":1280,"atk":88,"def":30,"money":50,"exp":10,"point":0,"special":[]},
+	"bigBat": {"name":"大蝙蝠","hp":640,"atk":44,"def":18,"money":20,"exp":5,"point":0,"special":[1]},
+	"redBat": {"name":"红蝙蝠","hp":1280,"atk":88,"def":30,"money":50,"exp":10,"point":0,"special":[1,4]},
 	"vampire": {"name":"冥灵魔王","hp":888,"atk":888,"def":888,"money":888,"exp":888,"point":0,"special":[6],"n":8},
 	"skeleton": {"name":"骷髅人","hp":85,"atk":90,"def":0,"money":8,"exp":2,"point":0,"special":0},
 	"skeletonCaptain": {"name":"骷髅队长","hp":150,"atk":150,"def":20,"money":12,"exp":3,"point":0,"special":0},
