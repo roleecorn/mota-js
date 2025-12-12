@@ -252,6 +252,8 @@ var maps_90f36752_8815_4be8_b32b_d7fad1d0542e =
 	"351": {"cls":"npcs","id":"N351"},
 	"352": {"cls":"npcs","id":"N352"},
 	"353": {"cls":"npc48","id":"N353","faceIds":{"down":"tallGreenDoor","left":"tallSpecialDoor","right":"tallSteelDoor","up":"N353"}},
+	"354": {"cls":"enemys","id":"E354"},
+	"355": {"cls":"npcs","id":"N355"},
 	"30132": {"cls":"tileset","id":"X30132","event":[]},
 	"90268": {"cls":"tileset","id":"X90268","canPass":true}
 }

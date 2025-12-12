@@ -120,7 +120,8 @@ var icons_4665ee12_3a1f_44a4_bea3_0fccba634dc1 =
 		"N331": 14,
 		"N345": 15,
 		"N351": 16,
-		"N352": 17
+		"N352": 17,
+		"N355": 18
 	},
 	"npc48": {
 		"npc0": 0,
@@ -208,7 +209,8 @@ var icons_4665ee12_3a1f_44a4_bea3_0fccba634dc1 =
 		"blueKing": 45,
 		"keiskeiFairy": 71,
 		"tulipFairy": 72,
-		"purpleBowman": 65
+		"purpleBowman": 65,
+		"E354": 73
 	},
 	"enemy48": {
 		"angel": 0,
