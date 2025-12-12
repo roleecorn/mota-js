@@ -24,7 +24,8 @@ main.floors.MT3=
             "\t[弱智,default]這是之前的勇者的留言嗎?",
             {
                 "type": "animate",
-                "name": "EMsikao"
+                "name": "EMsikao",
+                "loc": "hero"
             },
             "\t[弱智,default]真的...很多人進來沒有出去呢",
             "\t[弱智,default]底下有一行小字寫了用法呢",
