@@ -158,6 +158,14 @@ main.floors.Final1=
     "beforeBattle": {},
     "afterBattle": {
         "6,5": [
+            {
+                "type": "pauseBgm"
+            },
+            {
+                "type": "playBgm",
+                "name": "underground.m4a",
+                "keep": true
+            },
             "\t[弱智,default][狗狗弱智的劍插在了公主的身體上，血沿著刀刃向下滴落]",
             "\t[梅貝爾,mable.png]我只是...想跟祂說的一樣，交到很多朋友而已......",
             "\t[梅貝爾,mable.png]不要...離開...我...",
