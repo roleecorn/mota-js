@@ -800,28 +800,25 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			{
 				"need": "20",
 				"title": "",
+				"clear": true,
 				"action": [
 					{
 						"type": "setValue",
 						"name": "status:atk",
 						"operator": "+=",
-						"value": "10"
+						"value": "3"
 					},
 					{
 						"type": "setValue",
 						"name": "status:def",
 						"operator": "+=",
-						"value": "10"
-					}
-				]
-			},
-			{
-				"need": "40",
-				"title": "",
-				"action": [
+						"value": "3"
+					},
 					{
-						"type": "tip",
-						"text": "恭喜升级"
+						"type": "setValue",
+						"name": "status:hp",
+						"operator": "+=",
+						"value": "500"
 					}
 				]
 			}
@@ -858,6 +855,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 			"enableMDef",
 			"enableMoney",
 			"enableExp",
+			"enableLevelUp",
 			"enableKeys",
 			"enableDebuff"
 		],
