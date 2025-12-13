@@ -1,8 +1,8 @@
 main.floors.B2=
 {
     "floorId": "B2",
-    "title": "地下 1 層",
-    "name": "B1",
+    "title": "地下 2 層",
+    "name": "B2",
     "width": 13,
     "height": 13,
     "canFlyTo": false,
