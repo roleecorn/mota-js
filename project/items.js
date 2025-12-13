@@ -399,8 +399,16 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 				"condition": "(temp:_A===1)",
 				"true": [
 					{
-						"type": "function",
-						"function": "function(){\ncore.insertAction([{\"type\": \"setBlock\",\"number\":353,\"loc\": [8, 6]}])\n}"
+						"type": "setBlock",
+						"number": "353",
+						"loc": [
+							[
+								8,
+								6
+							]
+						],
+						"floorId": "MT6",
+						"time": 500
 					},
 					{
 						"type": "setValue",
@@ -417,8 +425,8 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 				"function": "function(){\ncore.status.hero.hp *= 2;core.status.hero.atk *= 2;core.status.hero.def *= 2;\n}"
 			},
 			{
-				"type": "function",
-				"function": "function(){\ncore.setHeroIcon('hero.png', false);\n}"
+				"type": "setHeroIcon",
+				"name": "hero.png"
 			}
 		]
 	},
