@@ -265,7 +265,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 		]
 	},
 	"firstData": {
-		"title": "魔塔样板",
+		"title": "最後的勇者之塔",
 		"name": "idiot",
 		"version": "Ver 0.9.0",
 		"floorId": "MT0",
