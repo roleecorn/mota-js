@@ -449,9 +449,11 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 		"canUseItemEffect": "(function () {\n\tif (core.flags.flyNearStair && !core.nearStair()) return false;\n\treturn core.status.maps[core.status.floorId].canFlyFrom;\n})();"
 	},
 	"coin": {
-		"cls": "constants",
+		"cls": "items",
 		"name": "幸运金币",
-		"text": "持有时打败怪物可得双倍金币"
+		"text": "持有时打败怪物可得双倍金币",
+		"itemEffect": "core.status.hero.money += 200;",
+		"itemEffectTip": "200金幣"
 	},
 	"freezeBadge": {
 		"cls": "constants",
