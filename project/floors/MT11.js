@@ -28,15 +28,51 @@ main.floors.MT11=
         }
     },
     "beforeBattle": {},
-    "afterBattle": {},
+    "afterBattle": {
+        "5,6": [
+            {
+                "type": "setValue",
+                "name": "flag:MT11Door",
+                "operator": "+=",
+                "value": "1"
+            }
+        ],
+        "7,6": [
+            {
+                "type": "setValue",
+                "name": "flag:MT11Door",
+                "operator": "+=",
+                "value": "1"
+            }
+        ]
+    },
     "afterGetItem": {},
     "afterOpenDoor": {},
-    "autoEvent": {},
+    "autoEvent": {
+        "6,6": {
+            "0": {
+                "condition": "flag:MT11Door===2",
+                "currentFloor": true,
+                "priority": 0,
+                "delayExecute": false,
+                "multiExecute": false,
+                "data": [
+                    {
+                        "type": "openDoor",
+                        "loc": [
+                            6,
+                            6
+                        ]
+                    }
+                ]
+            }
+        }
+    },
     "cannotMove": {},
     "cannotMoveIn": {},
     "map": [
     [144,144,144,144,144,144,144,144,144,144,144,144,144],
-    [144,  0,  0,  0,  0,  0, 87,  0,  0,  0,  0,  0,144],
+    [144,  0,  0, 81,  0,  0, 87,  0,  0, 81,  0,  0,144],
     [144,  0,  0,  2,  0,  0,  0,  0,  0,  2,  0,  0,144],
     [144,253,  2,  2,206,  2,204,  2,206,  2,  2,210,144],
     [144, 27,  2, 32,  0,  2, 53,  2,  0, 32,  2, 28,144],
