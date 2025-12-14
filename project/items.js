@@ -165,11 +165,12 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 			"type": 0,
 			"animate": "sword",
 			"value": {
-				"atk": 20
-			}
+				"atk": 30
+			},
+			"percentage": {}
 		},
-		"itemEffect": "core.status.hero.atk += 20",
-		"itemEffectTip": "，攻击+20"
+		"itemEffect": "core.status.hero.atk += 30",
+		"itemEffectTip": "，攻击+30"
 	},
 	"sword3": {
 		"cls": "equips",
