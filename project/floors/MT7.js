@@ -20,7 +20,7 @@ main.floors.MT7=
         "6,9": [
             {
                 "type": "if",
-                "condition": "(core.hasEquip('shield2') ||core.hasItem('shield2'))",
+                "condition": "(core.hasEquip('shield4') ||core.hasItem('shield4'))",
                 "true": [
                     "\t[弱智,default]等下，又是你，那隻可惡的兔子汪",
                     "\t[???,Getter.png]嗯?我上次說甚麼",
@@ -42,7 +42,7 @@ main.floors.MT7=
                                     },
                                     {
                                         "type": "if",
-                                        "condition": "core.hasEquip('shield2') ",
+                                        "condition": "core.hasEquip('shield4') ",
                                         "true": [
                                             {
                                                 "type": "unloadEquip",
@@ -52,7 +52,7 @@ main.floors.MT7=
                                     },
                                     {
                                         "type": "setValue",
-                                        "name": "item:shield2",
+                                        "name": "item:shield4",
                                         "value": "0"
                                     },
                                     "\t[???,Getter.png]很好，我就知道你做得到，現在跪下來再汪兩聲",

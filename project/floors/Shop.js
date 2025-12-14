@@ -164,7 +164,7 @@ main.floors.Shop=
                     "\t[店長,triangle.png]嗯......這個免費送你咪",
                     {
                         "type": "setValue",
-                        "name": "item:sword2",
+                        "name": "item:sword4",
                         "value": "1"
                     },
                     "獲得了一把漂亮的劍",
