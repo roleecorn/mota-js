@@ -3757,7 +3757,7 @@ events.prototype._checkLvUp_check = function () {
     if (need == null) return null;
     if (core.status.hero.exp >= need) {
         // 升级
-        core.status.hero.lv++;
+        // core.status.hero.lv++;
         if (next.clear) core.status.hero.exp -= need;
         return next.action || [];
     }
