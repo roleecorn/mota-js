@@ -799,7 +799,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 				]
 			},
 			{
-				"need": "20",
+				"need": "70",
 				"title": "",
 				"clear": true,
 				"action": [
@@ -819,57 +819,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 						"type": "setValue",
 						"name": "status:hp",
 						"operator": "+=",
-						"value": "500"
-					}
-				]
-			},
-			{
-				"need": "40",
-				"title": "",
-				"clear": true,
-				"action": [
-					{
-						"type": "setValue",
-						"name": "status:atk",
-						"operator": "+=",
-						"value": "6"
-					},
-					{
-						"type": "setValue",
-						"name": "status:def",
-						"operator": "+=",
-						"value": "6"
-					},
-					{
-						"type": "setValue",
-						"name": "status:hp",
-						"operator": "+=",
-						"value": "1000"
-					}
-				]
-			},
-			{
-				"need": "40",
-				"title": "",
-				"clear": true,
-				"action": [
-					{
-						"type": "setValue",
-						"name": "status:atk",
-						"operator": "+=",
-						"value": "9"
-					},
-					{
-						"type": "setValue",
-						"name": "status:def",
-						"operator": "+=",
-						"value": "9"
-					},
-					{
-						"type": "setValue",
-						"name": "status:hp",
-						"operator": "+=",
-						"value": "1500"
+						"value": "250"
 					}
 				]
 			}
