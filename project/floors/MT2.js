@@ -70,7 +70,13 @@ main.floors.MT2=
                 "type": "loadEquip",
                 "id": "sword1"
             },
-            "\t[弱智,default]兔子姊姊，你的聲音好色喔，不過聽起來好像開了變聲器喔汪",
+            "\t[弱智,default]兔子姊姊",
+            {
+                "type": "playBgm",
+                "name": "SoftTime.mp3",
+                "keep": true
+            },
+            "\t[弱智,default]你的聲音好色喔，不過聽起來好像開了變聲器喔汪",
             {
                 "type": "animate",
                 "name": "SLyiwen",
@@ -138,6 +144,11 @@ main.floors.MT2=
                 "type": "setValue",
                 "name": "flag:__MeetGetter1__",
                 "value": "1"
+            },
+            {
+                "type": "playBgm",
+                "name": "bgm.mp3",
+                "keep": true
             }
         ]
     },

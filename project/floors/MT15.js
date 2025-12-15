@@ -58,6 +58,11 @@ main.floors.MT15=
                         },
                         "\t[弱智,default]又是你!這次我不會再眼睜睜的看著你逃跑了汪",
                         "\t[蓋特,Getter.png]狗狗，坐下",
+                        {
+                            "type": "playBgm",
+                            "name": "SoftTime.mp3",
+                            "keep": true
+                        },
                         "\t[弱智,default](坐下)是的，主人汪",
                         {
                             "type": "vibrate",
@@ -109,6 +114,11 @@ main.floors.MT15=
                             "type": "animate",
                             "name": "EMsikao",
                             "loc": "hero"
+                        },
+                        {
+                            "type": "playBgm",
+                            "name": "bgm.mp3",
+                            "keep": true
                         }
                     ]
                 },

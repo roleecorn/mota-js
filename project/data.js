@@ -121,7 +121,9 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 		"bgms": [
 			"EndingRabbit.m4a",
 			"Opening.m4a",
+			"SoftTime.mp3",
 			"Town_real2_mvt.m4a",
+			"UnwelcomeSchool.m4a",
 			"bgm.mp3",
 			"bossBattle.m4a",
 			"palace.m4a",

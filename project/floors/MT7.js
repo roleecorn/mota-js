@@ -24,6 +24,11 @@ main.floors.MT7=
                 "true": [
                     "\t[弱智,default]等下，又是你，那隻可惡的兔子汪",
                     "\t[???,Getter.png]嗯?我上次說甚麼",
+                    {
+                        "type": "playBgm",
+                        "name": "SoftTime.mp3",
+                        "keep": true
+                    },
                     "\t[弱智,default](跪下、爬行)好的主人，是的主人汪",
                     "\t[弱智,default]不對，你是不是又要騙我錢了汪",
                     "\t[???,Getter.png]並沒有，我這次說的可都是真話，我需要你的盾牌，我可以把它強化成更強的型態",
@@ -97,6 +102,11 @@ main.floors.MT7=
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "type": "playBgm",
+                        "name": "bgm.mp3",
+                        "keep": true
                     },
                     {
                         "type": "exit"

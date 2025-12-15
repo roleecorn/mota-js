@@ -85,6 +85,11 @@ main.floors.Final2=
             "w": 320,
             "h": 320
         },
+        {
+            "type": "playBgm",
+            "name": "UnwelcomeSchool.m4a",
+            "keep": true
+        },
         "\t[弱智,default]?",
         "\t[弱智,default]啊?",
         "\t[蓋特,Getter.png]去吧，完美的究極機器人!",
