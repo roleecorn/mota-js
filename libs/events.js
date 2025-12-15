@@ -3749,15 +3749,14 @@ events.prototype.checkLvUp = function () {
 }
 
 events.prototype._checkLvUp_check = function () {
-    if (core.flags.statusBarItems.indexOf('enableLevelUp') < 0 || !core.firstData.levelUp
-        || core.status.hero.lv >= core.firstData.levelUp.length) return null;
+    if (core.flags.statusBarItems.indexOf('enableLevelUp') < 0 || !core.firstData.levelUp) return null;
     // 计算下一个所需要的数值
-    var next = (core.firstData.levelUp[core.status.hero.lv] || {});
+    var next = (core.firstData.levelUp[1] || {});
     var need = core.calValue(next.need);
     if (need == null) return null;
     if (core.status.hero.exp >= need) {
         // 升级
-        // core.status.hero.lv++;
+        core.status.hero.lv++;
         if (next.clear) core.status.hero.exp -= need;
         return next.action || [];
     }
