@@ -31,36 +31,60 @@ main.floors.Final3=
         "\t[梅貝爾,mable.png]至於現在......你的高興前輩不是已經被你殺掉了嗎?",
         "\t[弱智,default]不可能!不可能!不可......",
         {
-            "type": "drawImage",
+            "type": "showImage",
+            "code": 1,
             "image": "Dead1.png",
-            "x": 0,
-            "y": 0,
-            "w": 416,
-            "h": 416
+            "sloc": [
+                0,
+                0,
+                null
+            ],
+            "loc": [
+                32,
+                32,
+                352,
+                352
+            ],
+            "opacity": 0.9,
+            "time": 500
         },
         {
             "type": "sleep",
-            "time": 1000,
+            "time": 500,
             "noSkip": true
         },
         {
-            "type": "clearMap"
+            "type": "hideImage",
+            "code": 1,
+            "time": 500
         },
         {
-            "type": "drawImage",
+            "type": "showImage",
+            "code": 1,
             "image": "Dead2.png",
-            "x": 0,
-            "y": 0,
-            "w": 416,
-            "h": 416
+            "sloc": [
+                0,
+                0,
+                null
+            ],
+            "loc": [
+                32,
+                32,
+                352,
+                352
+            ],
+            "opacity": 0.9,
+            "time": 500
         },
         {
             "type": "sleep",
-            "time": 1000,
+            "time": 500,
             "noSkip": true
         },
         {
-            "type": "clearMap"
+            "type": "hideImage",
+            "code": 1,
+            "time": 500
         },
         "\t[弱智,default][儘管不斷的否認，但弱智無法否認這個可能性]",
         "\t[梅貝爾,mable.png]不過也要感謝你呢，沒有你把他殺掉的話，「我」可沒那麼容易進來呢",
