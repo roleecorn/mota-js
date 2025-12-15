@@ -548,7 +548,7 @@ events.prototype._openDoor_check = function (block, x, y, needKey) {
             if (!core.material.items[keyName]) {
                 core.stopSound();
                 core.playSound('操作失败');
-                core.drawTip("无法开启此门");
+                core.drawTip("還有人在看守");
                 return clearAndReturn();
             }
             if (core.itemCount(keyName) < keyValue) {
