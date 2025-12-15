@@ -56,7 +56,7 @@ var enemys_fcae963b_31c9_42b4_b48c_bb48d09f3f80 =
 	"skeletonKnight": {"name":"骷髅武士","hp":180,"atk":150,"def":60,"money":16,"exp":4,"point":0,"special":0},
 	"skeletonPresbyter": {"name":"骷髅巫师","hp":200,"atk":160,"def":40,"money":16,"exp":4,"point":0,"special":0},
 	"ironRock": {"name":"铁面人","hp":50,"atk":120,"def":200,"money":20,"exp":5,"point":0,"special":[3]},
-	"grayRock": {"name":"灰色石头人","hp":260,"atk":100,"def":150,"money":16,"exp":4,"point":0,"special":0},
+	"grayRock": {"name":"灰色石头人","hp":50,"atk":150,"def":150,"money":16,"exp":4,"point":0,"special":[3]},
 	"yellowPriest": {"name":"中级法师","hp":450,"atk":50,"def":50,"money":35,"exp":4,"point":0,"special":0},
 	"evilPrincess": {"name":"痛苦魔女","hp":1000,"atk":260,"def":80,"money":44,"exp":11,"point":0,"special":[10]},
 	"blademaster": {"name":"剑圣","hp":100,"atk":100,"def":100,"money":12,"exp":3,"point":0,"special":0},
