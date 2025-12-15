@@ -451,8 +451,8 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 	},
 	"coin": {
 		"cls": "items",
-		"name": "幸运金币",
-		"text": "持有时打败怪物可得双倍金币",
+		"name": "銅幣",
+		"text": "",
 		"itemEffect": "core.status.hero.money += 200;",
 		"itemEffectTip": "200金幣"
 	},
@@ -708,8 +708,10 @@ var items_296f5d02_12fd_4166_a7c1_b5e830c9ee3a =
 	},
 	"I340": {
 		"cls": "items",
-		"name": "新物品",
-		"canUseItemEffect": "true"
+		"name": "銀幣",
+		"canUseItemEffect": "true",
+		"itemEffect": "core.status.hero.money += 500;",
+		"itemEffectTip": "金錢+500"
 	},
 	"I341": {
 		"cls": "items",
