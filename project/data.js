@@ -269,7 +269,7 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 	"firstData": {
 		"title": "最後的勇者之塔",
 		"name": "idiot",
-		"version": "Ver 0.9.1",
+		"version": "Ver 0.9.2",
 		"floorId": "MT0",
 		"hero": {
 			"image": "hero.png",
