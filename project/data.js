@@ -661,24 +661,38 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 		"shops": [
 			{
 				"id": "shop1",
-				"text": "\t[店長,triangle]均一價${20+3*flag:shop1}金幣",
+				"text": "\t[店長,triangle]均一價${Math.min(20+3*flag:shop1,100)}金幣",
 				"textInList": "炭烤蜜瓜兔子",
 				"mustEnable": false,
 				"disablePreview": false,
 				"choices": [
 					{
 						"text": "生命+800",
-						"need": "status:money>=20+3*flag:shop1",
+						"need": "status:money>=20+3*flag:shop1 || status:money>=100",
 						"action": [
 							{
 								"type": "comment",
 								"text": "新版商店中需要手动扣减金币和增加访问次数"
 							},
 							{
-								"type": "setValue",
-								"name": "status:money",
-								"operator": "-=",
-								"value": "20+3*flag:shop1"
+								"type": "if",
+								"condition": "(20+3*flag:shop1>100)",
+								"true": [
+									{
+										"type": "setValue",
+										"name": "status:money",
+										"operator": "-=",
+										"value": "100"
+									}
+								],
+								"false": [
+									{
+										"type": "setValue",
+										"name": "status:money",
+										"operator": "-=",
+										"value": "20+3*flag:shop1"
+									}
+								]
 							},
 							{
 								"type": "setValue",
@@ -696,17 +710,31 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 					},
 					{
 						"text": "攻擊+4",
-						"need": "status:money>=20+3*flag:shop1",
+						"need": "status:money>=20+3*flag:shop1 || status:money>=100",
 						"action": [
 							{
 								"type": "comment",
 								"text": "新版商店中需要手动扣减金币和增加访问次数"
 							},
 							{
-								"type": "setValue",
-								"name": "status:money",
-								"operator": "-=",
-								"value": "20+3*flag:shop1"
+								"type": "if",
+								"condition": "(20+3*flag:shop1>100)",
+								"true": [
+									{
+										"type": "setValue",
+										"name": "status:money",
+										"operator": "-=",
+										"value": "100"
+									}
+								],
+								"false": [
+									{
+										"type": "setValue",
+										"name": "status:money",
+										"operator": "-=",
+										"value": "20+3*flag:shop1"
+									}
+								]
 							},
 							{
 								"type": "setValue",
@@ -724,17 +752,31 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 					},
 					{
 						"text": "防禦+4",
-						"need": "status:money>=20+3*flag:shop1",
+						"need": "status:money>=20+3*flag:shop1 || status:money>=100",
 						"action": [
 							{
 								"type": "comment",
 								"text": "新版商店中需要手动扣减金币和增加访问次数"
 							},
 							{
-								"type": "setValue",
-								"name": "status:money",
-								"operator": "-=",
-								"value": "20+3*flag:shop1"
+								"type": "if",
+								"condition": "(20+3*flag:shop1>100)",
+								"true": [
+									{
+										"type": "setValue",
+										"name": "status:money",
+										"operator": "-=",
+										"value": "100"
+									}
+								],
+								"false": [
+									{
+										"type": "setValue",
+										"name": "status:money",
+										"operator": "-=",
+										"value": "20+3*flag:shop1"
+									}
+								]
 							},
 							{
 								"type": "setValue",
