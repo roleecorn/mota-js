@@ -34,11 +34,18 @@ main.floors.Final3=
             "type": "showImage",
             "code": 1,
             "image": "Dead1.png",
-            "loc": [
+            "sloc": [
                 0,
-                0
+                0,
+                null
             ],
-            "opacity": 1,
+            "loc": [
+                32,
+                32,
+                352,
+                352
+            ],
+            "opacity": 0.9,
             "time": 500
         },
         {
@@ -55,11 +62,18 @@ main.floors.Final3=
             "type": "showImage",
             "code": 1,
             "image": "Dead2.png",
-            "loc": [
+            "sloc": [
                 0,
-                0
+                0,
+                null
             ],
-            "opacity": 1,
+            "loc": [
+                32,
+                32,
+                352,
+                352
+            ],
+            "opacity": 0.9,
             "time": 500
         },
         {
