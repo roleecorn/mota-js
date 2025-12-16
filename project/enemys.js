@@ -7,7 +7,7 @@ var enemys_fcae963b_31c9_42b4_b48c_bb48d09f3f80 =
 	"bat": {"name":"蝙蝠","hp":35,"atk":30,"def":3,"money":2,"exp":1,"point":0,"special":[1],"value":27},
 	"bigBat": {"name":"大蝙蝠","hp":70,"atk":61,"def":29,"money":9,"exp":2,"point":0,"special":[1,4],"n":2,"value":47},
 	"redBat": {"name":"红蝙蝠","hp":200,"atk":201,"def":119,"money":30,"exp":6,"point":0,"special":[1,5],"value":60},
-	"vampire": {"name":"吸血鬼","hp":1000,"atk":666,"def":350,"money":100,"exp":12,"point":0,"special":[4],"value":75},
+	"vampire": {"name":"吸血鬼","hp":1000,"atk":444,"def":350,"money":100,"exp":12,"point":0,"special":[4],"value":75},
 	"skeleton": {"name":"骷髅","hp":70,"atk":80,"def":0,"money":6,"exp":2,"point":0,"special":[],"value":40},
 	"skeletonCaptain": {"name":"骷髅队长","hp":500,"atk":300,"def":34,"money":35,"exp":5,"point":0,"special":[],"value":50},
 	"zombie": {"name":"丧尸","hp":110,"atk":90,"def":30,"money":8,"exp":1,"point":0,"special":[],"value":28},
