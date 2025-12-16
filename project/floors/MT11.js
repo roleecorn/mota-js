@@ -8,7 +8,7 @@ main.floors.MT11=
     "canFlyTo": true,
     "canFlyFrom": true,
     "canUseQuickShop": true,
-    "cannotViewMap": true,
+    "cannotViewMap": false,
     "cannotMoveDirectly": false,
     "images": [],
     "ratio": 1,

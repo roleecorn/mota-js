@@ -7,7 +7,7 @@ main.floors.MT0=
     "height": 13,
     "canFlyTo": false,
     "canFlyFrom": false,
-    "canUseQuickShop": true,
+    "canUseQuickShop": false,
     "cannotViewMap": false,
     "cannotMoveDirectly": false,
     "images": [],

@@ -856,7 +856,7 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 					core.turnHero();
 					break;
 				case 86: // V：打开快捷商店列表
-					core.openQuickShop(true);
+					// core.openQuickShop(true);
 					break;
 				case 32: // SPACE：轻按
 					core.getNextItem();
@@ -1698,10 +1698,10 @@ var functions_d6ad677b_427a_4623_b50f_a445a3b0ef8a =
 	// 名称
 	core.setTextAlign('ui', 'left');
 	var globalAttribute = core.status.globalAttribute || core.initStatus.globalAttribute;
-	core.fillText('ui', "HTML5 魔塔样板", text_start, top + 35, globalAttribute.selectColor, "bold 22px " + globalAttribute.font);
+	core.fillText('ui', "最後的勇者之塔", text_start, top + 35, globalAttribute.selectColor, "bold 22px " + globalAttribute.font);
 	core.fillText('ui', "版本： " + main.__VERSION__, text_start, top + 80, "#FFFFFF", "bold 17px " + globalAttribute.font);
-	core.fillText('ui', "作者： 艾之葵", text_start, top + 112);
-	core.fillText('ui', 'HTML5魔塔交流群：539113091', text_start, top + 112 + 32);
+	core.fillText('ui', "作者： XXX", text_start, top + 112);
+	// core.fillText('ui', 'HTML5魔塔交流群：539113091', text_start, top + 112 + 32);
 	// TODO: 写自己的“关于”页面，每次增加32像素即可
 	core.playSound('打开界面');
 }
