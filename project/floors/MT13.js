@@ -36,7 +36,7 @@ main.floors.MT13=
                         "floorId": "MT9",
                         "loc": [
                             7,
-                            8
+                            7
                         ],
                         "direction": "up"
                     },
