@@ -42,13 +42,13 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 		],
 		"floorPartitions": [],
 		"images": [
-			"Boss.png",
 			"Dead1.png",
 			"Dead2.png",
 			"Getter.png",
 			"GetterBig.png",
 			"Happy.png",
 			"Mabel96X96.png",
+			"Mermaid.png",
 			"Pochita2.png",
 			"bear.png",
 			"bg.jpg",
@@ -661,14 +661,14 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 		"shops": [
 			{
 				"id": "shop1",
-				"text": "\t[店長,triangle]均一價${Math.min(20+3*flag:shop1,80)}金幣",
+				"text": "\t[店長,triangle]均一價${Math.min(20+3*flag:shop1,100)}金幣",
 				"textInList": "炭烤蜜瓜兔子",
 				"mustEnable": false,
 				"disablePreview": false,
 				"choices": [
 					{
 						"text": "生命+800",
-						"need": "status:money>=20+3*flag:shop1 || status:money>=80",
+						"need": "status:money>=20+3*flag:shop1 || status:money>=100",
 						"action": [
 							{
 								"type": "comment",
@@ -676,13 +676,13 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 							},
 							{
 								"type": "if",
-								"condition": "(20+3*flag:shop1>80)",
+								"condition": "(20+3*flag:shop1>100)",
 								"true": [
 									{
 										"type": "setValue",
 										"name": "status:money",
 										"operator": "-=",
-										"value": "80"
+										"value": "100"
 									}
 								],
 								"false": [
@@ -718,13 +718,13 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 							},
 							{
 								"type": "if",
-								"condition": "(20+3*flag:shop1>80)",
+								"condition": "(20+3*flag:shop1>100)",
 								"true": [
 									{
 										"type": "setValue",
 										"name": "status:money",
 										"operator": "-=",
-										"value": "80"
+										"value": "100"
 									}
 								],
 								"false": [
@@ -760,13 +760,13 @@ var data_a1e2fb4a_e986_4524_b0da_9b7ba7c0874d =
 							},
 							{
 								"type": "if",
-								"condition": "(20+3*flag:shop1>80)",
+								"condition": "(20+3*flag:shop1>100)",
 								"true": [
 									{
 										"type": "setValue",
 										"name": "status:money",
 										"operator": "-=",
-										"value": "80"
+										"value": "100"
 									}
 								],
 								"false": [
