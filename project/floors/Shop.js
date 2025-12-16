@@ -1,8 +1,8 @@
 main.floors.Shop=
 {
     "floorId": "Shop",
-    "title": "主塔 10 层",
-    "name": "10",
+    "title": "炭烤蜜瓜兔子",
+    "name": "🐰",
     "width": 13,
     "height": 13,
     "canFlyTo": false,
