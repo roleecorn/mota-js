@@ -40,9 +40,116 @@ main.floors.End2=
         },
         "\t[弱智,default]汪!",
         {
+            "type": "showImage",
+            "code": 1,
+            "image": "HE1.png",
+            "sloc": [
+                0,
+                0,
+                null
+            ],
+            "loc": [
+                32,
+                32,
+                352,
+                352
+            ],
+            "opacity": 1,
+            "time": 1000
+        },
+        {
             "type": "sleep",
-            "time": 10000,
+            "time": 500,
             "noSkip": true
+        },
+        {
+            "type": "hideImage",
+            "code": 1,
+            "time": 1000
+        },
+        {
+            "type": "showImage",
+            "code": 1,
+            "image": "HE2.png",
+            "sloc": [
+                0,
+                0,
+                null
+            ],
+            "loc": [
+                32,
+                32,
+                352,
+                352
+            ],
+            "opacity": 1,
+            "time": 1000
+        },
+        {
+            "type": "sleep",
+            "time": 500,
+            "noSkip": true
+        },
+        {
+            "type": "hideImage",
+            "code": 1,
+            "time": 1000
+        },
+        {
+            "type": "showImage",
+            "code": 1,
+            "image": "HE3.png",
+            "sloc": [
+                0,
+                0,
+                null
+            ],
+            "loc": [
+                32,
+                32,
+                352,
+                352
+            ],
+            "opacity": 1,
+            "time": 1000
+        },
+        {
+            "type": "sleep",
+            "time": 500,
+            "noSkip": true
+        },
+        {
+            "type": "hideImage",
+            "code": 1,
+            "time": 1000
+        },
+                {
+            "type": "showImage",
+            "code": 1,
+            "image": "HE4.png",
+            "sloc": [
+                0,
+                0,
+                null
+            ],
+            "loc": [
+                32,
+                32,
+                352,
+                352
+            ],
+            "opacity": 1,
+            "time": 1000
+        },
+        {
+            "type": "sleep",
+            "time": 500,
+            "noSkip": true
+        },
+        {
+            "type": "hideImage",
+            "code": 1,
+            "time": 1000
         },
         {
             "type": "waitAsync"
