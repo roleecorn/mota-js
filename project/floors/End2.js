@@ -1,8 +1,8 @@
 main.floors.End2=
 {
     "floorId": "End2",
-    "title": "主塔 21 层",
-    "name": "21",
+    "title": "荒野",
+    "name": "荒野",
     "width": 13,
     "height": 13,
     "canFlyTo": false,
