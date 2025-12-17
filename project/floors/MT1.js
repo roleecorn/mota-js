@@ -142,7 +142,53 @@ main.floors.MT1=
     "beforeBattle": {},
     "afterBattle": {},
     "afterGetItem": {},
-    "afterOpenDoor": {},
+    "afterOpenDoor": {
+        "6,10": [
+            {
+                "type": "animate",
+                "name": "EMsikao",
+                "loc": "hero"
+            },
+            "\t[弱智,default]可...可惡，都知道變成這樣都是公主害的了",
+            "\t[弱智,default]我才不要再繼續在這座塔裡待下去啊",
+            "\t[弱智,default]真擊敗了公主我就回不去勇者國了",
+            "\t[弱智,default]媽的，趁現在趕快走吧，這破塔我是一點也再待不下去啦！",
+            {
+                "type": "changeFloor",
+                "floorId": "MT0",
+                "loc": [
+                    6,
+                    8
+                ],
+                "direction": "down"
+            },
+            "\t[弱智,default]我沒有錯...對的，我沒有錯哈哈",
+            {
+                "type": "moveHero",
+                "time": 50,
+                "steps": [
+                    "down:4"
+                ]
+            },
+            {
+                "type": "setCurtain",
+                "color": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "time": 500,
+                "keep": true
+            },
+            "就這樣，弱智逃跑了",
+            "懦夫",
+            "弱智END 懦弱之人",
+            {
+                "type": "restart"
+            }
+        ]
+    },
     "autoEvent": {
         "6,9": {
             "0": {
@@ -227,6 +273,11 @@ main.floors.MT1=
                     },
                     "\t[弱智,default]我怎麼汪起來了啊汪!!!",
                     "\t[弱智,default]有沒有什麼東西能讓我看一下我到底怎麼了?",
+                    {
+                        "type": "setValue",
+                        "name": "flag:Lock",
+                        "value": "1"
+                    },
                     {
                         "type": "showStatusBar"
                     }
