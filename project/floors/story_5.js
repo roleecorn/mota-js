@@ -13,7 +13,7 @@ main.floors.story_5=
     "images": [],
     "ratio": 1,
     "defaultGround": "grass",
-    "bgm": "Town_real2_mvt.m4a",
+    "bgm": "TE.m4a",
     "firstArrive": [],
     "eachArrive": [],
     "parallelDo": "",

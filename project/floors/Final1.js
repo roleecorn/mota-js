@@ -43,6 +43,7 @@ main.floors.Final1=
             {
                 "type": "playBgm",
                 "name": "bossBattle.m4a",
+                "startTime": 2,
                 "keep": true
             },
             "\t[梅貝爾,mable.png]嗯?你也來啦",

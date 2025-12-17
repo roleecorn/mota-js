@@ -59,6 +59,7 @@ main.floors.B2=
             {
                 "type": "playBgm",
                 "name": "bossBattle.m4a",
+                "startTime": 2,
                 "keep": true
             }
         ],
@@ -217,7 +218,7 @@ main.floors.B2=
                         ],
                         "time": 500
                     },
-                    "\t[琪多卡洛斯,Boss.png]垂死掙扎的東西還有這種招式?",
+                    "\t[琪多卡洛斯,Boss.PNG]垂死掙扎的東西還有這種招式?",
                     "\t[弱智,default]你，他媽的，把嘴閉上汪!",
                     "\t[弱智,default]接招!",
                     {
@@ -262,7 +263,7 @@ main.floors.B2=
                 "remove": true,
                 "time": 500
             },
-            "\t[琪多卡洛斯,Boss.png]好燙、好辣，這個到底是什麼!?",
+            "\t[琪多卡洛斯,Boss.PNG]好燙、好辣，這個到底是什麼!?",
             {
                 "type": "hide",
                 "loc": [
@@ -276,7 +277,7 @@ main.floors.B2=
             },
             "\t[高興,Happy.png]讓你嚐嚐真正的麻辣燙的味道，不要再嘗試那個那個味道奇怪的版本了",
             "\t[高興,Happy.png]既然你吃下了這碗麻辣燙，我們就是朋友了",
-            "\t[琪多卡洛斯,Boss.png]誰是你朋友阿，你這個傢伙!",
+            "\t[琪多卡洛斯,Boss.PNG]誰是你朋友阿，你這個傢伙!",
             "\t[高興,Happy.png]看來這招對怨念沒用呢，弱智剩下的就交給你了",
             {
                 "type": "show",
@@ -288,7 +289,7 @@ main.floors.B2=
                 ],
                 "time": 500
             },
-            "\t[琪多卡洛斯,Boss.png]別想就這麼讓我收手，勇者國的有一個算一個都該死!!!",
+            "\t[琪多卡洛斯,Boss.PNG]別想就這麼讓我收手，勇者國的有一個算一個都該死!!!",
             "\t[高興,Happy.png]弱智，不好，這女人要把你打至跪地，可能是要迫你回去做沙包啊",
             "\t[弱智,default]為甚麼是沙包啊，這裡不該是性奴隸之類的東西嗎?",
             {
@@ -309,9 +310,9 @@ main.floors.B2=
     },
     "afterBattle": {
         "6,4": [
-            "\t[琪多卡洛斯,Boss.png]喔?看來沒找機會把你弄死是我的失誤",
-            "\t[琪多卡洛斯,Boss.png]不過這種氣勢你還能撐多久呢?",
-            "\t[琪多卡洛斯,Boss.png]我很好奇啊",
+            "\t[琪多卡洛斯,Boss.PNG]喔?看來沒找機會把你弄死是我的失誤",
+            "\t[琪多卡洛斯,Boss.PNG]不過這種氣勢你還能撐多久呢?",
+            "\t[琪多卡洛斯,Boss.PNG]我很好奇啊",
             "\t[弱智,default]廢話少說汪!",
             {
                 "type": "show",
@@ -335,7 +336,7 @@ main.floors.B2=
                 ],
                 "time": 500
             },
-            "\t[琪多卡洛斯,Boss.png]垂死掙扎的東西還有這種招式?",
+            "\t[琪多卡洛斯,Boss.PNG]垂死掙扎的東西還有這種招式?",
             "\t[弱智,default]你，他媽的，把嘴閉上汪!",
             "\t[弱智,default]接招!"
         ],
@@ -343,14 +344,14 @@ main.floors.B2=
             {
                 "type": "pauseBgm"
             },
+            "\t[琪多卡洛斯,Boss.PNG]為什麼......為甚麼就是殺不掉......",
+            "\t[琪多卡洛斯,Boss.PNG]我還不能...離去......",
+            "[眼前的人魚在弱智揮下最後一刀之後化成光點消散了]",
+            "[一小部分朝弱智的方向移動過來，更多的則朝著勇者國的方向飄去]",
             {
                 "type": "playBgm",
-                "name": "underground.m4a"
+                "name": "TE.m4a"
             },
-            "\t[琪多卡洛斯,Boss.png]為什麼......為甚麼就是殺不掉......",
-            "\t[琪多卡洛斯,Boss.png]我還不能...離去......",
-            "\t[弱智,default][眼前的人魚在弱智揮下最後一刀之後化成光點消散了]",
-            "\t[弱智,default][一小部分朝弱智的方向移動過來，更多的則朝著勇者國的方向飄去]",
             "\t[弱智,default]總算結束了汪",
             {
                 "type": "animate",
@@ -428,7 +429,7 @@ main.floors.B2=
             },
             {
                 "type": "sleep",
-                "time": 500,
+                "time": 3000,
                 "noSkip": true
             },
             {
@@ -456,7 +457,7 @@ main.floors.B2=
             },
             {
                 "type": "sleep",
-                "time": 500,
+                "time": 3000,
                 "noSkip": true
             },
             {
@@ -484,7 +485,7 @@ main.floors.B2=
             },
             {
                 "type": "sleep",
-                "time": 500,
+                "time": 3000,
                 "noSkip": true
             },
             {
@@ -512,7 +513,7 @@ main.floors.B2=
             },
             {
                 "type": "sleep",
-                "time": 500,
+                "time": 3000,
                 "noSkip": true
             },
             {
@@ -544,7 +545,7 @@ main.floors.B2=
                     },
                     {
                         "type": "sleep",
-                        "time": 500,
+                        "time": 3000,
                         "noSkip": true
                     },
                     {

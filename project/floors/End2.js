@@ -16,6 +16,11 @@ main.floors.End2=
     "bgm": "EndingRabbit.m4a",
     "firstArrive": [
         {
+            "type": "playBgm",
+            "name": "EndingRabbit.m4a",
+            "keep": true
+        },
+        {
             "type": "setCurtain",
             "color": [
                 0,
@@ -32,7 +37,7 @@ main.floors.End2=
         "\t[蓋特,Getter.png]好，現在往前",
         {
             "type": "moveHero",
-            "time": 10000,
+            "time": 5000,
             "async": true,
             "steps": [
                 "left:10"
@@ -59,7 +64,7 @@ main.floors.End2=
         },
         {
             "type": "sleep",
-            "time": 500,
+            "time": 3000,
             "noSkip": true
         },
         {
@@ -87,7 +92,7 @@ main.floors.End2=
         },
         {
             "type": "sleep",
-            "time": 500,
+            "time": 3000,
             "noSkip": true
         },
         {
@@ -115,7 +120,7 @@ main.floors.End2=
         },
         {
             "type": "sleep",
-            "time": 500,
+            "time": 3000,
             "noSkip": true
         },
         {
@@ -123,7 +128,7 @@ main.floors.End2=
             "code": 1,
             "time": 1000
         },
-                {
+        {
             "type": "showImage",
             "code": 1,
             "image": "HE4.png",
@@ -143,7 +148,7 @@ main.floors.End2=
         },
         {
             "type": "sleep",
-            "time": 500,
+            "time": 3000,
             "noSkip": true
         },
         {
@@ -152,7 +157,24 @@ main.floors.End2=
             "time": 1000
         },
         {
-            "type": "waitAsync"
+            "type": "setCurtain",
+            "color": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "time": 1000,
+            "keep": true
+        },
+        "從此大陸上多了一個騎著狗的兔子騎士，路過的人總會好奇為甚麼會出現這樣的組合",
+        "而兔子騎士的坐騎為何總是發出奇怪的叫聲與粗重的呼吸聲，人們尚且不得而知",
+        "HE 兔子騎士與她的坐騎",
+        {
+            "type": "stopAsync"
+        },
+        {
+            "type": "restart"
         }
     ],
     "eachArrive": [],

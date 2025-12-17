@@ -15,6 +15,10 @@ main.floors.Final2=
     "defaultGround": "",
     "bgm": "bgm.mp3",
     "firstArrive": [
+        {
+            "type": "loadBgm",
+            "name": "EndingRabbit.m4a"
+        },
         "\t[弱智,default]汪?",
         "\t[蓋特,Getter.png]狗狗，快過來幫我!",
         "\t[弱智,default]汪!",
@@ -109,6 +113,9 @@ main.floors.Final2=
             "type": "stopAsync"
         },
         {
+            "type": "pauseBgm"
+        },
+        {
             "type": "setCurtain",
             "color": [
                 0,
@@ -127,6 +134,11 @@ main.floors.Final2=
                 7
             ],
             "direction": "left"
+        },
+        {
+            "type": "playBgm",
+            "name": "EndingRabbit.m4a",
+            "keep": true
         }
     ],
     "eachArrive": [],
